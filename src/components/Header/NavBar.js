@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
+
+    /* const history = useHistory();
+ */
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
@@ -10,27 +13,22 @@ export const NavBar = () => {
             </button>
             <div className="collapse navbar-collapse" id="menu">
                 <ul className="navbar-nav">
-                    {/* <li className="nav-item active"></li> */}
                     <NavLink
                         activeClassName="active"
                         className="nav-item nav-link"
                         exact
-                        to="#"
+                        to="/"
                     >
                         Inicio 🏠
                     </NavLink>
-                    {/* <a className="nav-link" href="#" title="Inicio">Inicio 🏠</a> */}
                     <NavLink
                         activeClassName="active"
                         className="nav-item nav-link"
                         exact
-                        to="./redes/"
+                        to="/sobre-mi"
                     >
                         Redes Sociales 🧡
                     </NavLink>
-                    {/* <li className="nav-item">
-                        <a className="nav-link" href="./redes/" title="Redes Sociales">Redes Sociales 🧡</a>
-                    </li> */}
                     <li className="nav-item dropdown">
 {/*                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Gana dinero con estos métodos">

@@ -2,6 +2,7 @@ import React from 'react';
 import { NavBar } from './NavBar';
 
 export const Header = () => {
+
     return (
         <>
             <div className="col-12 col-md-4 mt-3">

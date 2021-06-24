@@ -12,12 +12,6 @@ export const uiReducer = ( state = initialState, action ) => {
                 cookies: true
             }
         
-/*         case types.uiCookiesFalse:
-            return {
-                ...state,
-                cookies: false
-            }
- */
         default:
             return state;
     }
