@@ -1,0 +1,36 @@
+// Body styles
+body {
+    background-color: $primary;
+    margin: auto
+}
+
+// Set Fonts
+.header {
+    font-family:Roboto,sans-serif;
+}
+
+.article {
+    font-family: Karla;
+
+    a {
+        color: $secondary !important;
+        text-decoration: none;
+
+        &:hover {
+            color: $success !important;
+        }
+    }
+}
+
+.footer {
+    font-family: Roboto;
+    color: $dark-cont;
+
+    .enlacesfooter a {
+        color: $footerLnk !important;
+
+        &:hover {
+            color: $success !important;
+        }
+    }
+}

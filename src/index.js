@@ -4,10 +4,9 @@ import ReactDOM from 'react-dom';
 import { CraftianosMoney } from './CraftianosMoney';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/scss/bootstrap.scss';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import './assets/css/index.css';
+import './styles/styles.scss';
 
 ReactDOM.render(
   <CraftianosMoney />,
