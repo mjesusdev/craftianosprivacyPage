@@ -1,35 +1,41 @@
-import React from 'react';
-
-import { useDispatch } from 'react-redux';
-import { uiDarkModeTrue, uiDarkModeFalse } from '../../actions/ui';
-
-/* import './Verify'; */
+import React, { useEffect, useState } from 'react';
 
 export const DarkScreen = () => {
 
-    const dispatch = useDispatch();
+    const [ darkMode, setDarkMode ] = useState(false);
 
+    const btn  = document.querySelector('.switch');
     const body = document.body;
-    const btn  = document.getElementById('switch');
+    
+    useEffect( () => {
+        const json = localStorage.getItem('dark-mode');
+        const currentMode = JSON.parse(json);
 
-    const handleClick = () => {
-        body.classList.add('dark');
-        btn.classList.toggle('active');
-
-        if ( body.className === 'dark' ) {
-            localStorage.setItem("dark-mode", "true");
-            dispatch( uiDarkModeTrue() );
+        if (currentMode) {
+            setDarkMode(true);
         } else {
-            localStorage.setItem("dark-mode", "false");
-            dispatch( uiDarkModeFalse() );
+            setDarkMode(false);
         }
-    }
+    }, [])
+
+    useEffect( () => {
+        if (darkMode) {
+            body.classList.add('dark');
+            btn.classList.add('active');
+        } else {
+            body.classList.remove('dark');
+            document.querySelector('.switch').classList.remove('active');
+        }
+
+        const json = JSON.stringify(darkMode);
+        localStorage.setItem('dark-mode', json);
+    }, [darkMode])
 
     return (
         <button 
             className='switch'
             id='switch'
-            onClick={ handleClick }
+            onClick={ () => setDarkMode(!darkMode) }
         >
             <span>💡</span>
             <span>🌑</span>
