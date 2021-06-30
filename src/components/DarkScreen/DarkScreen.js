@@ -3,22 +3,22 @@ import React, { useEffect, useState } from 'react';
 export const DarkScreen = () => {
 
     const [ darkMode, setDarkMode ] = useState(false);
-
-    const btn  = document.querySelector('.switch');
-    const body = document.body;
     
     useEffect( () => {
         const json = localStorage.getItem('dark-mode');
         const currentMode = JSON.parse(json);
-
+        
         if (currentMode) {
             setDarkMode(true);
         } else {
             setDarkMode(false);
         }
     }, [])
-
+    
     useEffect( () => {
+        const btn  = document.querySelector('.switch');
+        const body = document.body;
+        
         if (darkMode) {
             body.classList.add('dark');
             btn.classList.add('active');

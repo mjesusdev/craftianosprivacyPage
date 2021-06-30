@@ -1,8 +1,7 @@
 import { types } from '../types/types';
 
 const initialState = {
-    cookies: false,
-    darkmode: false
+    cookies: false
 }
 
 export const uiReducer = ( state = initialState, action ) => {
@@ -13,18 +12,6 @@ export const uiReducer = ( state = initialState, action ) => {
                 cookies: true
             }
 
-        case types.uiDarkModeTrue:
-            return {
-                ...state,
-                darkmode: true
-            }
-
-        case types.uiDarkModeFalse:
-            return {
-                ...state,
-                darkmode: false
-            }
-        
         default:
             return state;
     }
