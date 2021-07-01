@@ -6,18 +6,23 @@ body {
 
 // Set Fonts
 .header {
-    font-family:Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+#menu a {
+    padding-left: 20px;
 }
 
 .article {
     font-family: Karla;
 
     a {
-        color: $secondary !important;
+        color: $success !important;
         text-decoration: none;
 
-        &:hover {
-            color: $success !important;
+        &:hover, &:active {
+            color: $primary !important;
+            background-color: $secondary !important;
         }
     }
 }

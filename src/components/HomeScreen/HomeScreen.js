@@ -7,14 +7,7 @@ import { Article } from './Article';
 
 import { CookieVerify } from '../Cookies/CookieVerify';
 
-import '../../assets/css/index.css';
-
 export const HomeScreen = () => {
-    
-    /* const { location } = useHistory();
-    const path = location.pathname; */
-    /* const { component } = useSelector(state => state.path); */
-    
     return (
         <>
             <Helmet>
@@ -26,13 +19,11 @@ export const HomeScreen = () => {
             <div className="p-3 mb-2 bg-dark text-dark row header">
                 <Header />
             </div>
-            {
-                <Article />
-            }
+            
+            <Article />
+
             <div className="p-3 mt-5 bg-dark text-dark row">
-            {
                 <CookieVerify />
-            }
             </div>
         </>
     )

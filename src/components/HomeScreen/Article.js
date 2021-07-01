@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const Article = () => {
     return (
@@ -11,19 +12,31 @@ export const Article = () => {
                 </p>
                 <hr />
                 <div className="card">
-                    <img className="card-img-top rounded imgCraftianos" 
-                        title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
+                    <img className="card-img-top rounded imgCraftianos" title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
                     <div className="card-body">
                         <h5 className="card-title"><b>Sobre mí</b></h5>
                         <p className="card-text">
-                            Publico aplicaciones multiplataforma / web para resolver encuestas por dinero,
-                            comprando online, promociones, plataformas de pago, etc. <br /><br />
-                            Si está interesado pinche 👇
+                            Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
+                            como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
+                            soy desarrollador web y por lo cual esta página la hecho desde cero 🥰 <br /><br />
+                            
+                            Así que sin nada más que decir, te invito a que hagas un recorrido por aquí, porque publico muchas cosas 🥳
+                            entre lo que destaco las apps para ahorrar dinero, páginas de encuestas,
+                            plataformas de cashback, promociones, plataformas de pago y MUCHO MÁS AQUÍ ABAJO 👇
                         </p>
-                        <a className="btn btn-outline-success" href="./encuestas-renumeradas/" title="Apps">Apps</a>
+
+                        <NavLink 
+                            className="nav-link btn btn-outline-success"
+                            to="sobre-mi"
+                            title="Apps"
+                        >
+                            Mira todas las apps / web que recomiendo ✅
+                        </NavLink>
+
                         <br/><br/>
-                        Si no me conoce, sigueme en mis <a href="./redes/" title="Redes sociales">redes sociales</a>, así verá mis publicaciones 
-                        y no se pierde ninguna novedad de la que publico.
+                        
+                        Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 
+                        para enterarte de todo lo que publico 🤗
                     </div>
                 </div>
             </div>

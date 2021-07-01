@@ -24,7 +24,7 @@ export const Footer = () => {
                     <Link
                         className="nav-item nav-link"
                         exact
-                        to="./redes/"
+                        to="/sobre-mi"
                     >
                         Contacto 📥
                     </Link>

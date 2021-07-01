@@ -1,0 +1,27 @@
+.card {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.imgCraftianos {
+    content: url('../../assets/img/craftianosmoney.webp');
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:768px) {
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media (min-width:992px) {
+    .card {
+        width: 70%;
+        margin: 0 auto;
+        float: none;
+    }
+}
+

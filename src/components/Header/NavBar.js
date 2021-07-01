@@ -6,32 +6,36 @@ import { DarkScreen } from '../DarkScreen/DarkScreen';
 export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="menu">
                 <ul className="navbar-nav">
-                    <NavLink
-                        activeClassName="active"
-                        className="nav-item nav-link"
-                        exact
-                        to="/"
-                    >
-                        Inicio 🏠
-                    </NavLink>
-                    <NavLink
-                        activeClassName="active"
-                        className="nav-item nav-link"
-                        exact
-                        to="/sobre-mi"
-                    >
-                        Redes Sociales 🧡
-                    </NavLink>
+                    <li className="nav-item">
+                        <NavLink
+                            exact
+                            to="/"
+                            activeClassName="active"
+                            className="nav-item nav-link"
+                        >
+                            Inicio 🏠
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink
+                            exact
+                            to="/sobre-mi"
+                            activeClassName="active"
+                            className="nav-item nav-link"
+                        >
+                            Redes Sociales 🧡
+                        </NavLink>
+                    </li>
                     <li className="nav-item dropdown">
                         <Link
                             className="nav-link dropdown-toggle"
-                            id="navbarDarkDropdownMenuLink"
+                            id="navBarDropdown"
                             role="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
@@ -40,7 +44,7 @@ export const NavBar = () => {
                         >
                             Gana dinero con estos métodos 💸
                         </Link>
-                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
                             <li>
                                 <Link
                                     className="dropdown-item"
@@ -90,20 +94,20 @@ export const NavBar = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            activeClassName="active"
-                            className="nav-item nav-link"
                             exact
                             to="/blog"
+                            className="nav-item nav-link"
+                            activeClassName="active"
                         >
                             Blog 📚
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            activeClassName="active"
-                            className="nav-item nav-link"
                             exact
                             to="/enlaces"
+                            activeClassName="active"
+                            className="nav-item nav-link"
                         >
                             Enlaces 💡
                         </NavLink>

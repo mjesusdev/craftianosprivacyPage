@@ -1,25 +1,18 @@
 body.dark {
     background: $dark-mode;
-}
 
-body.dark .article {
-    background: $dark-mode;
-}
+    
 
-body.dark .text-article {
-    background-color: $dark-mode;
-    border: 0;
-    color: $dark-cont;
-}
+    .article, .card {
+        background-color: $dark-mode;
+        border: 0;
+        color: $dark-cont;
+    }
 
-body.dark .card {
-    background-color: $dark-mode;
-    border: 0;
-    color: $dark-cont;
-}
+    .footer {
+        color: $dark-cont;
+    }
 
-body.dark .footer {
-    color: $dark-cont;
 }
 
 /* body.dark nav a {
