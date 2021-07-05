@@ -106,8 +106,8 @@ export const NavBar = () => {
                         <NavLink
                             exact
                             to="/enlaces"
-                            activeClassName="active"
                             className="nav-item nav-link"
+                            activeClassName="active"
                         >
                             Enlaces 💡
                         </NavLink>
