@@ -1,0 +1,12 @@
+.card a {
+    color: $secondary !important;
+    text-decoration: none;
+
+    &:hover, &:active {
+        color: $success !important;
+    }
+}
+
+.bannerVerse img {
+    content: url('../../assets/img/verse/banner.png');
+}

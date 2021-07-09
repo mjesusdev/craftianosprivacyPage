@@ -18,7 +18,7 @@ export const Footer = () => {
                         exact
                         to="#"
                     >
-                        Uso de cookies 🍪
+                        🍪 Uso de cookies
                     </Link>
 
                     <Link
@@ -26,7 +26,7 @@ export const Footer = () => {
                         exact
                         to="/sobre-mi"
                     >
-                        Contacto 📥
+                        📬 Contacto
                     </Link>
                 </ul>
             </div>
