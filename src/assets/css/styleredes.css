@@ -83,7 +83,7 @@ body.dark .card {
 }
 
 .switch.active {
-    background: orange;
+    background: #f4a261;
     color: #000
 }
 

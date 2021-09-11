@@ -19,7 +19,7 @@ export const NavBar = () => {
                             activeClassName="active"
                             className="nav-item nav-link"
                         >
-                            Inicio 🏠
+                            🏠 Inicio 
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -29,7 +29,7 @@ export const NavBar = () => {
                             activeClassName="active"
                             className="nav-item nav-link"
                         >
-                            Redes Sociales 🧡
+                            📲 Redes Sociales
                         </NavLink>
                     </li>
                     <li className="nav-item dropdown">
@@ -39,58 +39,91 @@ export const NavBar = () => {
                             role="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
-                            title="Gana dinero con estos métodos"
+                            title="Gana dinero"
                             to="#"
                         >
-                            Gana dinero con estos métodos 💸
+                            💸 Gana dinero
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
+                            <li>
+                                <Link
+                                    className="dropdown-item"
+                                    title="Gana dinero sin hacer nada | HoneyGain"
+                                    to="/honeygain/"
+                                >
+                                    ✅ Gana dinero sin hacer nada
+                                </Link>
+                            </li>
                             <li>
                                 <Link
                                     className="dropdown-item"
                                     title="Encuestas renumeradas"
                                     to="/encuestas-renumeradas/"
                                 >
-                                    Encuestas renumeradas 📙
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    title="Recibe cashback por realizar compras"
-                                    to="/compras-cashback/"
-                                >
-                                    Recibe cashback por realizar compras 👛
+                                    💬 Encuestas renumeradas
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     className="dropdown-item"
                                     title="Gana dinero jugando"
-                                    to="/gana-dinero-jugando/"
+                                    to="/gana-dinero-jugando/" 
                                 >
-                                    Gana dinero jugando 🎮
+                                    🎮 Gana dinero jugando
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     className="dropdown-item"
                                     title="Gana cryptos gratis"
-                                    to="/gana-cryptos-gratis/"
+                                    to="/gana-cryptos-gratis/" 
                                 >
-                                    Gana cryptos gratis 💸
+                                    🏅 Gana cryptos gratis
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <Link
+                            className="nav-link dropdown-toggle"
+                            id="navBarDropdown2"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            title="Ahorra dinero"
+                            to="#"
+                        >
+                            👛 Ahorra dinero
+                        </Link>
+                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown2">
+                            <li>
+                                <Link
+                                    className="dropdown-item"
+                                    title="Recibe cashback por realizar compras"
+                                    to="/compras-cashback/"
+                                >
+                                    💱 Recibe cashback por compras online
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     className="dropdown-item"
-                                    title="Bancos móviles y Pagos"
-                                    to="/banco-movil-pagos/"
+                                    title="Recibe cashback por realizar compras"
+                                    to="/apps-dinero-tickets/"
                                 >
-                                    Bancos móviles y Pagos 🏦
+                                    💡 Ahorra con los tickets de supermercado
                                 </Link>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <Link
+                            className="dropdown-item"
+                            title="Bancos móviles y Pagos"
+                            to="/banco-movil-pagos/"
+                        >
+                            🏦 Bancos móviles y Pagos
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <NavLink
@@ -99,7 +132,7 @@ export const NavBar = () => {
                             className="nav-item nav-link"
                             activeClassName="active"
                         >
-                            Blog 📚
+                            📙 Blog
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -109,7 +142,7 @@ export const NavBar = () => {
                             className="nav-item nav-link"
                             activeClassName="active"
                         >
-                            Enlaces 💡
+                           💡 Enlaces 
                         </NavLink>
                     </li>
                 </ul>

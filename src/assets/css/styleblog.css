@@ -73,7 +73,7 @@ body.dark .dropdown-menu>a {
 }
 
 .switch.active {
-    background: orange;
+    background: #f4a261;
     color: #000
 }
 

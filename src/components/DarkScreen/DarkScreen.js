@@ -37,7 +37,7 @@ export const DarkScreen = () => {
             id='switch'
             onClick={ () => setDarkMode(!darkMode) }
         >
-            <span>💡</span>
+            <span>🌞</span>
             <span>🌑</span>
         </button>
     )
