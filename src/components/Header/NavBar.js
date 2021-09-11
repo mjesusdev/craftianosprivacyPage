@@ -116,9 +116,9 @@ export const NavBar = () => {
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li className="nav-item">
                         <Link
-                            className="dropdown-item"
+                            className="nav-item nav-link"
                             title="Bancos móviles y Pagos"
                             to="/banco-movil-pagos/"
                         >
