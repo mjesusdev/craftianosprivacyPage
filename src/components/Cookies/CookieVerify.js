@@ -9,7 +9,7 @@ export const CookieVerify = () => {
     const { cookies } = useSelector(state => state.ui);
 
     return (
-        <div className="p-3 mt-5 bg-dark text-dark row">
+        <div className="p-3 mt-2 bg-dark text-dark row">
         {
             ( cookies || localStorage.getItem('cookies') ) ? <Footer /> : <CookieScreen />
         }

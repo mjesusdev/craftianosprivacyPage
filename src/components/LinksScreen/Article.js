@@ -229,7 +229,7 @@ export const Article = () => {
                                 </li>
                                 <li className="fw-bold">
                                     IpRoyal:
-                                    <a href="https://bit.ly/ipRoyalCR" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://bit.ly/iproyalCR" target="_blank" rel="noopener noreferrer">
                                         Mínimo de retiro 1$ por PayPal y Bitcoin 🥳
                                     </a>
                                 </li>

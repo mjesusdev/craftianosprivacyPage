@@ -5,7 +5,7 @@ export const Article = () => {
     return (
         <div className="row justify-content-center article">
             <div className="col-12 col-sm-7 col-md-5 mt-2">
-                <h2 class="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h2>
+                <h2 className="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h2>
                 <p className="text-justify text-article">
                     En este blog podreís saber la forma de ganar dinero en 2021, ya sea por realizar encuestas, 
                     recibir cashback por compras en tiendas online, además de recibir ingresos extras, 

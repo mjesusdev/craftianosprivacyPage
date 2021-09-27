@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { CookieVerify } from '../Cookies/CookieVerify';
 import { Header } from '../Header/Header';
-import { Article } from '../BlogScreen/Article';
+import { BlogList } from '../BlogScreen/BlogList';
 
 export const BlogScreen = () => {
     return (
@@ -24,7 +24,7 @@ export const BlogScreen = () => {
             </div>
 
             <div className="row justify-content-end">
-                <Article />    
+                <BlogList />    
             </div>
 
             <div className="p-3 mt-5 bg-dark text-dark row">

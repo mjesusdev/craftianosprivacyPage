@@ -22,7 +22,7 @@ export const HomeScreen = () => {
             
             <Article />
 
-            <div className="p-3 mt-5 bg-dark text-dark row">
+            <div className="p-3 mt-2 bg-dark text-dark row">
                 <CookieVerify />
             </div>
         </>
