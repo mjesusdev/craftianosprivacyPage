@@ -4,6 +4,8 @@ import { BlogCard } from './BlogCard';
 
 export const BlogList = () => {
 
+    /* https://stackoverflow.com/questions/59959483/warning-received-true-for-a-non-boolean-attribute-in-my-react-app-passing-da */
+
     return (
         <div className="card cardBlog mb-5">
             {

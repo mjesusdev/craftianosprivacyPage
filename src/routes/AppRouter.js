@@ -1,28 +1,18 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
-import { BlogScreen } from '../components/BlogScreen/BlogScreen';
-import { AboutScreen } from '../components/AboutScreen/AboutScreen';
-import { LinksScreen } from '../components/LinksScreen/LinksScreen';
+
+import { PublicRoute } from './PublicRoute';
 
 export const AppRouter = () => {
     return (
         <Router>
-            <div>
-                <Switch>
-                    <Route exact path="/" component={ HomeScreen } />
-                    <Route exact path="/blog" component={ BlogScreen } />
-                    <Route exact path="/sobre-mi" component={ AboutScreen } />
-                    <Route exact path="/enlaces" component={ LinksScreen } />
-
-                    <Redirect to="/" />
-                </Switch>
+            <div className="container-fluid">
+                <PublicRoute
+                    path="/"
+                    component={ HomeScreen }
+                />
             </div>
         </Router>
     )

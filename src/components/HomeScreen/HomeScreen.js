@@ -20,7 +20,9 @@ export const HomeScreen = () => {
                 <Header />
             </div>
             
-            <Article />
+            <div className="row justify-content-center article">
+                <Article />
+            </div>
 
             <div className="p-3 mt-2 bg-dark text-dark row">
                 <CookieVerify />

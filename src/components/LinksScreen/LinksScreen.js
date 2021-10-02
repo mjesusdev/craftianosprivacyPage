@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 
 import { CookieVerify } from '../Cookies/CookieVerify';
 import { Header } from '../Header/Header';
-import { Article } from './Article';
+import { LinksArticle } from './LinksArticle';
 
 export const LinksScreen = () => {
     return (
@@ -26,7 +26,7 @@ export const LinksScreen = () => {
             </div>
 
             <div className="row justify-content-end">
-                <Article />    
+                <LinksArticle />
             </div>
 
             <div className="p-3 mt-5 bg-dark text-dark row">

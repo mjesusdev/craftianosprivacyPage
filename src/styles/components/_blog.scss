@@ -2,6 +2,15 @@
 .cardBlog {
     background: none !important;
     border: 0;
+
+    a {
+        color: $success !important;
+        text-decoration: none;
+    
+        &:hover, &:active {
+            color: $success-hover !important;
+        }
+    }
 }
 
 body.dark .allCards {
@@ -10,17 +19,18 @@ body.dark .allCards {
     color: $dark-cont !important;
 }
 
+
 @media (min-width:768px) {
-    .card {
-        width: 100%;
+    .cardBlog, .allCards {
+        width: 100% !important;
         margin: 0 auto;
         float: none;
     }
 }
 
 @media (min-width:1400px) {
-    .card {
-        width: 65%;
+    .cardBlog, .allCards {
+        width: 70% !important;
         margin: 0 auto;
         float: none;
     }

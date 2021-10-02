@@ -117,13 +117,13 @@ export const NavBar = () => {
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <Link
+                        <NavLink
                             className="nav-item nav-link"
                             title="Bancos móviles y Pagos"
                             to="/banco-movil-pagos/"
                         >
                             🏦 Bancos móviles y Pagos
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink

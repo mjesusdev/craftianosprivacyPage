@@ -10,18 +10,23 @@
 }
 
 @media (min-width:768px) {
-    .card {
+    .cardHome {
         width: 100%;
         margin: 0 auto;
         float: none;
+        margin-bottom: 10px;
     }
 }
 
 @media (min-width:992px) {
-    .card {
+    .cardHome {
         width: 70%;
         margin: 0 auto;
         float: none;
+        margin-bottom: 10px;
+    }
+    
+    .switch {
+        margin-top: 2%;
     }
 }
-
