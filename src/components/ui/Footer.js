@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
-    
     return (
         <>
             <div className="col-12 footer mt-2">

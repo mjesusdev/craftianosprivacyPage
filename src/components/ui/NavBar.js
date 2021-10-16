@@ -48,8 +48,8 @@ export const NavBar = () => {
                             <li>
                                 <Link
                                     className="dropdown-item"
-                                    title="Gana dinero sin hacer nada | HoneyGain"
-                                    to="/honeygain/"
+                                    title="Gana dinero sin hacer nada | Ingresos Pasivos"
+                                    to="/gana-dinero-sin-hacer-nada/"
                                 >
                                     ✅ Gana dinero sin hacer nada
                                 </Link>

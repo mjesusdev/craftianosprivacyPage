@@ -17,7 +17,7 @@ export const Article = () => {
                 <div className="card-body">
                     <h3 className="h4 card-title"><b>Sobre mí</b></h3>
                     <p className="card-text">
-                        Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
+                        Soy un chico de Andalucía - España y comencé a hacer esta página como hobby en el 2018,
                         como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
                         soy desarrollador web y por lo cual esta página la hecho desde cero 🥰 <br /><br />
                         

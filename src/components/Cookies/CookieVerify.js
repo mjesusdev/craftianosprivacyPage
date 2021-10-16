@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 import { CookieScreen } from './CookieScreen';
-import { Footer } from '../Footer/Footer';
+import { Footer } from '../ui/Footer';
 
 export const CookieVerify = () => {
 

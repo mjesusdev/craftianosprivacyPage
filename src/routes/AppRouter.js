@@ -3,13 +3,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
 
-import { PublicRoute } from './PublicRoute';
+import { HomeRoute } from './HomeRoute';
 
 export const AppRouter = () => {
     return (
         <Router>
             <div className="container-fluid">
-                <PublicRoute
+                <HomeRoute
                     path="/"
                     component={ HomeScreen }
                 />
