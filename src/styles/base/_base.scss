@@ -1,12 +1,13 @@
 // Body styles
 body {
     background-color: $primary;
-    margin: auto
+    margin: auto;
 }
 
 // Set Fonts
 .header {
     font-family: Roboto, sans-serif;
+    background: $dark-mode;
 }
 
 #menu a {
@@ -15,26 +16,33 @@ body {
 
 .article {
     font-family: Karla;
-
-    a {
-        color: $success !important;
+    
+    .btn {
+        color: $secondary !important;
+        border-color: $secondary !important;
         text-decoration: none;
-
+        
         &:hover, &:active {
+            background: $success-hover !important;
             color: $primary !important;
         }
     }
 }
 
 .footer {
-    font-family: Roboto;
+    background: $dark-mode;
     color: $dark-cont;
-
+    font-family: Roboto;
+    
     .enlacesfooter a {
         color: $footerLnk !important;
-
+        
         &:hover {
             color: $success !important;
         }
     }
+}
+
+.text-success {
+    color: $secondary !important;
 }

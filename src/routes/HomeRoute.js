@@ -19,7 +19,7 @@ import { TicketsScreen } from '../components/MoneyEarn/TicketsScreen/TicketsScre
 export const HomeRoute = () => {
     return (
         <>
-            <div className="p-3 mb-2 bg-dark text-dark row header">
+            <div className="p-3 mb-2 text-dark row header">
                 <Header />
             </div>
             
@@ -44,7 +44,7 @@ export const HomeRoute = () => {
                 <Redirect to="/" />
             </Switch>
         
-            <div className="p-3 mt-2 bg-dark text-dark row">
+            <div className="p-3 mt-2 text-dark row footer">
                 <CookieVerify />
             </div>
         </>
