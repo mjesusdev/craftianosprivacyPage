@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { NothingArticle } from './NothingArticle';
+import { SurveysArticle } from './SurveysArticle';
 
-export const NothingScreen = () => {
+export const SurveysScreen = () => {
     return (
         <>
             <Helmet>
@@ -13,7 +13,7 @@ export const NothingScreen = () => {
             </Helmet>
 
             <div className="row justify-content-md-center">
-                <NothingArticle />
+                <SurveysArticle />
             </div>
         </>
     )

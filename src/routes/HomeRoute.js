@@ -15,6 +15,7 @@ import { NothingScreen } from '../components/MoneyWin/Nothing/NothingScreen';
 
 import { CashbackScreen } from '../components/MoneyEarn/CashbackScreen/CashbackScreen';
 import { TicketsScreen } from '../components/MoneyEarn/TicketsScreen/TicketsScreen';
+import { SurveysScreen } from '../components/MoneyWin/Surveys/SurveysScreen';
 
 export const HomeRoute = () => {
     return (
@@ -32,8 +33,8 @@ export const HomeRoute = () => {
 
                 { /* Routes for DropDown "MoneyWin" */ }
                 <Route exact path="/gana-dinero-sin-hacer-nada" component={ NothingScreen } />
+                <Route exact path="/encuestas-renumeradas" component={ SurveysScreen } />
                 {/* 
-                    <Route exact path="/encuestas-renumeradas" component={ SurveysScreen } />
                     <Route exact path="/gana-dinero-jugando" component={ PlayingScreen } />
                     <Route exact path="/gana-cryptos-gratis" component={ CryptosScreen } /> */}
 
