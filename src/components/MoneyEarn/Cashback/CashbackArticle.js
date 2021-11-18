@@ -36,7 +36,7 @@ export const CashbackArticle = () => {
                                 es de las mejores plataforma de cashback 🎉
                             </i>
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../letyshops/" title="Mira más información de LetyShops">
+                        <a className="btn btn-outline-success mb-4" href="/letyshops/" title="Mira más información de LetyShops">
                             Mira más información sobre LetyShops 👏
                         </a>
                     </div>
@@ -61,7 +61,7 @@ export const CashbackArticle = () => {
                             Pulsa sobre el botón de abajo 👇 , mira los motivos por la que la considero una de las 
                             <b>mejores PLATAFORMAS 💡</b> y también los METODOS DE PAGO 💳 , te ENCANTARÁ 😍
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../igraal/" title="Mira más información de iGraal">
+                        <a className="btn btn-outline-success mb-4" href="/igraal/" title="Mira más información de iGraal">
                             Mira más información de iGraal 👏
                         </a>
                     </div>
@@ -82,7 +82,7 @@ export const CashbackArticle = () => {
                             (La primera vez tiene que ser por el banco y ya las siguientes se puede retirar a PayPal ✅)
                             <br />
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../widilo/" title="Mira más información de Widilo">
+                        <a className="btn btn-outline-success mb-4" href="/widilo/" title="Mira más información de Widilo">
                             Mira más información de Widilo 👋, además del comprobante de pago 💳
                         </a>
                     </div>
@@ -98,45 +98,15 @@ export const CashbackArticle = () => {
                             Además de poder ganar dinero realizando pequeñas encuestas, buscando en la web,
                             y recomendando productos de diferentes tiendas. Y mucho más aquí abajo 👇
                         </p>
-                        <a className="btn btn-outline-success" href="https://bit.ly/3b3CR" target="_blank"
-                            rel="noreferrer" title="Haz tu primera compra y obtén 5€ gratis">
+                        <a className="btn btn-outline-success" href="https://bit.ly/berubyCR" target="_blank"
+                            rel="noopener noreferrer" title="Haz tu primera compra y obtén 5€ gratis">
                             Haz tu primera compra y obtén 5€ gratis 🤑
                         </a>
                     </div>
                 </div>
                 <div className="card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 text-danger">Promos: Cupones válidos en cualquier supermercado</h3>
-                        <p className="text-justify">
-                            Promos es una app con la que podemos ganar cashback por comprar productos que aparecen
-                            en esta app.
-                            Todo esto se puede comprar en cualquier supermercado.
-                        </p>
-                        <a className="btn btn-outline-success mb-4" href="../promos-app/" title="Mira más información de Promos">
-                            Mira más información de Promos 👏
-                        </a>
-                    </div>
-                </div>
-                <div className="card mb-3">
-                    <div className="card-body">
-                        <h3 className="h4 text-danger">Tiendeo: Catálogo de supermercados, etc y cashback</h3>
-                        <p className="text-justify">
-                            Tiendeo es una app con la que podremos ver el catálogo de los supermercados, etc.
-                            Nos aparece lo que está más cerca de nuestro domicilio. Lo que nos interesa, es el
-                            cashback,
-                            solo por registrarse podeís ganar 1€ GRATIS + 0.50€ por subir el primer ticket.
-                            ¿Quieres recibir cashback por tus compras en tiendeo? Pulsa abajo para ver más
-                            información y
-                            registrarte 👇
-                        </p>
-                        <a className="btn btn-outline-success mb-4" href="../tiendeo/" title="Mira más información de Tiendeo">
-                            Mira más información de Tiendeo 👏
-                        </a>
-                    </div>
-                </div>
-                <div className="card mb-3">
-                    <div className="card-body">
-                        <h3 className="h4 text-danger">Robin Rover: Gana dinero con tus compras online</h3>
+                        <h3 className="h4 text-danger">✅ Robin Rover: Gana dinero con tus compras online</h3>
                         <p className="text-justify">
                             Robin Rover es una empresa con la que podemos ganar dinero realizando compras online
                             como
@@ -147,7 +117,7 @@ export const CashbackArticle = () => {
                             robins,
                             con la que particimos todos los días en los sorteos para ganar premios de 100€.
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../robin-rover/" title="Mira más información de Robin Rover">
+                        <a className="btn btn-outline-success mb-4" href="/robin-rover/" title="Mira más información de Robin Rover">
                             Mira más información de Robin Rover 👏
                         </a>
                     </div>

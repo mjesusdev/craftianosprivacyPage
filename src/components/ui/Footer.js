@@ -12,7 +12,7 @@ export const Footer = () => {
             </div>
             <div className="col-12 footer enlaces">
                 <ul className="nav nav-pills justify-content-center enlacesfooter">
-                    <Link     
+                    <Link
                         className="nav-item nav-link"
                         to="#"
                     >

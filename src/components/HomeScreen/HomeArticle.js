@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const Article = () => {
+export const HomeArticle = () => {
     return (
         <div className="col-12 col-sm-7 col-md-5 mt-2">
             <h2 className="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h2>
@@ -15,7 +15,7 @@ export const Article = () => {
                 <img className="card-img-top rounded imgCraftianos" 
                     title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
                 <div className="card-body">
-                    <h3 className="h4 card-title"><b>Sobre mí</b></h3>
+                    <h3 className="h4 card-title fw-bold">Sobre mí</h3>
                     <p className="card-text">
                         Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
                         como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
@@ -27,9 +27,10 @@ export const Article = () => {
                     </p>
 
                     {/* Link to Enlaces */}
-                    <NavLink 
+                    <NavLink
                         className="nav-link btn btn-outline-success"
-                        to="sobre-mi"
+                        exact
+                        to="/sobre-mi"
                         title="Apps"
                     >
                         Mira todas las apps / web que recomiendo ✅

@@ -11,11 +11,16 @@ import { BanksScreen } from '../components/BanksScreen/BanksScreen';
 import { BlogScreen } from '../components/BlogScreen/BlogScreen';
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
 
+import { CryptosScreen } from '../components/MoneyWin/Cryptos/CryptosScreen';
 import { NothingScreen } from '../components/MoneyWin/Nothing/NothingScreen';
-
-import { CashbackScreen } from '../components/MoneyEarn/CashbackScreen/CashbackScreen';
-import { TicketsScreen } from '../components/MoneyEarn/TicketsScreen/TicketsScreen';
+import { PlayingScreen } from '../components/MoneyWin/Playing/PlayingScreen';
 import { SurveysScreen } from '../components/MoneyWin/Surveys/SurveysScreen';
+
+import { CashbackScreen } from '../components/MoneyEarn/Cashback/CashbackScreen';
+import { TicketsScreen } from '../components/MoneyEarn/TicketsScreen/TicketsScreen';
+
+import { MoneyRoute } from './MoneyRoute';
+import { VerseScreen } from '../components/BanksScreen/Verse/VerseScreen';
 
 export const HomeRoute = () => {
     return (
@@ -34,13 +39,18 @@ export const HomeRoute = () => {
                 { /* Routes for DropDown "MoneyWin" */ }
                 <Route exact path="/gana-dinero-sin-hacer-nada" component={ NothingScreen } />
                 <Route exact path="/encuestas-renumeradas" component={ SurveysScreen } />
-                {/* 
-                    <Route exact path="/gana-dinero-jugando" component={ PlayingScreen } />
-                    <Route exact path="/gana-cryptos-gratis" component={ CryptosScreen } /> */}
+                <Route exact path="/gana-dinero-jugando" component={ PlayingScreen } />
+                <Route exact path="/gana-cryptos-gratis" component={ CryptosScreen } />
 
                 { /*  Routes for DropDown "MoneyEarn" */}
                 <Route exact path="/compras-cashback" component={ CashbackScreen } />
                 <Route exact path="/apps-dinero-tickets" component={ TicketsScreen } />
+
+                { /* Routes for DropDown "Banks" */ }
+                <Route exact path="/verse-app" component={ VerseScreen } />
+
+                {/* Routes for All Money */ }
+                <MoneyRoute />
 
                 <Redirect to="/" />
             </Switch>
@@ -49,6 +59,5 @@ export const HomeRoute = () => {
                 <CookieVerify />
             </div>
         </>
-
     )
 }

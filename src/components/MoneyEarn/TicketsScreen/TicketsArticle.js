@@ -18,7 +18,7 @@ export const TicketsArticle = () => {
                             Promos es una app con la que podemos ganar dinero por comprar en cualquier supermercado.
                             Es una de las mejores porque hay mucha variedad de promociones y es muy intuitiva 🥰
                         </p>
-                        <a class="btn btn-outline-success mb-4" href="../promos-app/" title="Mira más información de Promos">
+                        <a class="btn btn-outline-success mb-4" href="/promos-app/" title="Mira más información de Promos">
                             Mira más información de Promos 👏
                         </a>
                     </div>
@@ -35,7 +35,7 @@ export const TicketsArticle = () => {
                             ¿Quieres recibir cashback por tus compras en tiendeo? <br />
                             Pulsa abajo para ver más información y registrarte 👇
                         </p>
-                        <a class="btn btn-outline-success mb-4" href="../tiendeo/" title="Mira más información de Tiendeo">
+                        <a class="btn btn-outline-success mb-4" href="/tiendeo/" title="Mira más información de Tiendeo">
                             Mira más información de Tiendeo 👏
                         </a>
                     </div>

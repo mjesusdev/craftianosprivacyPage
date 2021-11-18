@@ -20,7 +20,7 @@ export const BanksArticle = () => {
                             a la vez que compras en determinados comercios ✅💸 <br /><br />
                             También están las ventajas del Plan Prime, que dan cashback en Netflix, Spotify, Youtube Premium, Amazon Prime, etc 🔥
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../vivid-money/">
+                        <a className="btn btn-outline-success mb-4" href="/vivid-money/">
                             Mira más información sobre Vivid Money 💜
                         </a>
                         <p className="text-justify">
@@ -119,7 +119,7 @@ export const BanksArticle = () => {
                                 me puede enviar un MD a mi <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
                                 cuenta de instagram</a>, que le contestaré rápido</b>
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="../verse-app/">
+                        <a className="btn btn-outline-success mb-4" href="/verse-app/">
                             Mira más información sobre Verse y Únete Conmigo 🤗💙
                         </a>
                         <p className="text-justify fw-bold">
@@ -166,11 +166,11 @@ export const BanksArticle = () => {
                                     Twitter (Por si lo deseas)
                                 </a>
                             </li>
-                            <li className="fw-bold">
+                            {/* <li className="fw-bold">
                                 <a href="mailto:craftianosmoney@protonmail.com" target="_blank" rel="noreferrer">
                                     Correo (Por si me quieres escribir un correo 📩)
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="fw-bold">
                                 <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
                                     Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc 🥇)

@@ -1,19 +1,19 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { NothingArticle } from './NothingArticle';
+import { YouGovArticle } from './YouGovArticle';
 
-export const NothingScreen = () => {
+export const YouGovScreen = () => {
     return (
         <>
             <Helmet>
                 <meta name="description" content="🤯 ¿Sabes que puedes ganar dinero haciendo compras online? |
-                    Con algunas plataformas de cashback es posible 💰 | Entra aquí a ver más información ✅" />
-                <title>🥇 Plataformas de cashback</title>
+                    Con algunas plataformas de LetyShops es posible 💰 | Entra aquí a ver más información ✅" />
+                <title>🥇 YouGov</title>
             </Helmet>
 
             <div className="row justify-content-md-center">
-                <NothingArticle />
+                <YouGovArticle />
             </div>
         </>
     )
