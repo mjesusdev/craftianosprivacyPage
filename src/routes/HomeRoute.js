@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router';
 
 import { Header } from '../components/ui/Header';
 import { CookieVerify } from '../components/Cookies/CookieVerify';
@@ -58,6 +58,8 @@ export const HomeRoute = () => {
             <div className="p-3 mt-2 text-dark row footer">
                 <CookieVerify />
             </div>
+
+            {/* // Include <Footer and param/> */}
         </>
     )
 }

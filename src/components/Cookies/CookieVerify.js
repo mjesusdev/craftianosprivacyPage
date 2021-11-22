@@ -5,14 +5,14 @@ import { CookieScreen } from './CookieScreen';
 import { Footer } from '../ui/Footer';
 
 export const CookieVerify = () => {
-
     const { cookies } = useSelector(state => state.ui);
 
-    return (
-        <>
-            {
-                ( cookies || localStorage.getItem('cookies') ) ? <Footer /> : <CookieScreen />
-            }
-        </>
-    )
+    const cookiesLocal = localStorage.getItem('cookies')
+
+    // ERROR: possible is a condition
+    if ( cookies !== cookiesLocal ) {
+        return <Footer />
+    }
+
+    return <CookieScreen />
 }

@@ -8,16 +8,12 @@ export const DarkScreen = () => {
         const json = localStorage.getItem('dark-mode');
         const currentMode = JSON.parse(json);
         
-        if (currentMode) {
-            setDarkMode(true);
-        } else {
-            setDarkMode(false);
-        }
+        ( currentMode ) ? setDarkMode(true) : setDarkMode(false)
     }, [])
     
     useEffect( () => {
-        const btn  = document.querySelector('.switch');
         const body = document.body;
+        const btn  = document.querySelector('.switch');
         
         if (darkMode) {
             body.classList.add('dark');
