@@ -5,7 +5,7 @@ export const WidiloArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                //* Modificar estructura web xd
+                {/* //* Modificar estructura web xd */ }
                 <h1 className="h3 text-success mb-4">Widilo 🎁 - Recibe dinero haciendo compras online</h1>
                 <h2 className="h4 text-success mb-4">Beneficios por comprar con Widilo</h2>
                 <p className="text-justify enlaces">
@@ -19,29 +19,29 @@ export const WidiloArticle = () => {
                     <a className="fw-bold" href="https://www.widilo.es/condiciones-legales" target="_blank" rel="noopener noreferrer"> https://www.widilo.es/condiciones-legales</a>
                 </p>
                 
-                <a href="" className="enlaces">
+                <a href="https://bit.ly/widiloCR" className="enlaces" rel="noopener noreferrer">
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/widilo/funcionamiento.png" alt="Funcionamiento de Widilo" />
                 </a>
 
                 <div className="list-indice">
                     <span className="h5 mt-4">Índice de los contenidos</span>
-                    <div class="list-group mt-4">
-                        <a href="#funcionamiento" class="list-group-item list-group-item-action list-group-item-dark">
+                    <div className="list-group mt-4">
+                        <a href="#funcionamiento" className="list-group-item list-group-item-action list-group-item-dark">
                             1. ❓ ¿De qué FORMA se gana el cashback? | Opciones de Ganarlo 💡
                         </a>
-                        <a href="#sistema-referidos" class="list-group-item list-group-item-action list-group-item-dark">
+                        <a href="#sistema-referidos" className="list-group-item list-group-item-action list-group-item-dark">
                             2. 👋 Sistema de Referidos en Widilo 💸
                         </a>
-                        <a href="#sistema-bonos" class="list-group-item list-group-item-action list-group-item-dark">
+                        <a href="#sistema-bonos" className="list-group-item list-group-item-action list-group-item-dark">
                             3. ✅ Sistema de Bonificaciones por comprar con Widilo 🥰
                         </a>
-                        <a href="#otras-formas" class="list-group-item list-group-item-action list-group-item-dark">
+                        <a href="#otras-formas" className="list-group-item list-group-item-action list-group-item-dark">
                             4. ✅ Otras formas con las que ganar cashback 💸
                         </a>
-                        <a href="#como-retirar" class="list-group-item list-group-item-action list-group-item-dark">
+                        <a href="#como-retirar" className="list-group-item list-group-item-action list-group-item-dark">
                             5. 🧐 ¿Comó retirar en Widilo? | Métodos de Pago 💳
                         </a>
-                        <a href="#pago-widilo" class="list-group-item list-group-item-action list-group-item-dark">
+                        <a href="#pago-widilo" className="list-group-item list-group-item-action list-group-item-dark">
                             6. 💸 ¿Widilo PAGA? | Fiable, ¿sí o no? 🤗
                         </a>
                     </div>
@@ -51,19 +51,19 @@ export const WidiloArticle = () => {
                     <h3 className="h5 text-danger mt-4 mb-4">❓ ¿De qué FORMA se gana el cashback? | Opciones de Ganarlo 💡</h3>
                     <p className="text-justify">
                         Tenemos dos opciones para recibir el cashback por comprar en las diferentes tiendas disponibles en esta plataforma.
-                        <ol>
-                            <li>
-                                🥇 Ir a la tienda deseada y pulsar en el botón de "Activar Cashback" al acceder a esta.
-                            </li>
-                            <li>
-                                🥈 Usar la propia extensión de la plataforma, disponible para los navegadores de Chrome, Firefox, Opera, Brave, etc. <br />
-                                <strong>(En todos los navegadores actuales está disponible esta extensión)</strong>
-                            </li>
-                        </ol>
                     </p>
+                    <ol>
+                        <li>
+                            🥇 Ir a la tienda deseada y pulsar en el botón de "Activar Cashback" al acceder a esta.
+                        </li>
+                        <li>
+                            🥈 Usar la propia extensión de la plataforma, disponible para los navegadores de Chrome, Firefox, Opera, Brave, etc. <br />
+                            <strong>(En todos los navegadores actuales está disponible esta extensión)</strong>
+                        </li>
+                    </ol>
                     <div className="alert alert-info enlaces" role="alert">
                         Si quieres ver más información acerca del funcionamiento de la extensión de Widilo 👉 
-                        <a href="https://www.widilo.es/extension" target="_blank"> pulsa aquí</a> 
+                        <a href="https://www.widilo.es/extension" target="_blank" rel="noopener noreferrer"> pulsa aquí</a> 
                     </div>
                 </div>
 
@@ -76,39 +76,40 @@ export const WidiloArticle = () => {
                         (Además si os registráis ahora obtenéis 5€ al hacer vuestra primera compra + 1€ 
                         por DESCARGAR la Extensión para activar el cashback más fácilmente 🔥)
                     </p>
-                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/cashWCR" target="_blank">
+                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                         ¿A qué esperas? Únete a Widilo y ahorra con tus compras 👋💳
                     </a>
                 </div>
 
                 <div id="sistema-bonos">
                     <h3 className="h5 text-danger mt-4 mb-4">✅ Sistema de Bonificaciones por comprar con Widilo 🥰</h3>
-                    <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/widilo/beneficios.webp" alt="Métodos de retiro" />
-                    <p c lass="text-justify">
+                    <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/widilo/beneficios.webp" 
+                        alt="Métodos de retiro" />
+                    <p className="text-justify">
                         Aquí veís los beneficios que podemos conseguir por comprar con la extensión activa de Widilo. <br/>
                         Empezamos con un estado Bronce y a medida que vayamos generando cashback por nuestras compras, podremos subir de nivel
-                        <ol>
-                            <li>
-                                Bronze: Por el cashback generamos un 25%, por escribir una opinión al realizar una compra en un comercio
-                                ganamos 0,10€ y por cada amigo que traigamos a Widilo 3€
-                            </li>
-                            <br/>
-                            <li>
-                                Silver: Lo tenemos disponible desde 25€ ganados de cashback, generamos un 50%, 
-                                por escribir una opinión al realizar una compra en un comercio ganamos 0,15€ y por cada amigo que traigamos a Widilo 4€
-                            </li>
-                            <br/>
-                            <li>
-                                Gold: Lo tenemos disponible desde 50€ ganados de cashback, generamos un 75%, por escribir una opinión al realizar una compra en un comercio
-                                ganamos 0,20€ y por cada amigo que traigamos a Widilo 5€
-                            </li>
-                            <br/>
-                            <li>
-                                Platinium: Lo tenemos disponible desde 25€ ganados de cashback, generamos un 100%, por escribir una opinión al realizar una compra en un comercio
-                                ganamos 0,25€ y por cada amigo que traigamos a Widilo 6€
-                            </li>
-                        </ol>
                     </p>
+                    <ol>
+                        <li>
+                            Bronze: Por el cashback generamos un 25%, por escribir una opinión al realizar una compra en un comercio
+                            ganamos 0,10€ y por cada amigo que traigamos a Widilo 3€
+                        </li>
+                        <br/>
+                        <li>
+                            Silver: Lo tenemos disponible desde 25€ ganados de cashback, generamos un 50%, 
+                            por escribir una opinión al realizar una compra en un comercio ganamos 0,15€ y por cada amigo que traigamos a Widilo 4€
+                        </li>
+                        <br/>
+                        <li>
+                            Gold: Lo tenemos disponible desde 50€ ganados de cashback, generamos un 75%, por escribir una opinión al realizar una compra en un comercio
+                            ganamos 0,20€ y por cada amigo que traigamos a Widilo 5€
+                        </li>
+                        <br/>
+                        <li>
+                            Platinium: Lo tenemos disponible desde 25€ ganados de cashback, generamos un 100%, por escribir una opinión al realizar una compra en un comercio
+                            ganamos 0,25€ y por cada amigo que traigamos a Widilo 6€
+                        </li>
+                    </ol>
                 </div>
 
                 <div id="otras-formas">
@@ -119,9 +120,9 @@ export const WidiloArticle = () => {
                         El proceso es muy sencillo, se elige una tienda y se crea el link. Sirve de mucho ya que si lo pones en redes sociales, 
                         puedes hacer que en vez de que las personas que entren EJ: Aliexpress pueden entrar a través de tu enlace y tú ganar dinero gracias a él. <br/> <br/>
                         * Si quieres ver más información acerca de WidiLove 👉 
-                        <a href="https://support.widilo.com/hc/es/sections/360004419499" target="_blank"> https://support.widilo.com/hc/es/sections/360004419499 </a>
+                        <a href="https://support.widilo.com/hc/es/sections/360004419499" target="_blank" rel="noopener noreferrer"> https://support.widilo.com/hc/es/sections/360004419499 </a>
                     </p>
-                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/cashWCR" target="_blank">
+                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                         Regístrate y recibe 5€ gratis por hacer tu primera compra 🤑
                     </a>
                 </div>
@@ -131,7 +132,7 @@ export const WidiloArticle = () => {
                     <p className="text-justify enlaces">
                         Se puede retirar el dinero ganado o cashback cuando se llegue a la cantidad de 15€ acumulados, 
                         se solicita a través de este enlace: 
-                        <a href="https://www.widilo.es/mi-perfil/mis-pagos" target="_blank"> https://www.widilo.es/mi-perfil/mis-pagos</a>
+                        <a href="https://www.widilo.es/mi-perfil/mis-pagos" target="_blank" rel="noopener noreferrer"> https://www.widilo.es/mi-perfil/mis-pagos</a>
                         <br />
                         (El menú de pagos del perfil de cada uno ✅)
                     </p>
@@ -152,9 +153,7 @@ export const WidiloArticle = () => {
                         es decir ha tardado en pagar 6 días (no llega a una semana jeje 🥳🥳) <br /><br />
                         Por aquí abajo os enseño el comprobante, para que veáis que es totalmente Fiable y Transparente por mi parte 🤗
                     </p>
-                    <img 
-                        loading="lazy" 
-                        className="img-fluid rounded mx-auto d-block w-50 mb-4" 
+                    <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mb-4" 
                         src="../img/widilo/pago_transferencia.webp" 
                         alt="Pago Widilo | Transferencia Bancaria" 
                     />
@@ -174,17 +173,17 @@ export const WidiloArticle = () => {
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noreferrer">
+                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                                     🥇 Widilo: La segunda mejor 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/igraalCR" target="_blank" rel="noreferrer">
+                                <a href="https://bit.ly/igraalCR" target="_blank" rel="noopener noreferrer">
                                     🥈 Igraal: Subidas del cashback todos los días 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
+                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noopener noreferrer">
                                     🥉 Beruby: Encuestas y otros beneficios 🎁
                                 </a>
                             </li>

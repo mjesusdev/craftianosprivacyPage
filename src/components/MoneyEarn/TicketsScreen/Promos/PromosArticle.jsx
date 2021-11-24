@@ -93,13 +93,16 @@ export const PromosArticle = () => {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/saldo_inicial.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/saldo_inicial.png" 
+                                    alt="Saldo Inicial en Promos" title="Saldo Inicial en Promos"/>
                             </div>
                             <div className="carousel-item">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/datos_bancarios.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/datos_bancarios.png" 
+                                    alt="Indicar datos bancarios en Promos" title="Indicar datos bancarios en Promos"/>
                             </div>
                             <div className="carousel-item">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/transferencia_solicitada.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/transferencia_solicitada.png" 
+                                    alt="Transferencia solicitada en Promos" title="Transferencia solicitada en Promos"/>
                             </div>
                         </div>
                     </div>
@@ -117,7 +120,8 @@ export const PromosArticle = () => {
                         Os dejo por aquí el comprobante de la transferencia realizada a mi cuenta de 
                         <a href="/banco-movil-pagos/"> Rebellion</a>
                     </p>
-                    <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/transferencia_promos.png" />
+                    <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/promos/transferencia_promos.png" 
+                        alt="Comprobante de Pago de Promos" title="Comprobante de Pago de Promos" />
                     <div className="alert alert-warning mt-4">
                         Si os registráis en Promos App, podeís ganar 0,50€ gracias a mí código: <b>ULXIXW</b> <br/>
                         Al final en total es 1,50€, ya que hay una promo por subir vuestro primer ticket.

@@ -56,7 +56,8 @@ export const YouGovArticle = () => {
                     <p className="text-justify">
                         Este es el sistema de referidos que tiene YouGov 👇😊
                     </p>
-                    <img loading="lazy" className="img-fluid rounded mx-auto d-block mt-4 mb-4" src="../img/yougov/sistema_referidos.png" />
+                    <img loading="lazy" className="img-fluid rounded mx-auto d-block mt-4 mb-4" src="../img/yougov/sistema_referidos.png" 
+                        alt="Sistema de referidos de YouGov" title="Sistema de referidos de YouGov"/>
                     <p className="text-justify">
                         El recomendador gana 200pts por cada amigo que se registra en YouGov, 
                         cuando el referido realize 5 encuestas después de hacer las iniciales.

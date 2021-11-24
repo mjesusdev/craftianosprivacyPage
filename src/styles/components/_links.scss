@@ -1,3 +1,7 @@
+.encuestas {
+    list-style: '📙 ';
+}
+
 .enlaces li {
     padding-top: .5%;
 }
@@ -9,6 +13,23 @@
     &:hover, &:active {
         color: $success !important;
     }
+}
+
+/* Styles Predifine - li */
+.cashback {
+    list-style: '💸 ';
+}
+
+.bancos-online {
+    list-style: '🏦 ';
+}
+
+.dinero-nada {
+    list-style: '🤯 ';
+}
+
+.list-custom {
+    list-style: '🚀 ';
 }
 
 .bannerVerse img {

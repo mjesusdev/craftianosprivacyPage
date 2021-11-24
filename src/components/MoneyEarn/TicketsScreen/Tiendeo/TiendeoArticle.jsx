@@ -94,17 +94,20 @@ export const TiendeoArticle = () => {
                             nos dirigimos al inicio y pulsamos en saldo, en el botón de arriba, al entrar pulsamos en "reembolsar ahora", 
                             y podremos ver las opciones que tenemos para retirar nuestro saldo, os dejo por aquí las que hay actualmente 👇
                     </p>
-                    //* Cambiar imágenes jeje
+                    {/* //* Change images jeje */}
                     <div id="carousel" className="carousel slide mt-4 mb-4" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago.png" 
+                                    alt="Métodos de Pago disponibles en Tiendeo" title="Métodos de Pago disponibles en Tiendeo"/>
                             </div>
                             <div className="carousel-item">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago2.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago2.png" 
+                                    alt="Métodos de Pago disponibles en Tiendeo" title="Métodos de Pago disponibles en Tiendeo"/>
                             </div>
                             <div className="carousel-item">
-                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago3.png" />
+                                <img loading="lazy" className="rounded mx-auto d-block w-50" src="../img/tiendeo/metodo_pago3.png" 
+                                    alt="Métodos de Pago disponibles en Tiendeo" title="Métodos de Pago disponibles en Tiendeo"/>
                             </div>
                         </div>
                     </div>
@@ -117,7 +120,8 @@ export const TiendeoArticle = () => {
                         pues en mi caso lo he retirado en Verse y como era la primera vez, te suman 2€. <br/>
                         Tenía acumulado 7,50€ y me han pagado 9,50€, lo podeís mirar aquí 👇
                     </p>
-                    <img loading="lazy" src="../img/tiendeo/pago_realizado.png" class="rounded mx-auto d-block w-50 mb-4" />
+                    <img loading="lazy" src="../img/tiendeo/pago_realizado.png" class="rounded mx-auto d-block w-50 mb-4" 
+                        alt="Comprobante de Pago de Tiendeo" title="Comprobante de Pago de Tiendeo"/>
                     <div class="alert alert-info enlaces">
                         ¿Qué todavía no usas Verse para pagar a todos tus amigos y ganar dinero? 💡💸
                         <br /><br />

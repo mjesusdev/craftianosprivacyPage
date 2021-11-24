@@ -15,7 +15,7 @@ export const HoneyGainArticle = () => {
                     Aquí os voy a dejar todos los pasos que hay que seguir para ganar dinero, la cual está en la propia web 😀
                 </p>
                 
-                <a href="" className="enlaces">
+                <a href="https://bit.ly/honeygainCR" className="enlaces" rel="noopener noreferrer">
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/honeygain/honeygain_pasos.png" 
                         alt="Pasos para ganar dinero con HoneyGain ✅" title="Pasos para ganar dinero con HoneyGain ✅" />
                 </a>
