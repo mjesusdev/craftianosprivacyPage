@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 import { RobinArticle } from './RobinArticle';
 
 export const RobinScreen = () => {
-
     const description = `¿Quieres ganar dinero comprando por internet? | Conoce como recibir dinero con Robin Rover | 
         Y empieza a recibir el dinero que deberías de obtener 💸💡`
     const title = '🥇 Robin Rover: Gana dinero por ceder tus datos de compra'
