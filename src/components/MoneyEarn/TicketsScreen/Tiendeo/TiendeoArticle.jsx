@@ -14,7 +14,7 @@ export const TiendeoArticle = () => {
                     así recibir cashback de algunos productos que hemos comprado. <br /><br />
                     Tiendeo pertenece a la empresa "Tiendeo Web Marketing S.L", cuya domicilio social está en Barcelona (España). <br/><br/>
                     Podeís ver toda la información sobre Tiendeo, además de los Términos y Condiciones aquí 👇
-                    <a className="fw-bold" href="https://www.tiendeo.com/info/legal-notice/#es" target="_blank" rel="noopener noreferrer"> 
+                    <a className="" href="https://www.tiendeo.com/info/legal-notice/#es" target="_blank" rel="noopener noreferrer"> 
                         https://www.tiendeo.com/info/legal-notice/#es
                     </a>
                 </p>
@@ -135,21 +135,21 @@ export const TiendeoArticle = () => {
                 <div className="card">
                     <div className="card-body">
                         <h3 className="h5 text-danger">⚡ Otras apps para ganar con tickets ⚡</h3>
-                        <p className="text-justify fw-bold">
+                        <p className="text-justify ">
                             Aquí os dejo un listado de otras plataformas de cashback que he probado y que recomiendo ✅
                         </p>
                         <ul className="enlaces">
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="/promos-app">
                                     🥇 PromosApp: Usa mi código: ULXIXW para ganar tus primeros € 🤩
                                 </a>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="https://bit.ly/geltTicketsCR" target="_blank" rel="noreferrer">
                                     🥈 Gelt: Una de las que más gusta al mundo, únete y gana muuuchoo dinero 💖
                                 </a>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
                                     🥉 Shoppix: Cualquier ticket y no hay enlace de afiliados (por ahora)
                                 </a>

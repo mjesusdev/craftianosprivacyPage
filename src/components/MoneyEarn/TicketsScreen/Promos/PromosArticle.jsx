@@ -13,7 +13,7 @@ export const PromosArticle = () => {
                     El servicio en cuestión es propiedad de la empresa "Promos Cupones Digitales S.L". <br />
                     Está disponible solo para España actualmente y se puede descargar tanto en Android como en iOS. <br /><br />
                     Podeís ver toda la información sobre Promos App, además de los Términos y Condiciones aquí 👇
-                    <a className="fw-bold" href="https://www.promosapp.es/terminos-y-condiciones" target="_blank" rel="noopener noreferrer"> 
+                    <a className="" href="https://www.promosapp.es/terminos-y-condiciones" target="_blank" rel="noopener noreferrer"> 
                         https://www.promosapp.es/terminos-y-condiciones
                     </a>
                 </p>
@@ -133,21 +133,21 @@ export const PromosArticle = () => {
                 <div className="card">
                     <div className="card-body">
                         <h3 className="h5 text-danger">⚡ Otras apps para ganar con tickets ⚡</h3>
-                        <p className="text-justify fw-bold">
+                        <p className="text-justify ">
                             Aquí os dejo un listado de otras plataformas de cashback que he probado y que recomiendo ✅
                         </p>
                         <ul className="enlaces">
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="https://bit.ly/promosCR" target="_blank" rel="noreferrer">
                                     🥇 PromosApp: Usa mi código: ULXIXW para ganar tus primeros € 🤩
                                 </a>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="https://bit.ly/geltTicketsCR" target="_blank" rel="noreferrer">
                                     🥈 Gelt: Una de las que más gusta al mundo, únete y gana muuuchoo dinero 💖
                                 </a>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
                                     🥉 Shoppix: Cualquier ticket y no hay enlace de afiliados (por ahora)
                                 </a>

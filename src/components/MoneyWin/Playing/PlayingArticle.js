@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 /* Create Shortcut */
 export const PlayingArticle = () => {
@@ -19,19 +20,19 @@ export const PlayingArticle = () => {
                 <div className="gamee card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <a href="/gamee/">
+                            <Link exact to="/gamee/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
                                     alt="Imagen Ingresos Pasivos"
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
-                                <a href="../honeygain/">
+                                <Link exact to="/gamee/">
                                     <h2 className="h5 card-title">✅ Gamee: Variedad de juegos y gana dinero jugándolos</h2>
-                                </a>
+                                </Link>
                                 <p className="card-text">
                                     Con Gamee puedes ganar dinero juegando a juegos gratis, hay muchísima variedad de juegos, 
                                     por lo que también se puede ganar dólares, girando la ruleta de la suerte, 
@@ -40,9 +41,9 @@ export const PlayingArticle = () => {
                                     <br />
                                     (Se retira al llegar a los 10$ a PayPal ⚡)
                                 </p>
-                                <a className="btn btn-outline-info" href="/gamee/">
+                                <Link className="btn btn-outline-info" exact to="/gamee/">
                                     Pulsa aquí para ver más 👏
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -51,27 +52,27 @@ export const PlayingArticle = () => {
                 <div className="mistplay card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <a href="/mistplay/">
+                            <Link exact to="/enlaces/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
                                     alt="Imagen Ingresos Pasivos"
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
-                                <a href="/mistplay/">
+                                <Link to="/enlaces/">
                                     <h2 className="h5 card-title">✅ MistPlay: Múltiples opciones parar retirar el dinero generado</h2>
-                                </a>
+                                </Link>
                                 <p className="card-text">
                                     Con MistPlay podrás ganar dinero jugando a tus juegos favoritos, además de los disponibles 🎮💡
                                     <br />
                                     (Tiene variedad de métodos de pago ⚡)
                                 </p>
-                                <a className="btn btn-outline-info" href="/enlaces/">
+                                <Link className="btn btn-outline-info" to="/enlaces/">
                                     Pulsa aquí para ver más 👏
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -80,19 +81,19 @@ export const PlayingArticle = () => {
                 <div className="swagbucks card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <a href="/enlaces/">
+                            <Link exact to="/enlaces/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
                                     alt="Imagen Ingresos Pasivos"
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
-                                <a href="../smartme-app/">
+                                <Link exact to="/enlaces/">
                                     <h2 className="h5 card-title">✅ SwagBucks: Múltiples opciones para ganar dinero</h2>
-                                </a>
+                                </Link>
                                 <p className="card-text">
                                     Con esta plataforma además de ganar dinero jugando a juegos, 
                                     se pueden responder encuestas a cambio de money, participar en concursos 
@@ -103,9 +104,9 @@ export const PlayingArticle = () => {
                                     Invito a que te registres 👇 y 
                                     investigues la página para que empieces a ganar dinero desde ya
                                 </p>
-                                <a className="btn btn-outline-info" href="/enlaces/">
+                                <Link className="btn btn-outline-info" exact to="/enlaces/">
                                     Únete desde aquí 👋 (y gana un bonus de entrada)
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
