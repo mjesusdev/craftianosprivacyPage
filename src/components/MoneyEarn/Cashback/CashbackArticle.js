@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const CashbackArticle = () => {
     return (
@@ -36,9 +37,13 @@ export const CashbackArticle = () => {
                                 es de las mejores plataforma de cashback 🎉
                             </i>
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="/letyshops/" title="Mira más información de LetyShops">
-                            Mira más información sobre LetyShops 👏
-                        </a>
+                        <Link 
+                            className="btn btn-outline-success mb-4" 
+                            exact 
+                            to="/letyshops/" 
+                            title="Mira más información de LetyShops">
+                                Mira más información sobre LetyShops 👏
+                        </Link>
                     </div>
                 </div>
                 <div className="card mb-3">
@@ -61,9 +66,13 @@ export const CashbackArticle = () => {
                             Pulsa sobre el botón de abajo 👇 , mira los motivos por la que la considero una de las 
                             <b>mejores PLATAFORMAS 💡</b> y también los METODOS DE PAGO 💳 , te ENCANTARÁ 😍
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="/igraal/" title="Mira más información de iGraal">
-                            Mira más información de iGraal 👏
-                        </a>
+                        <Link 
+                            className="btn btn-outline-success mb-4"
+                            exact
+                            to="/igraal/" 
+                            title="Mira más información de iGraal">
+                                Mira más información de iGraal 👏
+                        </Link>
                     </div>
                 </div>
                 <div className="card mb-3">
@@ -82,9 +91,13 @@ export const CashbackArticle = () => {
                             (La primera vez tiene que ser por el banco y ya las siguientes se puede retirar a PayPal ✅)
                             <br />
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="/widilo/" title="Mira más información de Widilo">
-                            Mira más información de Widilo 👋, además del comprobante de pago 💳
-                        </a>
+                        <Link 
+                            className="btn btn-outline-success mb-4"
+                            exact
+                            to="/widilo/"
+                            title="Mira más información de Widilo">
+                                Mira más información de Widilo 👋, además del comprobante de pago 💳
+                        </Link>
                     </div>
                 </div>
                 <div className="card mb-3">
@@ -100,7 +113,7 @@ export const CashbackArticle = () => {
                         </p>
                         <a className="btn btn-outline-success" href="https://bit.ly/berubyCR" target="_blank"
                             rel="noopener noreferrer" title="Haz tu primera compra y obtén 5€ gratis">
-                            Haz tu primera compra y obtén 5€ gratis 🤑
+                                Haz tu primera compra y obtén 5€ gratis 🤑
                         </a>
                     </div>
                 </div>
@@ -117,9 +130,13 @@ export const CashbackArticle = () => {
                             robins,
                             con la que particimos todos los días en los sorteos para ganar premios de 100€.
                         </p>
-                        <a className="btn btn-outline-success mb-4" href="/robin-rover/" title="Mira más información de Robin Rover">
-                            Mira más información de Robin Rover 👏
-                        </a>
+                        <Link 
+                            className="btn btn-outline-success mb-4"
+                            exact
+                            to="/robin-rover/"
+                            title="Mira más información de Robin Rover">
+                                Mira más información de Robin Rover 👏
+                        </Link>
                     </div>
                 </div>
             </div>
