@@ -5,6 +5,8 @@ import { HomeScreen } from '../components/HomeScreen/HomeScreen';
 
 import { HomeRoute } from './HomeRoute';
 
+/* import '../assets/js/generate-sitemap.js' */
+
 export const AppRouter = () => {
     return (
         <Router>

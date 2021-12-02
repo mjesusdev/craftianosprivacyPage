@@ -18,8 +18,9 @@
     "web-vitals": "^2.1.2"
   },
   "devDependencies": {
-    "react-scripts": "4.0.3",
-    "immer": ">=9.0.6"
+    "immer": ">=9.0.6",
+    "react-build-sitemap": "^0.2.2",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

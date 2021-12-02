@@ -54,6 +54,9 @@ export const HomeRoute = () => {
                 {/* Routes for All Money */ }
                 <MoneyRoute />
 
+                {/* Route 404 */}
+                <Route path="*" component={ HomeScreen } />
+
                 <Redirect to="/" />
             </Switch>
         
