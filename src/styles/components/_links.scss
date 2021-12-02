@@ -2,18 +2,25 @@
     list-style: '📙 ';
 }
 
-.enlaces li {
-    padding-top: .5%;
-}
-
-.enlaces a {
-    color: $secondary !important;
-    text-decoration: none;
-
-    &:hover, &:active {
-        color: $success !important;
+.enlaces {
+    li {
+        padding-top: .5%;
     }
+    
+    a {
+        color: $secondary !important;
+        text-decoration: none;
+    
+        &:hover, &:active {
+            color: $success !important;
+        }
+    }
+/* 
+    .bg-dark {
+        background: $dark-mode !important;
+    } */
 }
+
 
 /* Styles Predifine - li */
 .cashback {

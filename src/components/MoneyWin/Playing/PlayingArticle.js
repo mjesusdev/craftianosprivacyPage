@@ -41,7 +41,7 @@ export const PlayingArticle = () => {
                                     <br />
                                     (Se retira al llegar a los 10$ a PayPal ⚡)
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/gamee/">
+                                <Link className="btn btn-outline-success" exact to="/gamee/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -70,7 +70,7 @@ export const PlayingArticle = () => {
                                     <br />
                                     (Tiene variedad de métodos de pago ⚡)
                                 </p>
-                                <Link className="btn btn-outline-info" to="/enlaces/">
+                                <Link className="btn btn-outline-success" to="/enlaces/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -104,7 +104,7 @@ export const PlayingArticle = () => {
                                     Invito a que te registres 👇 y 
                                     investigues la página para que empieces a ganar dinero desde ya
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/enlaces/">
+                                <Link className="btn btn-outline-success" exact to="/enlaces/">
                                     Únete desde aquí 👋 (y gana un bonus de entrada)
                                 </Link>
                             </div>

@@ -21,6 +21,7 @@ import { TicketsScreen } from '../components/MoneyEarn/TicketsScreen/TicketsScre
 
 import { MoneyRoute } from './MoneyRoute';
 import { VerseScreen } from '../components/BanksScreen/Verse/VerseScreen';
+import { VividScreen } from '../components/BanksScreen/VividMoney/VividScreen';
 
 export const HomeRoute = () => {
     return (
@@ -48,6 +49,7 @@ export const HomeRoute = () => {
 
                 { /* Routes for DropDown "Banks" */ }
                 <Route exact path="/verse-app" component={ VerseScreen } />
+                <Route exact path="/vivid-money" component={ VividScreen } />
 
                 {/* Routes for All Money */ }
                 <MoneyRoute />

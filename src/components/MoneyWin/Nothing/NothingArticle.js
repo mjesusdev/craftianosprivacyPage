@@ -31,7 +31,7 @@ export const NothingArticle = () => {
                                     Gana dinero compartiendo el internet que no uses y
                                     retira cuando llegues a 20$ en tu cuenta de PayPal o en Bitcoin 🚀
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/honeygain/">
+                                <Link className="btn btn-outline-success" exact to="/honeygain/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -59,7 +59,7 @@ export const NothingArticle = () => {
                                     Otro programa con el que podrás ganar dinero compartiendo el internet que no uses y
                                     retira cuando llegues a 5$ en tu cuenta de PayPal o en Bitcoin 🚀
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/iproyal-panws/">
+                                <Link className="btn btn-outline-success" exact to="/iproyal-panws/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -92,7 +92,7 @@ export const NothingArticle = () => {
                                     <br /><br />
                                     🔴 Solo disponible para España 😅
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/smartme-app/">
+                                <Link className="btn btn-outline-success" exact to="/smartme-app/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>

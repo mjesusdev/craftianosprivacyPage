@@ -32,7 +32,7 @@ export const SurveysArticle = () => {
                                     Página líder en encuestas, con la que podremos ganar Cupones de Amazon, 
                                     Saldo en Paypal, Tarjeta Virtual Mastercard y mucho más con dar nuestra opinión a diversos estudios.
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/ipsos-isay/">
+                                <Link className="btn btn-outline-success" exact to="/ipsos-isay/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -64,7 +64,7 @@ export const SurveysArticle = () => {
                                     junto a Ipsos Isay, con Prize Rebel puedes ganar puntos por realizar encuestas (MUCHAS encuestas), concursos, 
                                     invitando amigos y estar atento de las redes sociales. Uno de los mejores sistemas de referidos 👬
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/prize-rebel/">
+                                <Link className="btn btn-outline-success" exact to="/prize-rebel/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -93,7 +93,7 @@ export const SurveysArticle = () => {
                                     Los puntos ganados se pueden retirar en Paypal, Skrill y por Transferencia Bancaria.
                                     En Paypal se puede retirar a partir de 10€ y 5€ si es Transferencia.
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/marketagent/">
+                                <Link className="btn btn-outline-success" exact to="/marketagent/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -122,7 +122,7 @@ export const SurveysArticle = () => {
                                 Con compartir nuestra opinión en diferentes estudios, podemos ganar 25€ en cupones de Amazon y 50€.
                                 Mira más información sobre YouGov y regístrate para empezar a ganar premios. 👇
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/yougov/">
+                                <Link className="btn btn-outline-success" exact to="/yougov/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -156,7 +156,7 @@ export const SurveysArticle = () => {
                                     Smartme App es una aplicación multiplataforma, con la que podremos realizar encuestas cortas, 
                                     tenerla abierta en segundo plano, invitar a amigos y recibir cashback con el club smartme.
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/smartme-app/">
+                                <Link className="btn btn-outline-success" exact to="/smartme-app/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -184,7 +184,7 @@ export const SurveysArticle = () => {
                                     App multiplataforma de encuestas renumeradas, con el mínimo de retiros en 2,50€ en Revolut y en Paypal 3,00€. 
                                     Solo con registrarte y realizar las encuestas de perfiles empiezas a ganar dinero 🤑
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/attapoll/">
+                                <Link className="btn btn-outline-success" exact to="/attapoll/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -212,7 +212,7 @@ export const SurveysArticle = () => {
                                     App multiplataforma con la que podremos conseguir por 5€ un cupón regalo de Amazon, 
                                     retirar 5€ en Paypal y muchas más recompensas. Fantástico sistema de referidos. 👬
                                 </p>
-                                <Link className="btn btn-outline-info" exact to="/pollpay/">
+                                <Link className="btn btn-outline-success" exact to="/pollpay/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>

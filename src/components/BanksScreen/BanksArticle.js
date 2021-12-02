@@ -165,22 +165,22 @@ export const BanksArticle = () => {
                         </p>    
                         <ul className="enlaces">
                             <li className="">
-                                <a to="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
                                     Instagram (Te puedo responder rápido 🤳)
                                 </a>
                             </li>
                             <li className="">
-                                <a to="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
                                     Twitter (Por si lo deseas)
                                 </a>
                             </li>
                             {/* <li className="">
-                                <a to="mailto:craftianosmoney@protonmail.com" target="_blank" rel="noreferrer">
+                                <a href="mailto:craftianosmoney@protonmail.com" target="_blank" rel="noreferrer">
                                     Correo (Por si me quieres escribir un correo 📩)
                                 </a>
                             </li> */}
                             <li className="">
-                                <a to="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
+                                <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
                                     Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc 🥇)
                                 </a>
                             </li>
@@ -193,7 +193,7 @@ export const BanksArticle = () => {
                     </div>
                 </div>
                 <div className="bannerVerse col-10 ms-5">
-                    <a to="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
+                    <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
                         <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../images/verse/banner.png" 
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>

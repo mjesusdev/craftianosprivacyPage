@@ -16,6 +16,13 @@ body.dark {
     }
 }
 
+
+.card {
+    background-color: $dark-mode;
+    border: 0;
+    color: $dark-cont;
+}
+
 /* body.dark nav a {
     color: #c8c8c8
 }

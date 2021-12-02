@@ -12,26 +12,26 @@ export const CryptosArticle = () => {
                     (Sin INVERTIR) <br /><br />
                     (Para quien no sepa que son las criptomonedas, son activos digitales, es decir otro tipo de divisa alternativa o 
                     moneda digital al dinero real, por lo que esto conlleva más seguridad y a la vez si inviertes, lleva riesgos ❗) <br /><br />
-                    <b><mark>📍 Se puede ganar de diferentes formas:</mark></b>
+                    <mark>📍 Se puede ganar de diferentes formas:</mark>
                     <ol className="enlaces">
                         <li>
                             Faucet Automáticas ⚡
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     <a href="https://bit.ly/faucetDogeCR" target="_blank" rel="noopener noreferrer">
                                         Doge | Gana Satoshi cada 5 min
                                     </a>
                                 </li>
                             </ul>
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     <a href="https://bit.ly/faucetTronCR" target="_blank" rel="noopener noreferrer">
                                         Tron (TRX) | Gana Satoshi cada 5 min
                                     </a>                                       
                                 </li>
                             </ul>
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     <a href="https://bit.ly/faucetLiteCR" target="_blank" rel="noopener noreferrer">
                                         LiteCoin (LTC) | Gana Satoshi cada 5 min
                                     </a>
@@ -41,7 +41,7 @@ export const CryptosArticle = () => {
                         <li>
                             Faucet Manuales (Múltiples Cryptos 🔥)
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     Faucet Crypto (La mejor Faucet para ganar realizando diversas actividades 🥳)<br />
                                     <a href="https://bit.ly/faucetCR" target="_blank" rel="noopener noreferrer">
                                         La mejor faucet para ganar cualquier crypto (Mínimo de retiro: 1.000 Coins) ✅🔥
@@ -52,7 +52,7 @@ export const CryptosArticle = () => {
                         <li>
                             Apps o Exchanges (Coinbase, StormGain) ✅
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     Ganar cryptos GRATIS - Coinbase (Uno de los mejores exchanges ⚡) <br />
                                     <a href="https://bit.ly/coinbaseCR" target="_blank" rel="noopener noreferrer">
                                         Recibe las criptomonedas de forma segura y GANA también GRATIS 
@@ -60,7 +60,7 @@ export const CryptosArticle = () => {
                                 </li>
                             </ul>
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     StormGain - Minería cada 4hrs de Bitcoin (BTC) 🔥💸 <br />
                                     <a href="https://bit.ly/stormGainCR" target="_blank" rel="noopener noreferrer">
                                         Únete a StormGain y gana BTC gratis 🥳💸
@@ -71,7 +71,7 @@ export const CryptosArticle = () => {
                         <li>
                             Minería en Navegador Web ✅
                             <ul>
-                                <li className="fw-bold">
+                                <li className="">
                                     CrptoTab Browser - Navega y gana BTC Gratis 🔥💸 <br />
                                     <a href="http://bit.ly/minerCR" target="_blank" rel="noopener noreferrer">
                                         Descarga este navegador y mina gratis 🎉
@@ -89,11 +89,11 @@ export const CryptosArticle = () => {
                 </div>
             </div>
             <div className="enlaces col-12 col-md-3 mb-5">
-                <div className="card">
+                <div className="card bg-dark">
                     <div className="card-body">
                         <h5 className="text-danger">💡 Otras formas de INGRESO 💸</h5>
                         <ul>
-                            <li className="fw-bold">
+                            <li className="">
                                 Realizando Encuestas 📗
                                 <ul>
                                     <li>
@@ -104,7 +104,7 @@ export const CryptosArticle = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 Haciendo compras ONLINE 🛒
                                 <ul>
                                     <li>
@@ -115,7 +115,7 @@ export const CryptosArticle = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 Ganar DINERO JUGANDO 💸🎮 / VIENDO VIDEOS
                                 <ul>
                                     <li>
@@ -126,7 +126,7 @@ export const CryptosArticle = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="fw-bold">
+                            <li className="">
                                 Ganar DINERO SIN HACER NADA 💡
                                 <ul>
                                     <li>
