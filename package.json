@@ -18,8 +18,11 @@
     "web-vitals": "^2.1.2"
   },
   "devDependencies": {
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
     "immer": ">=9.0.6",
-    "react-build-sitemap": "^0.2.2",
+    "react-router-sitemap-generator": "^0.0.8",
     "react-scripts": "4.0.3"
   },
   "scripts": {
