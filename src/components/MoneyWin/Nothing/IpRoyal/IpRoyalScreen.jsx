@@ -1,20 +1,19 @@
 import React from 'react';
-
 import { Helmet } from 'react-helmet';
 
-import { BanksArticle } from './BanksArticle';
+import { IpRoyalArticle } from './IpRoyalArticle';
 
-export const BanksScreen = () => {
-    const description = `✅ Descubre los mejores bancos online sin comisiones ❌ 
-        y las ventajas frente a los tradicionales | 💥 Opiniones Vivid Money, N26, Rebellion y Verse App`
-    const title = '🥇 Los mejores bancos online y pagos móviles 📲💳'
+export const IpRoyalScreen = () => {
+    /* const description = `🤠 ¿Quieres ganar dinero de forma pasiva? Entra aquí y mira como lo puedes hacer | 
+        Comparte Internet y Gana Dinero | Opiniones sobre IPRoyal | ¿Realmente PAGA? 🤔`
+    const title = '🥇 IPRoyal Panws: Comparte Internet y Gana Dinero desde 5$ 🎉'
 
-    const urlCanonical = 'https://craftianosmoney.com/banco-movil-pagos'
+    const urlCanonical = 'https://craftianosmoney.com/iproyal-panws' */
 
     return (
         <>
             <Helmet>
-                <link rel="canonical" href={ urlCanonical } />
+                {/* <link rel="canonical" href={ urlCanonical } />
                 <meta name='twitter:image' content='https://craftianosmoney.com/img/craftianosmoney.webp' />
                 <meta name="description" content={ description } />
                 <meta name="twitter:card" content='summary_large_image' />
@@ -26,11 +25,11 @@ export const BanksScreen = () => {
                 <meta property='og:title' content={ title } />
                 <meta property='og:type' content='website' />
                 <meta property='og:url' content={ urlCanonical } />
-                <title>{ title }</title>
+                <title>{ title }</title> */}
             </Helmet>
 
             <div className="row justify-content-md-center">
-                <BanksArticle />
+                <IpRoyalArticle />
             </div>
         </>
     )

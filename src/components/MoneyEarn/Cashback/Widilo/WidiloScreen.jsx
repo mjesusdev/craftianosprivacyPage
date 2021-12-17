@@ -8,7 +8,7 @@ export const WidiloScreen = () => {
         Recibe cashback sin compras con Widilove 🧡 | Gana 5€ ABRIENDO CUENTA 🤯`
     const title = '🥉 Widilo: Compras en tiendas online y recibe cashback 💸'
 
-    const urlCanonical = 'https://craftianosmoney.com/widilo/'
+    const urlCanonical = 'https://craftianosmoney.com/widilo'
 
     return (
         <>

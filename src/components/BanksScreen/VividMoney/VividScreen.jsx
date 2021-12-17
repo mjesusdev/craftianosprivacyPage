@@ -8,7 +8,7 @@ export const VividScreen = () => {
         El banco que devuelve dinero por COMPRAR ONLINE, Supermercados y MUCHO MÁS AQUÍ 👋`
     const title = '🥇 El neobanco que devuelve DINERO 💸 | Vivid Money 💜'
 
-    const urlCanonical = 'https://craftianosmoney.com/vivid-money/'
+    const urlCanonical = 'https://craftianosmoney.com/vivid-money'
 
     return (
         <>

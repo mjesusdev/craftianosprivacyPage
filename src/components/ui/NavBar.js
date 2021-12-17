@@ -48,7 +48,7 @@ export const NavBar = () => {
                             <li>
                                 <Link
                                     exact
-                                    to="/gana-dinero-sin-hacer-nada/"
+                                    to="/gana-dinero-sin-hacer-nada"
                                     className="dropdown-item"
                                     title="Gana dinero sin hacer nada | Ingresos Pasivos"
                                 >
@@ -58,7 +58,7 @@ export const NavBar = () => {
                             <li>
                                 <Link
                                     exact
-                                    to="/encuestas-renumeradas/"
+                                    to="/encuestas-renumeradas"
                                     className="dropdown-item"
                                     title="Encuestas renumeradas"
                                 >
@@ -70,7 +70,7 @@ export const NavBar = () => {
                                     className="dropdown-item"
                                     exact
                                     title="Gana dinero jugando"
-                                    to="/gana-dinero-jugando/"
+                                    to="/gana-dinero-jugando"
                                 >
                                     🎮 Gana dinero jugando
                                 </Link>
@@ -80,7 +80,7 @@ export const NavBar = () => {
                                     exact
                                     className="dropdown-item"
                                     title="Gana cryptos gratis"
-                                    to="/gana-cryptos-gratis/" 
+                                    to="/gana-cryptos-gratis" 
                                 >
                                     🏅 Gana cryptos gratis
                                 </Link>
@@ -105,7 +105,7 @@ export const NavBar = () => {
                                     exact
                                     className="dropdown-item"
                                     title="Recibe cashback por realizar compras"
-                                    to="/compras-cashback/"
+                                    to="/compras-cashback"
                                 >
                                     💱 Recibe cashback por compras online
                                 </Link>
@@ -115,7 +115,7 @@ export const NavBar = () => {
                                     exact
                                     className="dropdown-item"
                                     title="Recibe cashback por realizar compras"
-                                    to="/apps-dinero-tickets/"
+                                    to="/apps-dinero-tickets"
                                 >
                                     💡 Ahorra con los tickets de supermercado
                                 </Link>
@@ -125,7 +125,7 @@ export const NavBar = () => {
                     <li className="nav-item">
                         <NavLink
                             exact
-                            to="/banco-movil-pagos/"
+                            to="/banco-movil-pagos"
                             className="nav-item nav-link"
                             title="Bancos móviles y Pagos"
                         >

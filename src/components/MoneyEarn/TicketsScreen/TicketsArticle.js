@@ -22,7 +22,7 @@ export const TicketsArticle = () => {
                         <Link
                             class="btn btn-outline-success mb-4"
                             exact
-                            to="/promos-app/" 
+                            to="/promos-app" 
                             title="Mira más información de Promos">
                                 Mira más información de Promos 👏
                         </Link>
@@ -43,7 +43,7 @@ export const TicketsArticle = () => {
                         <Link 
                             class="btn btn-outline-success mb-4"
                             exact
-                            to="/tiendeo/" 
+                            to="/tiendeo" 
                             title="Mira más información de Tiendeo">
                                 Mira más información de Tiendeo 👏
                         </Link>

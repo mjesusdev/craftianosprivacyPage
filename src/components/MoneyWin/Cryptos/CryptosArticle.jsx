@@ -98,7 +98,7 @@ export const CryptosArticle = () => {
                                 <ul>
                                     <li>
                                         📍 Todas las plataformas / apps<br/>
-                                        <a href="../encuestas-renumeradas/">
+                                        <a href="../encuestas-renumeradas">
                                             Encuentra todas las plataformas de encuestas o apps FIABLES ✅
                                         </a>
                                     </li>
@@ -109,7 +109,7 @@ export const CryptosArticle = () => {
                                 <ul>
                                     <li>
                                         📍 Todas las plataformas de CASHBACK<br/>
-                                        <a href="../compras-cashback/">
+                                        <a href="../compras-cashback">
                                             Mira las plataformas que recompensan por hacer compras online ✅
                                         </a>
                                     </li>
@@ -120,7 +120,7 @@ export const CryptosArticle = () => {
                                 <ul>
                                     <li>
                                         📍 Juega mientras GANAS DINERO <br/>
-                                        <a href="../enlaces/">
+                                        <a href="../enlaces">
                                             Mira las plataformas que recompensan por jugar a diferentes juegos ✅
                                         </a>
                                     </li>
@@ -131,7 +131,7 @@ export const CryptosArticle = () => {
                                 <ul>
                                     <li>
                                         📍 Mira esto si quieres ganar sin hacer nada <br/>
-                                        <a href="../enlaces/">
+                                        <a href="../enlaces">
                                             Páginas / Apps que recompensan por compartir internet / sin hacer nada ✅
                                         </a>
                                     </li>

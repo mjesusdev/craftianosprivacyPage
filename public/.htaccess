@@ -1,0 +1,8 @@
+# Error Routes Production | Error 500 Server
+FallbackResource ./index.html
+
+# Redirect Pages 301
+redirect 301 /verse https://craftianosmoney.com/verse-app
+
+# Redirect Page 404
+ErrorDocument 404 ./index.html

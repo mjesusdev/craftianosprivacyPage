@@ -15,7 +15,7 @@ export const PrizeRebelScreen = () => {
                 <meta name="twitter:title" content="🥇 PrizeRebel: Multitud de encuestas renumeradas y de premios" />
                 <meta name="twitter:description" content="Conoce la página de encuestas PrizeRebel  | Multitud de premios | Opiniones 2021 | 
                     ¿PrizeRebel PAGA o es SCAM? | Entra aquí para ver más 👋🔵" />
-                <link rel="canonical" href="https://craftianosmoney.com/prize-rebel/" />
+                <link rel="canonical" href="https://craftianosmoney.com/prize-rebel" />
             </Helmet>
 
             <div className="row justify-content-md-center">

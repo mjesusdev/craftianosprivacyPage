@@ -1,5 +1,6 @@
 {
   "name": "page-craftianos",
+  "homepage": "https://craftianosmoney.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +22,10 @@
     "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
+    "fs": "^0.0.1-security",
+    "globby": "^12.0.2",
     "immer": ">=9.0.6",
+    "prettier": "^2.5.0",
     "react-router-sitemap-generator": "^0.0.8",
     "react-scripts": "4.0.3"
   },
@@ -29,7 +33,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "bb": "babel-node generate-sitemap.js"
   },
   "eslintConfig": {
     "extends": [

@@ -8,7 +8,7 @@ export const LinksScreen = () => {
         pagos, encuestas, bancos móviles y mucho más 💡 | Ingresos Extras 💸 | CraftianosMoney`
     const title = 'Enlaces - Creador de contenido en RRSS @craftianosmoney 💸'
 
-    const urlCanonical = 'https://craftianosmoney.com/enlaces/'
+    const urlCanonical = 'https://craftianosmoney.com/enlaces'
 
     return (
         <>

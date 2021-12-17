@@ -96,7 +96,7 @@ export const AttaPollArticle = () => {
 
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="/smartme-app/" target="_blank" title="Enlace para ver más información de Smartme App ✅">
+                                <a href="/smartme-app" target="_blank" title="Enlace para ver más información de Smartme App ✅">
                                     🥈 SmartmeApp: Puedes ganar dinero de muchas manera, 
                                     al día recibes 300pts por compartir tus datos de uso del móvil ✅
                                 </a>

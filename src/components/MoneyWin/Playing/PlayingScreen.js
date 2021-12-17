@@ -8,7 +8,7 @@ export const PlayingScreen = () => {
         OPINIONES sobre SwagBucks, MistPlay y Gamee 💡 | ¿Son FIABLES? ¿Pagan? 🤔 `
     const title = '🥇 Descubre la forma de GANAR dinero jugando 💡🎮'
 
-    const urlCanonical = 'https://craftianosmoney.com/gana-dinero-jugando/'
+    const urlCanonical = 'https://craftianosmoney.com/gana-dinero-jugando'
 
     return (
         <>

@@ -8,7 +8,7 @@ export const TicketsScreen = () => {
         o más bien, ahorrar por hacer la compra en tu supermercado favorito | Entra y verás 🤗`
     const title = '🥇 Descubre COMO Ganar Dinero con Tickets de Compra 💸'
 
-    const urlCanonical = 'https://craftianosmoney.com/apps-dinero-tickets/'
+    const urlCanonical = 'https://craftianosmoney.com/apps-dinero-tickets'
 
     return (
         <>

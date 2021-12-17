@@ -12,7 +12,7 @@ export const CashbackArticle = () => {
                     En esta sección os enseño como ganar dinero o ahorrar por comprar en tiendas online, 
                     además de dar los motivos de cual página de cashback es mejor para hacer estas compras 🙌
                 </p>
-                <div className="card mb-3">
+                <div className="letyshops card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger" id="lety">🥇 LetyShops: La mejor plataforma de cashback 💸 </h3>
                         <p className="card-text">
@@ -40,13 +40,14 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4" 
                             exact 
-                            to="/letyshops/" 
+                            to="/letyshops" 
                             title="Mira más información de LetyShops">
                                 Mira más información sobre LetyShops 👏
                         </Link>
                     </div>
                 </div>
-                <div className="card mb-3">
+
+                <div className="igraal card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger" id="iGraal">🥈 iGraal: La segunda mejor plataforma 💸</h3>
                         <p className="card-text">
@@ -69,13 +70,14 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/igraal/" 
+                            to="/igraal" 
                             title="Mira más información de iGraal">
                                 Mira más información de iGraal 👏
                         </Link>
                     </div>
                 </div>
-                <div className="card mb-3">
+
+                <div className="widilo card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger">🥉 Widilo: Recibe 3€ + 1€ por descargar la extensión 💸</h3>
                         <p className="text-justify">
@@ -94,13 +96,14 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/widilo/"
+                            to="/widilo"
                             title="Mira más información de Widilo">
                                 Mira más información de Widilo 👋, además del comprobante de pago 💳
                         </Link>
                     </div>
                 </div>
-                <div className="card mb-3">
+
+                <div className="beruby card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger">✅ Beruby: Otra plataforma complementaria 💸</h3>
                         <p className="text-justify">
@@ -117,7 +120,8 @@ export const CashbackArticle = () => {
                         </a>
                     </div>
                 </div>
-                <div className="card mb-3">
+
+                <div className="robin-rover card mb-3">
                     <div className="card-body">
                         <h3 className="h4 text-danger">✅ Robin Rover: Gana dinero con tus compras online</h3>
                         <p className="text-justify">
@@ -133,7 +137,7 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/robin-rover/"
+                            to="/robin-rover"
                             title="Mira más información de Robin Rover">
                                 Mira más información de Robin Rover 👏
                         </Link>

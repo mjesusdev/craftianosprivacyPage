@@ -8,7 +8,7 @@ export const CryptosScreen = () => {
     const description = `🤯 ¿Sabes que puedes ganar dinero haciendo compras online? |
         Con algunas plataformas de cashback es posible 💰 | Entra aquí a ver más información ✅`
     const title = '📍 Gana criptomonedas GRATIS (Sin INVERTIR 🔥) ✅'
-    const urlCanonical = 'https://craftianosmoney.com/gana-cryptos-gratis/'
+    const urlCanonical = 'https://craftianosmoney.com/gana-cryptos-gratis'
 
     return (
         <>

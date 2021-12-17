@@ -7,8 +7,7 @@ export const YouGovScreen = () => {
     return (
         <>
             <Helmet>
-                <meta name="description" content="🤯 ¿Sabes que puedes ganar dinero haciendo compras online? |
-                    Con algunas plataformas de LetyShops es posible 💰 | Entra aquí a ver más información ✅" />
+                <meta name="description" content="" />
                 <title>🥇 YouGov</title>
             </Helmet>
 

@@ -133,14 +133,14 @@ export const PrizeRebelArticle = () => {
                         <ul className="enlaces">
                             <li className="fw-bold">
                                 <span>🥇 Ipsos Isay: </span>
-                                <a href="/ipsos-isay/" title="Enlace para ver más información sobre Ipsos Isay">
+                                <a href="/ipsos-isay" title="Enlace para ver más información sobre Ipsos Isay">
                                     Llevo unos años, he retirado muchos premios y tengo que decir que es una de las mejores 👍 
                                     (Disponible solo en Europa)
                                 </a>
                             </li>
                             <li className="fw-bold">
                                 <span>🥈 YouGov: </span>
-                                <a href="/yougov/" title="Enlace para ver más información sobre Ipsos Isay">
+                                <a href="/yougov" title="Enlace para ver más información sobre Ipsos Isay">
                                     En esta llevo poco tiempo, pero entran muchas encuestas y son cortas ✅ 
                                     (Disponible en todo el mundo)
                                 </a>
