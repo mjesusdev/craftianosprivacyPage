@@ -42,49 +42,49 @@ export const HomeRoute = () => {
             
             <Switch>
                 <Route exact path="/" component={ HomeScreen } />
-                <Route exact path="/sobre-mi" component={ AboutScreen } />
-                <Route exact path="/banco-movil-pagos" component={ BanksScreen } />
-                <Route exact path="/blog" component={ BlogScreen } />
-                <Route exact path="/enlaces" component={ LinksScreen } />
+                <Route exact path="/sobre-mi/" component={ AboutScreen } />
+                <Route exact path="/banco-movil-pagos/" component={ BanksScreen } />
+                <Route exact path="/blog/" component={ BlogScreen } />
+                <Route exact path="/enlaces/" component={ LinksScreen } />
 
                 { /* Routes for DropDown "MoneyWin" */ }
-                <Route exact path="/gana-dinero-sin-hacer-nada" component={ NothingScreen } />
-                <Route exact path="/encuestas-renumeradas" component={ SurveysScreen } />
-                <Route exact path="/gana-dinero-jugando" component={ PlayingScreen } />
-                <Route exact path="/gana-cryptos-gratis" component={ CryptosScreen } />
+                <Route exact path="/gana-dinero-sin-hacer-nada/" component={ NothingScreen } />
+                <Route exact path="/encuestas-renumeradas/" component={ SurveysScreen } />
+                <Route exact path="/gana-dinero-jugando/" component={ PlayingScreen } />
+                <Route exact path="/gana-cryptos-gratis/" component={ CryptosScreen } />
 
                 { /*  Routes for DropDown "MoneyEarn" */}
-                <Route exact path="/compras-cashback" component={ CashbackScreen } />
-                <Route exact path="/apps-dinero-tickets" component={ TicketsScreen } />
+                <Route exact path="/compras-cashback/" component={ CashbackScreen } />
+                <Route exact path="/apps-dinero-tickets/" component={ TicketsScreen } />
 
                 { /* Routes for DropDown "Banks" */ }
-                <Route exact path="/verse-app" component={ VerseScreen } />
-                <Route exact path="/vivid-money" component={ VividScreen } />
+                <Route exact path="/verse-app/" component={ VerseScreen } />
+                <Route exact path="/vivid-money/" component={ VividScreen } />
 
                 { /* Routes Cashback */ }
-                <Route exact path="/igraal" component={ IgraalScreen } />
-                <Route exact path="/letyshops" component={ LetyShopsScreen } />
-                <Route exact path="/robin-rover" component={ RobinScreen } />
-                <Route exact path="/widilo" component={ WidiloScreen } />
+                <Route exact path="/igraal/" component={ IgraalScreen } />
+                <Route exact path="/letyshops/" component={ LetyShopsScreen } />
+                <Route exact path="/robin-rover/" component={ RobinScreen } />
+                <Route exact path="/widilo/" component={ WidiloScreen } />
 
                 { /* Routes Cashback Tickets */ }
-                <Route exact path="/promos-app" component={ PromosScreen } />
-                <Route exact path="/tiendeo" component={ TiendeoScreen } />
+                <Route exact path="/promos-app/" component={ PromosScreen } />
+                <Route exact path="/tiendeo/" component={ TiendeoScreen } />
 
                 { /* Routes Nothing - HoneyGain, IPRoyal Panws */}
-                <Route exact path="/honeygain" component={ HoneyGainScreen } />
+                <Route exact path="/honeygain/" component={ HoneyGainScreen } />
 
                 { /* Routes for Surveys */ }
-                <Route exact path="/attapoll" component={ AttaPollScreen } />
-                <Route exact path="/ipsos-isay" component={ IpsosIsayScreen } />
-                <Route exact path="/marketagent" component={ MarketAgentScreen } />
-                <Route exact path="/pollpay" component={ PollPayScreen } />
-                <Route exact path="/prize-rebel" component={ PrizeRebelScreen } />
-                <Route exact path="/smartme-app" component={ SmartmeScreen } />
-                <Route exact path="/yougov" component={ YouGovScreen } />
+                <Route exact path="/attapoll/" component={ AttaPollScreen } />
+                <Route exact path="/ipsos-isay/" component={ IpsosIsayScreen } />
+                <Route exact path="/marketagent/" component={ MarketAgentScreen } />
+                <Route exact path="/pollpay/" component={ PollPayScreen } />
+                <Route exact path="/prize-rebel/" component={ PrizeRebelScreen } />
+                <Route exact path="/smartme-app/" component={ SmartmeScreen } />
+                <Route exact path="/yougov/" component={ YouGovScreen } />
 
                 { /* Routes Games */ }
-                <Route exact path="/gamee" component={ GameeScreen } />
+                <Route exact path="/gamee/" component={ GameeScreen } />
 
                 {/* Route 404 */}
                 <Route path="*" component={ HomeScreen } />

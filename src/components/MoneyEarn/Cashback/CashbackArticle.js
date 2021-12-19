@@ -40,7 +40,7 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4" 
                             exact 
-                            to="/letyshops" 
+                            to="/letyshops/" 
                             title="Mira más información de LetyShops">
                                 Mira más información sobre LetyShops 👏
                         </Link>
@@ -70,7 +70,7 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/igraal" 
+                            to="/igraal/" 
                             title="Mira más información de iGraal">
                                 Mira más información de iGraal 👏
                         </Link>
@@ -96,7 +96,7 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/widilo"
+                            to="/widilo/"
                             title="Mira más información de Widilo">
                                 Mira más información de Widilo 👋, además del comprobante de pago 💳
                         </Link>
@@ -137,7 +137,7 @@ export const CashbackArticle = () => {
                         <Link 
                             className="btn btn-outline-success mb-4"
                             exact
-                            to="/robin-rover"
+                            to="/robin-rover/"
                             title="Mira más información de Robin Rover">
                                 Mira más información de Robin Rover 👏
                         </Link>

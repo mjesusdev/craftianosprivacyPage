@@ -8,7 +8,7 @@ export const RobinScreen = () => {
         Y empieza a recibir el dinero que deberías de obtener 💸💡`
     const title = '🥇 Robin Rover: Gana dinero por ceder tus datos de compra'
 
-    const urlCanonical = 'https://craftianosmoney.com/robin-rover'
+    const urlCanonical = 'https://craftianosmoney.com/robin-rover/'
 
     return (
         <>

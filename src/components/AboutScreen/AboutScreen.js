@@ -7,7 +7,7 @@ export const AboutScreen = () => {
         Peoople @craftianos y Youtube. Sigueme para enterarte de todas mis novedades`
     const title = 'Redes Sociales de Craftianosmoney | ¿Me sigues? 🤯'
 
-    const urlCanonical = 'https://craftianosmoney.com/sobre-mi'
+    const urlCanonical = 'https://craftianosmoney.com/sobre-mi/'
 
     return (
         <>

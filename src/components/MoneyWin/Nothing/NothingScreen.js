@@ -8,7 +8,7 @@ export const NothingScreen = () => {
         con las que podrás hacer TODO esto y MUCHO MÁS 🌟 | Conseguir Ingresos Pasivos en 2021 👏`
     const title = '🏅 Gana Dinero Sin Hacer NADA | Ingresos Pasivos 🚀'
 
-    const urlCanonical = 'https://craftianosmoney.com/gana-dinero-sin-hacer-nada'
+    const urlCanonical = 'https://craftianosmoney.com/gana-dinero-sin-hacer-nada/'
 
     return (
         <>

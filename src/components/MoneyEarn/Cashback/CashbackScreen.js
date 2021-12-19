@@ -8,7 +8,7 @@ export const CashbackScreen = () => {
         con plataformas como LetyShops, Igraal, Widilo 💸 | ¿Cómo funcionan? ¿Son Fiables? 🤯`
     const title = '🥇 Las mejores plataformas de cashback para GANAR dinero 💸'
 
-    const urlCanonical = 'https://craftianosmoney.com/compras-cashback'
+    const urlCanonical = 'https://craftianosmoney.com/compras-cashback/'
 
     return (
         <>

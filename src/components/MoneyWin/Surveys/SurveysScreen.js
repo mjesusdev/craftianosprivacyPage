@@ -8,7 +8,7 @@ export const SurveysScreen = () => {
         aplicaciones multiplataforma para GANAR dinero en PayPal, Amazon y mucho más AQUI 👋`
     const title = '🥇 Gana Dinero Realizando Encuestas en 2021 | Páginas y Apps'
 
-    const urlCanonical = 'https://craftianosmoney.com/encuestas-renumeradas'
+    const urlCanonical = 'https://craftianosmoney.com/encuestas-renumeradas/'
 
     return (
         <>

@@ -8,7 +8,7 @@ export const LetyShopsScreen = () => {
         OPINIONES sobre LetyShops ⚡ | ¿Es FIABLE? 🤔`
     const title = '🥇 LetyShops: La mejor plataforma para ganar cashback 💸'
 
-    const urlCanonical = 'https://craftianosmoney.com/letyshops'
+    const urlCanonical = 'https://craftianosmoney.com/letyshops/'
 
     return (
         <>

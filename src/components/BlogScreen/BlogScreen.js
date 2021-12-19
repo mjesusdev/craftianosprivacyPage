@@ -8,7 +8,7 @@ export const BlogScreen = () => {
         plataformas, páginas de cashback, bancos móviles y pagos. | Entra y ve todos mis posts 👏`
     const title = 'Últimas publicaciones 📗 | Craftianosmoney'
 
-    const urlCanonical = 'https://craftianosmoney.com/blog'
+    const urlCanonical = 'https://craftianosmoney.com/blog/'
 
     return (
         <>

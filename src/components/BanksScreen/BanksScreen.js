@@ -9,7 +9,7 @@ export const BanksScreen = () => {
         y las ventajas frente a los tradicionales | 💥 Opiniones Vivid Money, N26, Rebellion y Verse App`
     const title = '🥇 Los mejores bancos online y pagos móviles 📲💳'
 
-    const urlCanonical = 'https://craftianosmoney.com/banco-movil-pagos'
+    const urlCanonical = 'https://craftianosmoney.com/banco-movil-pagos/'
 
     return (
         <>

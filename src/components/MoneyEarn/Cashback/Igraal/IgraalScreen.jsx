@@ -8,7 +8,7 @@ export const IgraalScreen = () => {
         conoce sus diferencias con otras | Recibe 4€ al Unirte 🥳 | Craftianosmoney`
     const title = '🥇 iGraal: Nueva Plataforma de cashback | España 2021 ✅'
 
-    const urlCanonical = 'https://craftianosmoney.com/igraal'
+    const urlCanonical = 'https://craftianosmoney.com/igraal/'
 
     return (
         <>

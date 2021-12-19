@@ -30,10 +30,10 @@ export const HomeArticle = () => {
                     <NavLink
                         className="nav-link btn btn-outline-success"
                         exact
-                        to="/sobre-mi"
+                        to="/sobre-mi/"
                         title="Apps"
                     >
-                        Mira todas las apps / web que recomiendo ✅
+                        Mira todas las apps y web que recomiendo ✅
                     </NavLink>
 
                     <br/><br/>

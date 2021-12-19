@@ -14,7 +14,7 @@ export const NothingArticle = () => {
                 <div className="honeygain card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <Link exact to="/honeygain">
+                            <Link exact to="/honeygain/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
@@ -24,14 +24,14 @@ export const NothingArticle = () => {
                         </div>
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
-                                <Link exact to="/honeygain">
+                                <Link exact to="/honeygain/">
                                     <h2 className="h5 card-title">🏅 HoneyGain: Gana 5$ al Unirte </h2>
                                 </Link>
                                 <p className="card-text">
                                     Gana dinero compartiendo el internet que no uses y
                                     retira cuando llegues a 20$ en tu cuenta de PayPal o en Bitcoin 🚀
                                 </p>
-                                <Link className="btn btn-outline-success" exact to="/honeygain">
+                                <Link className="btn btn-outline-success" exact to="/honeygain/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -42,7 +42,7 @@ export const NothingArticle = () => {
                 <div className="iproyal card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <Link exact to="/iproyal-panws">
+                            <Link exact to="/iproyal-panws/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
@@ -52,14 +52,14 @@ export const NothingArticle = () => {
                         </div>
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
-                                <Link exact to="/iproyal-panws">
+                                <Link exact to="/iproyal-panws/">
                                     <h2 className="h5 card-title">🥇 IPRoyal Panws: Retira el dinero a los 5$</h2>
                                 </Link>
                                 <p className="card-text">
                                     Otro programa con el que podrás ganar dinero compartiendo el internet que no uses y
                                     retira cuando llegues a 5$ en tu cuenta de PayPal o en Bitcoin 🚀
                                 </p>
-                                <Link className="btn btn-outline-success" exact to="/iproyal-panws">
+                                <Link className="btn btn-outline-success" exact to="/iproyal-panws/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>
@@ -70,7 +70,7 @@ export const NothingArticle = () => {
                 <div className="smartme-app card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
-                            <Link exact to="/smartme-app">
+                            <Link exact to="/smartme-app/">
                                 <img 
                                     className="img-fluid card-img" 
                                     src="../img/otros/dinero-sin-hacer-nada.png" 
@@ -92,7 +92,7 @@ export const NothingArticle = () => {
                                     <br /><br />
                                     🔴 Solo disponible para España 😅
                                 </p>
-                                <Link className="btn btn-outline-success" exact to="/smartme-app">
+                                <Link className="btn btn-outline-success" exact to="/smartme-app/">
                                     Pulsa aquí para ver más 👏
                                 </Link>
                             </div>

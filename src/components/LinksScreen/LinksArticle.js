@@ -13,22 +13,22 @@ export const LinksArticle = () => {
                         <ul className="enlaces encuestas">
                             <li className="">
                                 I-Say: 
-                                <Link exact to="/ipsos-isay"> 
+                                <Link exact to="/ipsos-isay/"> 
                                     De mis mejores plataformas de encuestas ✅
                                 </Link>
                             </li>
                             <li className="">
-                                YouGov: <Link exact to="/yougov"> Segunda mejor plataforma <span className="emojis">⚡</span></Link>
+                                YouGov: <Link exact to="/yougov/"> Segunda mejor plataforma <span className="emojis">⚡</span></Link>
                             </li>
                             <li className="">
                                 PrizeRebel:
-                                <Link exact to="/prize-rebel">
+                                <Link exact to="/prize-rebel/">
                                     Cuenta con un mágnifico sistema de referidos y programa de fidelidad 👏
                                 </Link>
                             </li>
                             <li className="">
                                 MarketAgent:
-                                <Link exact to="/marketagent"> 
+                                <Link exact to="/marketagent/"> 
                                     Tiene muchas encuestas 😍 y acaban de actualizar la plataforma 🔥
                                 </Link>
                             </li>
@@ -50,19 +50,19 @@ export const LinksArticle = () => {
                         <ul className="enlaces encuestas">
                             <li className="">
                                 AttaPoll:
-                                <Link exact to="/attapoll">
+                                <Link exact to="/attapoll/">
                                     La mejor app para ganar dinero con encuestas 🤯
                                 </Link>
                             </li>
                             <li className="">
                                 SmartmeApp:
-                                <Link exact to="/smartme-app">
+                                <Link exact to="/smartme-app/">
                                     Encuestas cortas y mucho más beneficios 😎
                                 </Link>
                             </li>
                             <li className="">
                                 PollPay:
-                                <Link exact to="/pollpay">
+                                <Link exact to="/pollpay/">
                                     La mejor app para ganar con tus amigos ⚡
                                 </Link>
                             </li>
@@ -71,27 +71,27 @@ export const LinksArticle = () => {
                         <ul className="enlaces cashback">
                             <li className="">
                                 LetyShops: 
-                                <Link exact to="/letyshops">
+                                <Link exact to="/letyshops/">
                                     La mejor plataforma de cashback,
                                     gana 5€ al hacer tu primera compra superior a 20€ 🥇
                                 </Link>
                             </li>
                             <li className="">
                                 Widilo:
-                                <Link exact to="/widilo">
+                                <Link exact to="/widilo/">
                                     La segunda mejor plataforma,
                                     sirve de complemento a LetyShops. 🥈
                                 </Link>
                             </li>
                             <li className="">
                                 Igraal:
-                                <Link exact to="/igraal">
+                                <Link exact to="/igraal/">
                                     Cada día suben el cashback en tiendas, gana 3€ por la primera compra + 1€ por la extensión 💡
                                 </Link>
                             </li>
                             <li className="">
                                 Beruby:
-                                <Link exact to="/compras-cashback">
+                                <Link exact to="/compras-cashback/">
                                     Variedad de herramientas para ganar dinero, como encuestas, ofertas, recomendaciones, etc 💎
                                 </Link>
                             </li>
@@ -104,13 +104,13 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Promos App:
-                                <Link exact to="/promos-app">
+                                <Link exact to="/promos-app/">
                                     La mejor app para ganar cashback por tickets de compra en supermercados 🛒
                                 </Link>
                             </li>
                             <li className="">
                                 Tiendeo:
-                                <Link exact to="/tiendeo">
+                                <Link exact to="/tiendeo/">
                                     Segunda opción para recibir cashback por tickets 👌
                                 </Link>
                             </li>
@@ -133,7 +133,7 @@ export const LinksArticle = () => {
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Robin Rover (Gana 100€ GRATIS):
-                                <Link exact to="/robin-rover">
+                                <Link exact to="/robin-rover/">
                                     Mira más información sobre Robin Rover y registrate 🤯
                                 </Link>
                             </li>
@@ -148,7 +148,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Vivid 💜 (Uno de los mejores bancos actualmente 💸):
-                                <Link exact to="/vivid-money">
+                                <Link exact to="/vivid-money/">
                                     Únete y obtén bonos interesantes de 20€ y cashback de hasta 70€ 🤯 (Aprovecha el Black FRIDAY con Descuentos en MUCHAS TIENDAS 🏪)
                                 </Link>
                             </li>

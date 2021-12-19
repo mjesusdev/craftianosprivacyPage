@@ -22,7 +22,7 @@ export const BanksArticle = () => {
                             a la vez que compras en determinados comercios ✅💸 <br /><br />
                             También están las ventajas del Plan Prime, que dan cashback en Netflix, Spotify, Youtube Premium, Amazon Prime, etc 🔥
                         </p>
-                        <Link className="btn btn-outline-success d-grid mb-4" exact to="/vivid-money">
+                        <Link className="btn btn-outline-success d-grid mb-4" exact to="/vivid-money/">
                             Mira más información sobre Vivid Money 💜
                         </Link>
                         <p className="text-justify">
@@ -126,7 +126,7 @@ export const BanksArticle = () => {
                                 me puede enviar un MD a mi <a href="https://bit.ly/ingCraftianos" target="_blank" rel="noopener noreferrer">
                                 cuenta de instagram</a>, que le contestaré rápido</b>
                         </p>
-                        <Link className="btn btn-outline-success d-grid mb-4" exact to="/verse-app">
+                        <Link className="btn btn-outline-success d-grid mb-4" exact to="/verse-app/">
                             Mira más información sobre Verse y Únete Conmigo 🤗💙
                         </Link>
                         <p className="text-justify ">
