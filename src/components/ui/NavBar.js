@@ -14,20 +14,22 @@ export const NavBar = () => {
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <NavLink
-                            exact
-                            to="/"
                             activeClassName="active"
                             className="nav-item nav-link"
+                            exact
+                            title="Página Principal | Home CraftianosMoney"
+                            to="/"
                         >
                             🏠 Inicio 
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            exact
-                            to="/sobre-mi/"
                             activeClassName="active"
                             className="nav-item nav-link"
+                            exact
+                            title="Mira mis redes sociales y conóceme"
+                            to="/sobre-mi/"
                         >
                             📲 Redes Sociales
                         </NavLink>
@@ -47,20 +49,20 @@ export const NavBar = () => {
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
                             <li>
                                 <Link
-                                    exact
-                                    to="/gana-dinero-sin-hacer-nada/"
                                     className="dropdown-item"
+                                    exact
                                     title="Gana dinero sin hacer nada | Ingresos Pasivos"
+                                    to="/gana-dinero-sin-hacer-nada/"
                                 >
                                     ✅ Gana dinero sin hacer nada
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    exact
-                                    to="/encuestas-renumeradas/"
                                     className="dropdown-item"
+                                    exact
                                     title="Encuestas renumeradas"
+                                    to="/encuestas-renumeradas/"
                                 >
                                     💬 Encuestas renumeradas
                                 </Link>
@@ -77,8 +79,8 @@ export const NavBar = () => {
                             </li>
                             <li>
                                 <Link
-                                    exact
                                     className="dropdown-item"
+                                    exact
                                     title="Gana cryptos gratis"
                                     to="/gana-cryptos-gratis/" 
                                 >
@@ -102,8 +104,8 @@ export const NavBar = () => {
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown2">
                             <li>
                                 <Link
-                                    exact
                                     className="dropdown-item"
+                                    exact
                                     title="Recibe cashback por realizar compras"
                                     to="/compras-cashback/"
                                 >
@@ -112,8 +114,8 @@ export const NavBar = () => {
                             </li>
                             <li>
                                 <Link
-                                    exact
                                     className="dropdown-item"
+                                    exact
                                     title="Recibe cashback por realizar compras"
                                     to="/apps-dinero-tickets/"
                                 >
@@ -124,30 +126,30 @@ export const NavBar = () => {
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            exact
-                            to="/banco-movil-pagos/"
                             className="nav-item nav-link"
+                            exact
                             title="Bancos móviles y Pagos"
+                            to="/banco-movil-pagos/"
                         >
                             🏦 Bancos móviles y Pagos
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            exact
-                            to="/blog/"
                             className="nav-item nav-link"
+                            exact
                             title="Blog de CraftianosMoney"
+                            to="/blog/"
                         >
                             📙 Blog
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            exact
-                            to="/enlaces/"
                             className="nav-item nav-link"
+                            exact
                             title="Enlaces de CraftianosMoney"
+                            to="/enlaces/"
                         >
                            💡 Enlaces 
                         </NavLink>
