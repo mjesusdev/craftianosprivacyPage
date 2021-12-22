@@ -25,6 +25,7 @@ export const VerseScreen = () => {
                 <meta property='og:title' content={ title } />
                 <meta property='og:type' content='website' />
                 <meta property='og:url' content={ urlCanonical } />
+                <title>{ title }</title>
             </Helmet>
 
             <div className="row justify-content-md-center">
