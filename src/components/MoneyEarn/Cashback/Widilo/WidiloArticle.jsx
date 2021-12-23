@@ -147,21 +147,35 @@ export const WidiloArticle = () => {
                 <div id="pago-widilo">
                     <h3 className="h5 text-danger mt-4 mb-4">💸 ¿Widilo PAGA? | Fiable, ¿sí o no? 🤗</h3>
                     <p className="text-justify">
-                        Bueno llego el momento que todos estaban esperando 🥳 saber si REALMENTE Widilo paga 🔥💸 <br /><br />
+                        Bueno llegó el momento que todos estaban esperando, saber si REALMENTE Widilo PAGA 🔥💸 <br /><br />
                         Os pongo en situación, llegué a 15€ para retirar por primera vez y me dispuse a ingresar los datos de mi cuenta bancaria 🏦 <br /><br />
                         Ordené la transferencia el Martes 18 de Mayo y se me aceptó el Jueves 21, por lo que la transferencia me llegó el Lunes, 
                         es decir ha tardado en pagar 6 días (no llega a una semana jeje 🥳🥳) <br /><br />
                         Por aquí abajo os enseño el comprobante, para que veáis que es totalmente Fiable y Transparente por mi parte 🤗
                     </p>
-                    <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mb-4" 
-                        src="../img/widilo/pago_transferencia.webp" 
-                        alt="Pago Widilo | Transferencia Bancaria" 
+                    <img   
+                        loading="lazy" 
+                        className="img-fluid rounded mx-auto d-block w-50 mb-4" 
+                        src="../img/widilo/pago_transferencia.webp"
+                        alt="Pago Widilo | Transferencia Bancaria 🎁" 
                     />
                     <p className="text-justify">
                         Como se puede ver, me llegó 15,40€ a mi cuenta de Rebellion por parte de Widilo, en este caso pone que el que envía es "Afiliza",
                         pero todos ustedes saben que pertence a Widilo, porque es el propietario del propio sitio, 
                         lo digo porque lo han podido leer al principio 😅
                     </p>
+                    <h4 className="h6 text-danger">Segundo Pago a través de PayPal ✅</h4>
+                    <p className="text-justify">
+                        Además de la prueba de la transferencia bancaria, os pongo por aquí el comprobante de pago que pedí 20/12/2021
+                        a través de PayPal, ya que la primera retirada tiene que ser por Transferencia Bancaria y 
+                        a partir de la segunda como el usuario quiera 🥳
+                    </p>
+                    <img   
+                        loading="lazy" 
+                        className="img-fluid rounded mx-auto d-block mb-4" 
+                        src="../img/widilo/pago-paypal.png"
+                        alt="Pago Widilo | PayPal 🎁" 
+                    />
                 </div>
             </div>
             <div className="col-12 col-md-3 mb-5">
