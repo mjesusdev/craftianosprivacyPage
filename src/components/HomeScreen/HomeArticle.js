@@ -19,7 +19,7 @@ export const HomeArticle = () => {
                     <p className="card-text">
                         Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
                         como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
-                        soy desarrollador web y por lo cual esta página la hecho desde cero 🥰 <br /><br />
+                        soy Desarrollador Web 👨‍💻 y por lo cual esta página la hecho desde cero 🥰 <br /><br />
                         
                         Así que sin nada más que decir, te invito a que hagas un recorrido por aquí, porque publico muchas cosas 🥳
                         entre lo que destaco las páginas para realizar encuestas por dinero,
@@ -36,8 +36,6 @@ export const HomeArticle = () => {
                         Mira todas las apps y web que recomiendo ✅
                     </NavLink>
 
-                    <br/><br/>
-                    
                     Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 
                     para enterarte de todo lo que publico 🤗
                 </div>
