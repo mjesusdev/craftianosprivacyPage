@@ -28,12 +28,12 @@ export const HomeArticle = () => {
 
                     {/* Link to Enlaces */}
                     <NavLink
-                        className="nav-link btn btn-outline-success"
+                        className="nav-link btn btn-outline-success mb-4"
                         exact
-                        to="/sobre-mi/"
-                        title="Apps"
+                        to="/enlaces/"
+                        title="Link a TODOS los enlaces de Encuestas, Plataformas de Cashback, etc"
                     >
-                        Mira todas las apps y web que recomiendo ✅
+                        Mira esto, puede que te interese 🥳✅
                     </NavLink>
 
                     Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 
