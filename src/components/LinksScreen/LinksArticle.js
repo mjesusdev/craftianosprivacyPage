@@ -213,6 +213,15 @@ export const LinksArticle = () => {
                                 hasta licencia de Office (Hay un sinfín de grupos en los que unirse 🥇)
                             </li>
                         </ul>
+                        <h2 className="h5 text-danger">Ganar DINERO CAMINANDO (Haciendo Pasos)</h2>
+                        <ul className="enlaces ganar-caminando">
+                            <li>
+                                WeWard:
+                                <a href="https://acortar.link/wewardCR" target="_blank" rel="noopener noreferrer">
+                                    Gana dinero caminando o canjea en cheques regalo ⚡ (USA mi código: JESU-vXm6X para ganar un bonus 🤯)
+                                </a>
+                            </li>
+                        </ul>
                         <h2 className="h5 text-danger">Ganar DINERO Sin Hacer Nada (Compartiendo Internet)</h2>
                         <ul className="enlaces dinero-nada">
                             <li className="">
