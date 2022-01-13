@@ -65,16 +65,13 @@ export const AboutArticle = () => {
                     <div className="card-body">
                         <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
                         <p className="text-justify fw-bold">
-                            Si teneís alguna pregunta, o alguna duda sobre esto o en general,
-                            también me podeís escribir a mi correo 👇
+                            Si teneís alguna pregunta, o alguna duda sobre cualquier cosa,
+                            también me podeís escribir a mi correo 👇🤗
                         </p>
-                        {/* <ul>
-                            <li className="font-weight-bold">
-                                <a href="mailto:admin@craftianosmoney.com" target="_blank" rel="noreferrer">
-                                    Correo 📩
-                                </a>
-                            </li>
-                        </ul> */}
+                        <div className="email-contacto">
+                            <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                                className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -218,7 +218,8 @@ export const LinksArticle = () => {
                             <li>
                                 WeWard:
                                 <a href="https://acortar.link/wewardCR" target="_blank" rel="noopener noreferrer">
-                                    Gana dinero caminando o canjea en cheques regalo ⚡ (USA mi código: JESU-vXm6X para ganar un bonus 🤯)
+                                    Gana dinero caminando o canjea en cheques regalo ⚡
+                                    (USA mi código: JESU-vXm6X para ganar un bonus)
                                 </a>
                             </li>
                         </ul>
@@ -314,12 +315,16 @@ export const LinksArticle = () => {
                                 Twitter (Comparto a veces cosas 📙)
                                 </a>
                             </li>
-                            {/* Poner email en foto (mejor) */}
                             <li className="">
                                 <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
                                 Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc ✅)
                                 </a>
                             </li>
+                            <div className="email-contacto mt-4">
+                                Aunque también me puedes escribir a mi correo electrónico 👇
+                                <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                                    className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
+                            </div>
                         </ul>
                     </div>
                 </div>

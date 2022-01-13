@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet';
 import { AboutArticle } from './AboutArticle';
 
 export const AboutScreen = () => {
-    const description = `Redes Sociales de Craftianosmoney, Instagram @craftianosmoney, Twitter, 
-        Peoople @craftianos y Youtube. Sigueme para enterarte de todas mis novedades`
-    const title = 'Redes Sociales de Craftianosmoney | ¿Me sigues? 🤯'
+    const description = `Redes Sociales de Craftianos, Instagram @craftianosmoney, Twitter, 
+        Peoople | Sigueme para estar atento a las novedades que voy sacando 🥳`
+    const title = 'Redes Sociales de Craftianos | ¿Me sigues? 🤯'
 
     const urlCanonical = 'https://craftianosmoney.com/sobre-mi/'
 
