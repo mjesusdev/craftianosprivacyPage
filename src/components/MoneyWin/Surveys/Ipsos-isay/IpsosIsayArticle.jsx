@@ -56,7 +56,8 @@ export const IpsosIsayArticle = () => {
                 <div id="funcionamiento-isay">
                     <h3 className="h5 text-danger mt-4 mb-4">✅ ¿Cómo funciona Ipsos Isay?</h3>
                     <p className="text-justify">
-
+                        Ipsos Isay es como otras plataformas de encuestas, su funcionamiento es muy sencillo, nos llegan encuestas y las procedemos a hacer,
+                        se recibe notificaciones en el email con el que estamos registrados en la plataforma.
                     </p>
                 </div>
 
@@ -70,6 +71,10 @@ export const IpsosIsayArticle = () => {
 
                 <div id="nueva-actualizacion-isay">
                     <h3 className="h5 text-danger mt-4 mb-4">✅ NUEVA ACTUALIZACION</h3>
+                    <p className="text-justify">
+                        Hace poco tiempo actualizaron la página y algunas cosas como el programa de referidos no está activo, además cambio algunas cosas, 
+                        como el diseño, etc.
+                    </p>
                 </div>
 
                 <div id="premios-isay">
@@ -84,15 +89,21 @@ export const IpsosIsayArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h4 className="h5 text-danger">⚡ Otras programas similares ⚡</h4>
+                        <h4 className="h5 text-danger">⚡ Otras plataformas de encuestas ⚡</h4>
                         <p className="text-justify fw-bold">
-                            Aquí os dejo un listado de otros programas similares a HoneyGain que he probado y que recomiendo ✅
+                            Aquí os dejo un listado de otras plataformas de encuestas, que recomiendo 👇⚡
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/iproyalCR" target="_blank" rel="noopener noreferrer" 
-                                    title="Enlace de Registro a IPRoyal ✅">
-                                    🥇 IPRoyal: Mucho más simple y el mínimo para retirar por PayPal o Bitcoin está a 1$ ✅
+                                <a href="https://bit.ly/yougovCR" target="_blank" rel="noopener noreferrer" 
+                                    title="Enlace de Registro a YouGov ✅">
+                                    🥇 YouGov: Otra de las mejores en mi opinión 🤯
+                                </a>
+                            </li>
+                            <li className="fw-bold">
+                                <a href="https://bit.ly/swagbucksCR" target="_blank" rel="noopener noreferrer" 
+                                    title="Enlace de Registro a SwagBucks ✅">
+                                    🥈 SwagBucks: Combina encuestas con juegos y cashback
                                 </a>
                             </li>
                         </ul>
@@ -107,14 +118,6 @@ export const IpsosIsayArticle = () => {
                                 </a>
                             </li>
                         </ul>
-
-                        <span className="h6 text-warning mt-2">Únete desde aquí a HoneyGain 🐝💸</span>
-                        <p className="text-justify mt-4">
-                            <a className="btn btn-outline-success btn-block" href="https://bit.ly/honeygainCR" target="_blank" 
-                                rel="noopener noreferrer" title="Enlace de Registro a HoneyGain 🐦">
-                                    Únete y recibe tus primeros 5$ GRATIS 👏
-                            </a>
-                        </p>
                     </div>
                 </div>
             </div>
