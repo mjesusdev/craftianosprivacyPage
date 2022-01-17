@@ -94,6 +94,13 @@ export const LinksArticle = () => {
                                     Cada día suben el cashback en tiendas, gana 3€ por la primera compra + 1€ por la extensión 💡
                                 </Link>
                             </li>
+                            <li>
+                                Picodi (NUEVA PLATAFORMA disponible en España 🚀, entre otros PAISES): 
+                                <a href="https://acortar.link/picodiCR" target="_blank" rel="noopener noreferrer" 
+                                    title="Únete a Picodi y obtén 4€ TOTALMENTE Gratis">
+                                        Obtén 4€ TOTALMENTE Gratis 🤑
+                                </a>
+                            </li>
                             <li className="">
                                 Beruby:
                                 <Link exact to="/compras-cashback/" title="Mira más información sobre Beruby">

@@ -103,6 +103,25 @@ export const CashbackArticle = () => {
                     </div>
                 </div>
 
+                <div className="picodi card mb-3">
+                    <div className="card-body">
+                        <h3 className="h4 card-title text-danger">🆕 Picodi: Recibe 4€ cuando hagas tu PRIMERA COMPRA</h3>
+                        <p className="text-justify">
+                            Picodi es una nueva plataforma de cashback que ha "aterrizado" en España, además está disponible en otros países como: 
+                            Chile, Colombia, México, Perú y Argentina, aunque entiendo que en otros países puede estar disponible, 
+                            ya que Picodi es de Polonia.
+                            <br /><br />
+                            Se asegura que Picodi paga más que la competencia, ya que tiene los cashback más altos que otras plataformas,
+                            en mi caso lo he comprobado y sí es verdad, así que otra plataforma de cashback en la lista 
+                            y otra con la que ahorrar 🤗🧡
+                        </p>
+                        <a className="btn btn-outline-success" href="https://acortar.link/picodiCR" target="_blank"
+                            rel="noopener noreferrer" title="Únete a Picodi y obtén 4€ TOTALMENTE Gratis">
+                                Únete a Picodi y obtén 4€ TOTALMENTE Gratis 🤑
+                        </a>
+                    </div>
+                </div>
+
                 <div className="beruby card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger">✅ Beruby: Otra plataforma complementaria 💸</h3>
