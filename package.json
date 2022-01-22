@@ -36,8 +36,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "bb": "babel-node generate-sitemap.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
