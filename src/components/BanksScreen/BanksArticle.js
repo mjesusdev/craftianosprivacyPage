@@ -194,7 +194,7 @@ export const BanksArticle = () => {
                 </div>
                 <div className="bannerVerse col-10 ms-5">
                     <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
-                        <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../images/verse/banner.png" 
+                        <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../img/verse/banner.png" 
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>
                 </div>

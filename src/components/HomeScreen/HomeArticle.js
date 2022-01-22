@@ -12,7 +12,7 @@ export const HomeArticle = () => {
             </p>
             <hr />
             <div className="card cardHome">
-                <img className="card-img-top rounded imgCraftianos" 
+                <img className="card-img-top rounded imgCraftianos" src="../img/craftianosmoney.webp"
                     title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
                 <div className="card-body">
                     <h3 className="h4 card-title fw-bold">Sobre mí</h3>
