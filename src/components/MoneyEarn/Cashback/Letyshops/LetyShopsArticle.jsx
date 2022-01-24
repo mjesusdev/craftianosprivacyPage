@@ -57,26 +57,28 @@ export const LetyShopsArticle = () => {
                     <br /><br />
                     Como podeís ver estos son los dos pagos que he recibido de LetyShops, mi primero de 5€ y el segundo de 20€ 🥇😍
                 </p>
-                <div id="carouselEarnings" class="carousel slide" data-ride="carousel">
+
+                <div id="carouselComprobantes" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img loading="lazy" class="img-fluid rounded mx-auto d-block w-100 mb-4" src="../img/letyshops/primer_retiro.webp"
-                            alt="Comprobante de mi primer pago de LetyShops en PayPal" />
+                                alt="Comprobante de mi primer pago de LetyShops en PayPal" />
                         </div>
                         <div class="carousel-item">
                             <img loading="lazy" class="img-fluid rounded mx-auto d-block w-100 mb-4" src="../img/letyshops/segundo_retiro.webp"
-                             alt="Comprobante de mi segundo pago de LetyShops en PayPal" />
+                                alt="Comprobante de mi segundo pago de LetyShops en PayPal" />
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselEarnings" role="button" data-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselComprobantes" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselEarnings" role="button" data-slide="next">
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselComprobantes" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+
                 <a class="btn btn-outline-warning mb-4" href="https://bit.ly/letyshopsCR" target="_blank" rel="noreferrer">
                     Regístrate en LetyShops y empieza a GANAR CASHBACK 🤯⚡
                 </a>
@@ -162,9 +164,7 @@ export const LetyShopsArticle = () => {
                         </p>
                         <h3 className="h6 text-danger">✅ ¿Qué requisitos debo seguir para participar?</h3>
                         <p className="text-justify fw-bold">
-                            Para participar, hay que estar registrado en LetyShops, seguir en Instagram a
-                            "@letyshops.es" y hacer una compra de más o de 20€ en cualquier tienda hasta el 26-12-2021
-                            y así ya estarías participando.
+                            SORTEO FINALIZADO Y GANADOR EN DIRECTO EL 24/01/2022
                         </p>
                         <a className="fw-bold" href="https://letyshops.com/es/tesla" target="_blank" rel="noopener noreferrer">
                             Mira más información del sorteo desde aquí 👋
