@@ -64,7 +64,7 @@ export const NavBar = () => {
                                     title="Encuestas renumeradas"
                                     to="/encuestas-renumeradas/"
                                 >
-                                    💬 Encuestas renumeradas
+                                    📙 Encuestas renumeradas
                                 </Link>
                             </li>
                             <li>
@@ -109,7 +109,7 @@ export const NavBar = () => {
                                     title="Recibe cashback por realizar compras"
                                     to="/compras-cashback/"
                                 >
-                                    💱 Recibe cashback por compras online
+                                    🎁 Recibe cashback por compras online
                                 </Link>
                             </li>
                             <li>
@@ -119,7 +119,7 @@ export const NavBar = () => {
                                     title="Recibe cashback por realizar compras"
                                     to="/apps-dinero-tickets/"
                                 >
-                                    💡 Ahorra con los tickets de supermercado
+                                    🤑 Ahorra con los tickets de supermercado
                                 </Link>
                             </li>
                         </ul>
@@ -131,7 +131,7 @@ export const NavBar = () => {
                             title="Bancos móviles y Pagos"
                             to="/banco-movil-pagos/"
                         >
-                            🏦 Bancos móviles y Pagos
+                            🪙 Bancos móviles y Pagos
                         </NavLink>
                     </li>
                     <li className="nav-item">
