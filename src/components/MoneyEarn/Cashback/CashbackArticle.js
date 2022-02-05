@@ -26,7 +26,7 @@ export const CashbackArticle = () => {
                             <br /><br />
                             <b>Conclusión: </b> Me parece una buena plataforma de cashback, 
                             <strong><i>
-                                destaco que el el Mínimo de Retiro por PayPal o Transferencia Bancaria es de UN 1€
+                                destaco que el Mínimo de Retiro por PayPal o Transferencia Bancaria es de UN 1€
                                 y que tiene un buen Sistema de Cashback y Atención al Cliente 💛
                             </i></strong>
                             <br /><br />
