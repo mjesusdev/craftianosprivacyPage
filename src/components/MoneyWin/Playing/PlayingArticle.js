@@ -31,18 +31,17 @@ export const PlayingArticle = () => {
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
                                 <Link exact to="/gamee/">
-                                    <h2 className="h5 card-title">✅ Gamee: Variedad de juegos y gana dinero jugándolos</h2>
+                                    <h3 className="h5 card-title">✅ Gamee: Variedad de juegos y gana dinero jugándolos</h3>
                                 </Link>
                                 <p className="card-text">
                                     Con Gamee puedes ganar dinero juegando a juegos gratis, hay muchísima variedad de juegos, 
                                     por lo que también se puede ganar dólares, girando la ruleta de la suerte, 
                                     ingresando cada día a Gamee, se ganan más spins gratis. <br /><br />
                                     Además si estas todos los días ingresando, el día 7 tienes una ruleta, la cual da dinero 100% ✅
-                                    <br />
                                     (Se retira al llegar a los 10$ a PayPal ⚡)
                                 </p>
                                 <Link className="btn btn-outline-success" exact to="/gamee/">
-                                    Pulsa aquí para ver más 👏
+                                    Pulsa aquí para ver cómo 🚀
                                 </Link>
                             </div>
                         </div>
@@ -63,15 +62,18 @@ export const PlayingArticle = () => {
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
                                 <Link to="/enlaces/">
-                                    <h2 className="h5 card-title">✅ MistPlay: Múltiples opciones parar retirar el dinero generado</h2>
+                                    <h3 className="h5 card-title">✅ MistPlay: Múltiples opciones parar retirar el dinero generado</h3>
                                 </Link>
                                 <p className="card-text">
                                     Con MistPlay podrás ganar dinero jugando a tus juegos favoritos, además de los disponibles 🎮💡
                                     <br />
-                                    (Tiene variedad de métodos de pago ⚡)
+                                    (Y ganar pts con ello y ahorrar para canjear más tarde algunos regalos, como Cupones para Amazon,
+                                    Tarjeta Mastercard Virtual, etc)
+                                    <br /><br />
+                                    Ve a registrarte y a ganar dinero jugando! 🎁✨
                                 </p>
                                 <Link className="btn btn-outline-success" to="/enlaces/">
-                                    Pulsa aquí para ver más 👏
+                                    Pulsa aquí para ver cómo 🚀
                                 </Link>
                             </div>
                         </div>
@@ -92,20 +94,20 @@ export const PlayingArticle = () => {
                         <div className="col-md-7 enlaces">
                             <div className="card-body">
                                 <Link exact to="/enlaces/">
-                                    <h2 className="h5 card-title">✅ SwagBucks: Múltiples opciones para ganar dinero</h2>
+                                    <h3 className="h5 card-title">✅ SwagBucks: Múltiples opciones para ganar dinero</h3>
                                 </Link>
                                 <p className="card-text">
                                     Con esta plataforma además de ganar dinero jugando a juegos, 
                                     se pueden responder encuestas a cambio de money, participar en concursos 
                                     y muchísimo más.
-                                    <br /><br />
-                                    P.D: Está repleta de opciones para ganar dinero 🥰💸
-                                    <br /><br />
+                                    <br />
                                     Invito a que te registres 👇 y 
                                     investigues la página para que empieces a ganar dinero desde ya
+                                    <br />
+                                    P.D: Está repleta de opciones para ganar dinero 🥰💸
                                 </p>
                                 <Link className="btn btn-outline-success" exact to="/enlaces/">
-                                    Únete desde aquí 👋 (y gana un bonus de entrada)
+                                    Pulsa aquí para ver cómo 🚀
                                 </Link>
                             </div>
                         </div>

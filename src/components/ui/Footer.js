@@ -22,6 +22,7 @@ export const Footer = () => {
                     <Link
                         className="nav-item nav-link"
                         exact
+                        title="Contactame por mis redes sociales"
                         to="/sobre-mi"
                     >
                         Contacto 📬

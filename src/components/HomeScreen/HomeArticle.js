@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 export const HomeArticle = () => {
     return (
         <div className="col-12 col-sm-7 col-md-5 mt-2">
-            <h2 className="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h2>
+            <h1 className="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h1>
             <p className="text-justify text-article">
-                En este blog podreís saber la forma de ganar dinero en 2021, ya sea por realizar encuestas, 
+                En este blog podreís saber la forma de ganar dinero en 2022, ya sea por realizar encuestas, 
                 recibir cashback por compras en tiendas online, además de recibir ingresos extras, 
                 por utilizar aplicaciones de pago como Verse y bancos móviles 100% online referentes en Europa.
             </p>
@@ -15,7 +15,7 @@ export const HomeArticle = () => {
                 <img className="card-img-top rounded imgCraftianos" src="../img/craftianosmoney.webp"
                     title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
                 <div className="card-body">
-                    <h3 className="h4 card-title fw-bold">Sobre mí</h3>
+                    <h2 className="h4 card-title fw-bold">Sobre mí ✨</h2>
                     <p className="card-text">
                         Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
                         como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
@@ -33,7 +33,7 @@ export const HomeArticle = () => {
                         to="/enlaces/"
                         title="Link a TODOS los enlaces de Encuestas, Plataformas de Cashback, etc"
                     >
-                        Mira esto, puede que te interese 🥳✅
+                        Mira esto, puede que te interese 🎁
                     </NavLink>
 
                     Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 

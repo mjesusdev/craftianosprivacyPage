@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet';
 import { HomeArticle } from './HomeArticle';
 
 export const HomeScreen = () => {
-    const description = `Descubre la forma de generar DINERO realizando encuestas, 
-        haciendo compras online, promociones y mucho MÁS | ¿Te unes? 👋`
-    const title = '🥇 Gana dinero desde casa en 2022 | Craftianosmoney'
+    const description = `Descubre la forma de generar DINERO realizando múltiples tareas, 
+        con cashback, encuestas, promos y mucho MÁS | ¿Te unes? 👋`
+    const title = '🚀 Gana dinero desde casa en 2022 | Diferentes OPCIONES 🎁'
 
     const urlCanonical = 'https://craftianosmoney.com/'
 
