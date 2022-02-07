@@ -174,21 +174,19 @@ export const BanksArticle = () => {
                                     Twitter (Por si lo deseas)
                                 </a>
                             </li>
-                            {/* <li className="">
-                                <a href="mailto:craftianosmoney@protonmail.com" target="_blank" rel="noreferrer">
-                                    Correo (Por si me quieres escribir un correo 📩)
-                                </a>
-                            </li> */}
                             <li className="">
                                 <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
                                     Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc 🥇)
                                 </a>
                             </li>
+                            <div className="email-contacto mt-4">
+                                Aunque también me puedes escribir a mi correo electrónico 👇
+                                <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                                    className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
+                            </div>
                         </ul>
-                        <p className="text-justify ">
-                            En relación con la promoción de Verse de los 5€, <br />
-                            le recomendaría que me escribiera en mi Instagram,
-                            ya que como hay que añadir 5€ y moverlos, pues los hacemos juntos y al instante te lo devuelvo 🙌<br/>
+                        <p className="text-justify">
+                            La mejor promo que hay es la de Verse, por aquí tenéis mi código y el enlace 👇✨
                         </p>
                     </div>
                 </div>
