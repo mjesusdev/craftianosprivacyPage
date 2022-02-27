@@ -32,6 +32,7 @@ import { VerseScreen } from '../components/BanksScreen/Verse/VerseScreen';
 import { VividScreen } from '../components/BanksScreen/VividMoney/VividScreen';
 import { WidiloScreen } from '../components/MoneyEarn/Cashback/Widilo/WidiloScreen';
 import { YouGovScreen } from '../components/MoneyWin/Surveys/YouGov/YouGovScreen';
+import { IpRoyalScreen } from '../components/MoneyWin/Nothing/IpRoyal/IpRoyalScreen';
 
 export const HomeRoute = () => {
     return (
@@ -73,6 +74,7 @@ export const HomeRoute = () => {
 
                 { /* Routes Nothing - HoneyGain, IPRoyal Panws */}
                 <Route exact path="/honeygain/" component={ HoneyGainScreen } />
+                <Route exact path="/iproyal/" component={ IpRoyalScreen } />
 
                 { /* Routes for Surveys */ }
                 <Route exact path="/attapoll/" component={ AttaPollScreen } />
