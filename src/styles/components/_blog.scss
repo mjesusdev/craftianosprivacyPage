@@ -4,11 +4,11 @@
     border: 0;
 
     a {
-        color: $success !important;
+        color: $secondary !important;
         text-decoration: none;
     
         &:hover, &:active {
-            color: $success-hover !important;
+            color: $secondary-hover !important;
         }
     }
 }

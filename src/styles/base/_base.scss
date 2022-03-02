@@ -17,15 +17,16 @@ body {
 .article {
     font-family: Karla;
     
-    .btn-outline-success {
-        color: $secondary !important;
-        border-color: $secondary !important;
-        text-decoration: none;
-        
-        &:hover, &:active {
-            background: $success-hover !important;
-            color: $primary !important;
-        }
+}
+
+.btn-outline-success {
+    color: $secondary !important;
+    border-color: $secondary-hover !important;
+    text-decoration: none;
+    
+    &:hover, &:active {
+        background: $secondary-hover !important;
+        color: $primary !important;
     }
 }
 
@@ -38,7 +39,7 @@ body {
         color: $footerLnk !important;
         
         &:hover {
-            color: $success-hover !important;
+            color: $secondary-hover !important;
         }
     }
 }

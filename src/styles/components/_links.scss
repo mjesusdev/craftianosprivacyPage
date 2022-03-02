@@ -8,8 +8,12 @@
         text-decoration: none;
         
         &:hover, &:active {
-            color: $success !important;
+            color: $secondary-hover !important;
         }
+    }
+
+    .btn:hover, .btn:active {
+        color: $primary !important;
     }
 }
 
