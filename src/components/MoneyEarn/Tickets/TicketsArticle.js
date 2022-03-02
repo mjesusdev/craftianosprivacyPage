@@ -56,9 +56,13 @@ export const TicketsArticle = () => {
                         <h2 class="h5 text-danger">¿Cómo ahorrar con los tickets de compra?</h2>
                         <p class="text-justify">
                             En esta sección dejo algunas apps con las que subir los tickets del supermercado y ahorrar dinero.
-                            Es muy fácil, solo hace descargarse alguna app, registrarse, elegir los productos que hemos comprado. <br /><br />
+                            Es muy fácil, solo hace descargarse alguna app, registrarse, elegir los productos que hemos comprado. 
+                            <br /><br />
                             (En todas las apps, se actualizan los productos cada semana)
                         </p>
+                        <div class="alert alert-info">
+                            MUY PRONTO ACTUALIZO ESTA SECCIÓN Y AÑADO MÁS APPS CON LAS QUE GANAR DINERO CON TICKETS 🚀🎉
+                        </div>
                     </div>
                 </div>
             </div>
