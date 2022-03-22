@@ -64,14 +64,32 @@ export const AboutArticle = () => {
                 <div className="card">
                     <div className="card-body">
                         <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
-                        <p className="text-justify fw-bold">
-                            Si teneís alguna pregunta, o alguna duda sobre cualquier cosa,
-                            también me podeís escribir a mi correo 👇🤗
-                        </p>
-                        <div className="email-contacto">
-                            <img loading="lazy" src="../img/otros/email-craftianos.png" 
-                                className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
-                        </div>
+                        <p className="text-justify">
+                            Si teneís alguna pregunta, o alguna duda sobre esto o en general,
+                            me podeís escribir en mis redes sociales:
+                        </p>    
+                        <ul className="enlaces">
+                            <li className="">
+                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                    Instagram | Mi cuenta principal 📘🖋️
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                    Twitter | Mi segunda cuenta 📘🖋️
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
+                                    Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
+                                </a>
+                            </li>
+                            <div className="email-contacto mt-4">
+                                Aunque también me puedes escribir a mi correo electrónico 👇
+                                <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                                    className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>

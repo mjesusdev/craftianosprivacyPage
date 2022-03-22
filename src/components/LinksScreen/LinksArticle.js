@@ -312,19 +312,19 @@ export const LinksArticle = () => {
                             me podeís escribir en mis redes sociales:
                         </p>
                         <ul className="enlaces list-custom">
-                            <li className="">
-                                <a href="https://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
-                                    Instagram (Te puedo responder rápido 🤳)
+                        <li className="">
+                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                    Instagram | Mi cuenta principal 📘🖋️
                                 </a>
                             </li>
                             <li className="">
-                                <a href="https://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
-                                Twitter (Comparto a veces cosas 📙)
+                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                    Twitter | Mi segunda cuenta 📘🖋️
                                 </a>
                             </li>
                             <li className="">
                                 <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
-                                Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc ✅)
+                                    Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
                                 </a>
                             </li>
                             <div className="email-contacto mt-4">

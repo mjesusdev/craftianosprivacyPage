@@ -92,18 +92,39 @@ export const VerseArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h4 className="h5 text-danger">⚡ Otras plataformas de encuestas ⚡</h4>
-                        <p className="text-justify fw-bold">
-                            Aquí os dejo un listado de otras páginas de encuestas que podrían interesarle.
-                        </p>
-
+                        <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
+                        <p className="text-justify">
+                            Si tienes cualquier pregunta sobre Verse o de otras apps o páginas,
+                            no dudes en consultarme por mis redes sociales 💫🦄
+                        </p>    
                         <ul className="enlaces">
-                            <li className="fw-bold">
-                                Ipsos Isay
+                            <li className="">
+                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                    Instagram | Mi cuenta principal 📘🖋️
+                                </a>
                             </li>
+                            <li className="">
+                                <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
+                                    Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
+                                </a>
+                            </li>
+                            <div className="email-contacto mt-4">
+                                Aunque también me puedes escribir a mi correo electrónico 👇
+                                <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                                    className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
+                            </div>
                         </ul>
-                        
+                        <p className="text-justify">
+                            Por aquí tienes un banner de Verse con mi código, 
+                            solo tienes que hacer click y te llevará a la app 👇✨
+                        </p>
                     </div>
+                </div>
+                <div className="bannerVerse col-10 ms-5">
+                    <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
+                        <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../img/verse/banner.png" 
+                            alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
+                    </a>
                 </div>
             </div>
         </>

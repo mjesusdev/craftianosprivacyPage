@@ -166,17 +166,17 @@ export const BanksArticle = () => {
                         <ul className="enlaces">
                             <li className="">
                                 <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
-                                    Instagram (Te puedo responder rápido 🤳)
+                                    Instagram | Mi cuenta principal 📘🖋️
                                 </a>
                             </li>
                             <li className="">
                                 <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
-                                    Twitter (Por si lo deseas)
+                                    Twitter | Mi segunda cuenta 📘🖋️
                                 </a>
                             </li>
                             <li className="">
                                 <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
-                                    Canal de Telegram (Aquí podrás encontrar todos los enlaces de promociones, etc 🥇)
+                                    Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
                                 </a>
                             </li>
                             <div className="email-contacto mt-4">
