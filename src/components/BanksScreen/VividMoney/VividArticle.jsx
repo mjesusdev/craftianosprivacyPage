@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const VividArticle = () => {
     return (
@@ -118,7 +119,6 @@ export const VividArticle = () => {
                     <br /><br />
                     Por lo que también es que a algunos le aparece el cashback de Mercadona "al 50%", es según algunos factores.
                 </div>
-
                 {/* <div className="list-indice">
                     <span className="h5 mt-4">Índice de los contenidos</span>
                     <div className="list-group mt-4">
@@ -133,7 +133,6 @@ export const VividArticle = () => {
                         </a>
                     </div>
                 </div> */}
-
             </div>
 
             <div className="col-12 col-md-3 mb-5">
@@ -147,16 +146,28 @@ export const VividArticle = () => {
                         <ul className="enlaces">
                             <li className="">
                                 Rebellion: Banco móvil en el que se puede abrir cuenta a partir de 14 años 🤯
+                                <br />
+                                <a href="https://bit.ly/rebellionCR" target="_blank" rel="noopener noreferrer" 
+                                    title="Únete a Rebellion, banco online y gana dinero">
+                                    Gana HASTA 5€ por UNIRTE Conmigo y Aprovecha las Promociones que hay! 🥳🥳
+                                </a>
                             </li>
-                            <li>
-                                Verse App: App de Pagos y también posee su propia tarjeta para pagos y demás 💙
+                            <li className="">
+                                Verse App 💙 (Aplicación de Pagos Móviles y MUCHO MÁS 💫)
+                                <br />
+                                <Link exact to="/verse-app/" title="Mira más información sobre Verse 💙">
+                                    Aprovecha y descarga Verse para hacer pagos con amigos en segundos, además
+                                    de poder ganar 5€ al UNIRTE y SOLO tener que MOVER 1€ ¿te lo vas a perder? 👋💙
+                                </Link>
                             </li>
-                        </ul>
-                        
+                        </ul> 
                     </div>
                 </div>
                 <div className="card">
-                    <span>REELS xd</span>
+                    <div className="card-body">
+                        <h4 className="h5 text-danger mb-4">💫 Reels sobre Vivid Money 💫</h4>
+                        <video src="../videos/reels-vividmoney.mp4" weight="700" height="700" controls autoplay></video>
+                    </div>
                 </div>
             </div>
         </>
