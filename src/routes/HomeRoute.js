@@ -23,7 +23,6 @@ import { PlayingScreen } from '../components/MoneyWin/Playing/PlayingScreen';
 import { PollPayScreen } from '../components/MoneyWin/Surveys/PollPay/PollPayScreen';
 import { PrizeRebelScreen } from '../components/MoneyWin/Surveys/PrizeRebel/PrizeRebelScreen';
 import { PromosScreen } from '../components/MoneyEarn/Tickets/Promos/PromosScreen';
-import { RobinScreen } from '../components/MoneyEarn/Cashback/RobinRover/RobinScreen';
 import { SmartmeScreen } from '../components/MoneyWin/Surveys/SmartmeApp/SmartmeScreen';
 import { SurveysScreen } from '../components/MoneyWin/Surveys/SurveysScreen';
 import { TicketsScreen } from '../components/MoneyEarn/Tickets/TicketsScreen';
@@ -65,7 +64,6 @@ export const HomeRoute = () => {
                 { /* Routes Cashback */ }
                 <Route exact path="/igraal/" component={ IgraalScreen } />
                 <Route exact path="/letyshops/" component={ LetyShopsScreen } />
-                <Route exact path="/robin-rover/" component={ RobinScreen } />
                 <Route exact path="/widilo/" component={ WidiloScreen } />
 
                 { /* Routes Cashback Tickets */ }

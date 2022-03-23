@@ -78,7 +78,7 @@ export const LinksArticle = () => {
                                 LetyShops: 
                                 <Link exact to="/letyshops/" title="Mira más información sobre LetyShops">
                                     La mejor plataforma de cashback,
-                                    gana 5€ al hacer tu primera compra superior a 20€ 🥇
+                                    gana 5€ al hacer tu primera compra superior a 30€ 🥇
                                 </Link>
                             </li>
                             <li className="">
@@ -115,25 +115,6 @@ export const LinksArticle = () => {
                                         además de poder ganar dinero por encuestas, etc 💡
                                 </a>
                             </li>
-                            <li className="">
-                                Promos App:
-                                <Link exact to="/promos-app/" title="Mira más información sobre PromosAPP">
-                                    La mejor app para ganar cashback por tickets de compra en supermercados 🛒
-                                </Link>
-                            </li>
-                            <li className="">
-                                Tiendeo:
-                                <Link exact to="/tiendeo/" title="Mira más información sobre Tiendeo">
-                                    Segunda opción para recibir cashback por tickets 👌
-                                </Link>
-                            </li>
-                            <li className="">
-                                Gelt:
-                                <a href="https://bit.ly/2PYt77n" target="_blank" rel="noreferrer" 
-                                    title="Regístrate en Gelt y Gana Dinero Con Tus Tickets">
-                                        Muchísimas promociones en las que ganar MUCHO dinero 🤯💎
-                                </a>
-                            </li>
                             <br/>
                             <div className="">
                                 EJ: En este momento, en LetyShops no nos devuelven cashback por comprar en Ebay,
@@ -143,28 +124,51 @@ export const LinksArticle = () => {
                                 por lo que también podemos recibir cashback por nuestras compras, teneís el link arriba ☝☝😍
                             </div>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO por tus COMPRAS ONLINE</h2>
+                        <h2 className="h5 text-danger">Ganar DINERO por TICKETS DE SUPERMERCADO 🛒</h2>
                         <ul className="enlaces list-custom">
                             <li className="">
-                                Robin Rover (Gana 100€ GRATIS):
-                                <Link exact to="/robin-rover/" title="Mira más información sobre Robin Rover">
-                                    Mira más información sobre Robin Rover y registrate 🤯
+                                Promos App:
+                                <Link exact to="/promos-app/" title="Mira más información sobre PromosAPP">
+                                    La mejor app para ganar cashback por tickets de compra en supermercados 🛒
                                 </Link>
                             </li>
+                            <li className="">
+                                Tiendeo:
+                                <Link exact to="/tiendeo/" title="Mira más información sobre Tiendeo">
+                                    ACTUALMENTE la mejor app para recibir cashback por tickets 👌💫
+                                </Link>
+                            </li>
+                            <li className="">
+                                Gelt:
+                                <a href="https://bit.ly/2PYt77n" target="_blank" rel="noreferrer" 
+                                    title="Regístrate en Gelt y Gana Dinero Con Tus Tickets">
+                                        Muchísimas promociones en las que ganar MUCHO dinero 🤯💎
+                                </a>
+                            </li>
+                            <div className="mt-2">
+                                Estas son algunas apps que te pueden ayudar a ganar dinero por tickets de compra en supermercados 🛒
+                                <br />
+                                Por comprar algunos productos, ya sean sin marca, como Manzanas, Zanahorias, etc,
+                                o marcas como Alpro, Productos Realfooding, etc.
+                                <br />
+                                Además hay otra app que utilizo que es la de Shoppix, que permite subir cualquier ticket de compra, 
+                                pero el inconveniente es que ACTUALMENTE no recogen USUARIOS NUEVOS 😓
+                            </div>
                         </ul>
                         <h2 className="h5 text-danger">Promociones ACTUALES 💎 | Bancos Online 🏦</h2>
                         <ul className="enlaces bancos-online">
                             <li className="">
-                                N26 (De los mejores bancos móviles):
+                                N26 💫 :
                                 <a href="https://bit.ly/n26invCR" target="_blank" rel="noopener noreferrer">
                                     Gana 5€ por unirte al banco móvil N26
                                 </a>
                             </li>
                             <li className="">
-                                Vivid 💜 (Uno de los mejores bancos actualmente 💸):
-                                <Link exact to="/vivid-money/" title="Mira más información sobre Vivid Money y consigue dinero con tus compras 🥳">
-                                    Únete y obtén bonos interesantes de 20€ y cashback de hasta 70€ 🤯
-                                    (Aprovecha el Black FRIDAY con Descuentos en MUCHAS TIENDAS 🏪)
+                                Vivid Money 💜 (Uno de los mejores bancos MÓVILES ACTUALMENTE 💸):
+                                <Link exact to="/vivid-money/" 
+                                    title="Mira más información sobre Vivid Money y consigue dinero con tus compras 🥳">
+                                    Únete y obtén cashback por TODAS TUS COMPRAS ONLINE, OFFLINE 
+                                    y muchos MÁS BENEFICIOS 👏🤯
                                 </Link>
                             </li>
                             <li className="">
@@ -175,7 +179,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                             <li className="">
-                                Verse (Pagos móviles & más):
+                                Verse (Pagos móviles y MUCHO más):
                                 <Link exact to="/verse-app/" title="Mira más información sobre Verse 💙">
                                     Aprovecha y descarga Verse para hacer pagos con amigos en segundos, además
                                     de poder ganar 5€ al UNIRTE y SOLO tener que MOVER 1€ ¿te lo vas a perder? 👋💙
@@ -186,7 +190,7 @@ export const LinksArticle = () => {
                                 <a href="https://bit.ly/2ZelfBCR" target="_blank" rel="noopener noreferrer"
                                     title="Únete al mejor banco por aplicaciones y aprovecha la PROMO DE 20€ 🎁🥳">
                                         Gana 20€ GRATIS por UNIRTE al banco por aplicaciones de mensajería 👋 
-                                        (Puedes ganar más cashback, gracias a los BONOS 😍😍)
+                                        (Las compras SALEN GRATIS CON LOS BONOS CORREEE 🤯💫)
                                 </a>
                             </li>
                         </ul>
@@ -217,7 +221,7 @@ export const LinksArticle = () => {
                                 </a>
                                 <br />
                                 * Se puede compartir cualquier servicio de Streaming (Netflix, HBO, Disney +), 
-                                hasta licencia de Office (Hay un sinfín de grupos en los que unirse 🥇)
+                                hasta licencia de Office <br />(Hay un sinfín de grupos en los que unirse 🥇)
                             </li>
                         </ul>
                         <h2 className="h5 text-danger">Ganar DINERO CAMINANDO (Haciendo Pasos)</h2>
@@ -225,26 +229,28 @@ export const LinksArticle = () => {
                             <li>
                                 WeWard:
                                 <a href="https://acortar.link/wewardCR" target="_blank" rel="noopener noreferrer">
-                                    Gana dinero caminando o canjea en cheques regalo ⚡
+                                    Gana dinero caminando o canjea en cheques regalo 🦄
                                     (USA mi código: JESU-vXm6X para ganar un bonus)
                                 </a>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO Sin Hacer Nada (Compartiendo Internet)</h2>
-                        <ul className="enlaces dinero-nada">
+                        <h2 className="h5 text-danger">Ganar DINERO Sin Hacer Nada (NO LO RECOMIENDO)</h2>
+                        <ul className="enlaces">
                             <li className="">
-                                HoneyGain:
-                                <Link exact to="/honeygain">
-                                    El mejor servicio para ganar compartiendo tu internet. Ganas pts todos los días 🔥 <br />
-                                    (Únete a HoneyGain y recibe 5$ por registrarte ✨)
-                                </Link>
+                                ACTUALMENTE ya no recomiendo HoneyGain porque es MUY POCO rentable 🤯
+                                ya que das TODA tu información y después no sabes que hacen con ella.
+                                (Además llegar a los 20$ es muy costoso y es mejor hacer otras cosas que esta la verdad)
                             </li>
                             <li className="">
-                                IpRoyal:
-                                <a href="https://bit.ly/iproyalCR" target="_blank" rel="noopener noreferrer">
-                                    Mínimo de retiro 1$ por PayPal y Bitcoin 🥳
-                                </a>
+                                IPROYAL es en mi opinión mejor que HoneyGain, pero vamos que salvo esto estamos hablando de lo mismo,
+                                cedes tus datos a personas ANÓNIMAS, porque lo digo, los creadores de las dos apps y muchas más, son ANONIMOS VAYA 🤬
                             </li>
+                            <div>
+                                Concluyendo, mi humilde opinión no es usar estas cosas porque no sabes que más pueden saber de ti vaya, 
+                                porque mucho saben ya la gran G entre otros servicios más.
+                                Por otro lado, deje tiempo de usarlo y ahora ando utilizando VPN por si acaso 
+                                (pero VPN segura no de las que trafican con tus datos xd 🤬)
+                            </div>
                         </ul>
                         <h2 className="h5 text-danger">Ahorra y gana dinero con tus amigos 😎</h2>
                         <ul className="enlaces">
@@ -252,12 +258,6 @@ export const LinksArticle = () => {
                                 Plum:
                                 <a href="https://bit.ly/ahplumCR" target="_blank" rel="noopener noreferrer">
                                     Ahorra dinero y sobre todo invita a amigos y gana dinero 💸 ( +15€ 🔥)
-                                </a>
-                            </li>
-                            <li className="">
-                                Numbrs:
-                                <a href="https://bit.ly/numbrsCR" target="_blank" rel="noopener noreferrer">
-                                    Únete ahorra dinero y participa en sorteos cada Viernes de 50K 🥳🔥
                                 </a>
                             </li>
                         </ul>

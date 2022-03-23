@@ -161,29 +161,6 @@ export const CashbackArticle = () => {
                         </a>
                     </div>
                 </div>
-
-                <div className="robin-rover card mb-3">
-                    <div className="card-body">
-                        <h3 className="h4 text-danger">✅ Robin Rover: Gana dinero con tus compras online</h3>
-                        <p className="text-justify">
-                            Robin Rover es una empresa con la que podemos ganar dinero realizando compras online
-                            como
-                            hasta ahora,
-                            la diferencia es que por los datos de nuestras compras no generamos ingresos, pues Robin
-                            Rover lo hace.
-                            Es totalmente diferente que LetyShops y Widilo, ya que no acumulamos dinero, acumulamos
-                            robins,
-                            con la que particimos todos los días en los sorteos para ganar premios de 100€.
-                        </p>
-                        <Link 
-                            className="btn btn-outline-success mb-4"
-                            exact
-                            to="/robin-rover/"
-                            title="Mira más información de Robin Rover">
-                                Mira más información de Robin Rover 👏
-                        </Link>
-                    </div>
-                </div>
             </div>
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
