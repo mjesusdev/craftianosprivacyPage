@@ -110,37 +110,37 @@ export const BanksArticle = () => {
 
                 <div className="verse card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="verse-app">✅ Verse App: La mejor plataforma de pagos 💳</h3>
+                        <h3 className="h4 card-title text-danger" id="verse-app">🦄 Verse App: La mejor plataforma de pagos móviles 💳</h3>
                         <p className="card-text enlaces">
-                            Verse App es una aplicación de pagos móviles instántaneos (disponible en Android e iOS),
-                            con la que podremos enviar DINERO a amigos, familiares o conocidos, totalmente rápido y sin ninguna comisión. <br /><br />
-                            Además de poder ganar dinero con Verse 💸💙 en el momento de abrir una cuenta y participando en
-                            concursos. <br/><br/>
-                            <b>Al abrir la cuenta, tienes que ingresar 5€, pasarselo a alguien y al realizar esto, poner
-                                mi código: <i>BJNQ8R</i>
-                                para que le llegue 5€ totalmente gratis. Además de 1€ que le regalo, por unirse
-                                conmigo 💸💸</b>
-                            <br /> <br />
-                            
-                            <b>P.D: Si no tiene a alguna persona para mover los 5€,
-                                me puede enviar un MD a mi <a href="https://bit.ly/ingCraftianos" target="_blank" rel="noopener noreferrer">
-                                cuenta de instagram</a>, que le contestaré rápido</b>
+                            <b>Verse App es una aplicación de pagos móviles instántaneos (disponible en Android e iOS)</b>,
+                            con la que podremos enviar DINERO a amigos, familiares o conocidos, totalmente rápido y sin ninguna comisión. 
+                            <br /><br />
+                            El registro es muy fácil, solo hay que indicar un número de teléfono, email, cuando los hayas hecho, 
+                            añades mi código: <b><i>BJNQ8R</i></b>, luego añades 1€, los mueves a algún amigo que tenga Verse, 
+                            o incluso a mi y te los devuelvo (pero antes sugiero que me escribas en Instagram antes de registrarte).
+                            <br /><br />
+                            Finalmente verificas la cuenta con la documentación y en ese momento cada uno habrá ganado 5€ FREE 💫🤯
                         </p>
                         <Link className="btn btn-outline-success d-grid mb-4" exact to="/verse-app/">
-                            Mira más información sobre Verse y Únete Conmigo 🤗💙
+                            Mira más información sobre Verse y únete conmigo 🤗💫
                         </Link>
-                        <p className="text-justify ">
-                            Recuerda poner el código: BJNQ8R en el apartado de cuenta y promoción,
-                            porque por el contrario no podrá ganar 5€ gratis.
-                            Le recomiendo mucho esta app, porque sirve para tu día a día, puedes pagar a tus amigos, 
-                            ganar dinero con trivials, crear grupos y mucho más 😍😍
+                        <p className="text-justify">
+                            Recuerda poner mi código: BJNQ8R en el apartado de Cuenta/Promoción,
+                            porque por el contrario no podrás ganar 5€ gratis.
+                            Recomiendo mucho esta app, porque sirve para tu día a día, puedes pagar a tus amigos, 
+                            ganar dinero con juegos divertidos y mentales también, crear grupos y mucho más 😍😍
                         </p>
+                        <div className="alert alert-info">
+                            Hace poco sacaron una nueva función, con la que podremos ahorrar dinero ya sea para viajes, comprar productos, etc.
+                            Se llama "Verse Wallets" y puedes pasar dinero de tu cuenta de Verse a un fondo, 
+                            para que puedas ahorrar para eso que tanto quieres 🤯👏
+                        </div>
                     </div>
                 </div>
 
                 <div className="zelf card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="zelf">✅ Zelf: Banco por aplicaciones de mensajería 🤯</h3>
+                        <h3 className="h4 card-title text-danger" id="zelf">🤑 Zelf: Banco por aplicaciones de mensajería 🤯</h3>
                         <p className="card-text">
                             Zelf es un banco mega-rápido a través de aplicaciones de mensajería, como pueden ser
                             (Whatsapp, Telegram, Facebook Messenger), con el que podremos obtener una tarjeta virtual con 5€ gratis al unirnos.
