@@ -82,32 +82,6 @@ export const BanksArticle = () => {
                     </div>
                 </div>
 
-                <div className="plazo card mb-3">
-                    <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="plazo">💳 Plazo: Banco online sin comisiones y con descuentos 💸</h3>
-                        <p className="card-text">
-                            Es un banco online que ha salido hace poco y que nos ofrece una cuenta bancaria sin comisiones, 
-                            tarjeta virtual y física gratuita de débito. Y la mejor ventaja por la que abrirse cuenta en Plazo es que
-                            dan hasta 30€ al mes por comprar en todos los supermercados (válido 90 días después de activar la tarjeta).
-                            <br /><br />
-                            Además en poco tiempo sacarán que por pagar algunos comercios que forman de su programa de ofertas, dan descuentos 🤗
-                        </p>
-                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/plazoCR"  rel="noopener noreferrer">
-                            Mira más información sobre Plazo y descargala para Android e iOS 🤗
-                        </a>
-                        <p className="text-justify">
-                            Abrir la cuenta es muy sencillo, solo se necesita especificar el e-mail y contraseña, 
-                            número de teléfono para asociarlo a la cuenta por si hay algún problema, clave de acceso para acceder fácilmente 
-                            y finalmente verificar la cuenta con la documentación.
-                            <br /><br />
-                            Al hacer esto ya solo tienes que introducir mi código: UF4E06 en el apartado que dice "Código Promocional" y 
-                            luego aparecerá una ventana en la que dice "¡Código Promocional aplicado correctamente! y 
-                            tienes 6 días para hacer la primera compra de 20€ y recibir 10€ GRATIS (esto según los días desde que abriste la cuenta)" 
-                            y lo que queda sería ingresar dinero a la cuenta 💡✅
-                        </p>
-                    </div>
-                </div>
-
                 <div className="verse card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title text-danger" id="verse-app">🦄 Verse App: La mejor plataforma de pagos móviles 💳</h3>
@@ -135,6 +109,32 @@ export const BanksArticle = () => {
                             Se llama "Verse Wallets" y puedes pasar dinero de tu cuenta de Verse a un fondo, 
                             para que puedas ahorrar para eso que tanto quieres 🤯👏
                         </div>
+                    </div>
+                </div>
+
+                <div className="plazo card mb-3">
+                    <div className="card-body">
+                        <h3 className="h4 card-title text-danger" id="plazo">💳 Plazo: Banco online sin comisiones y con descuentos 💸</h3>
+                        <p className="card-text">
+                            Es un banco online que ha salido hace poco y que nos ofrece una cuenta bancaria sin comisiones, 
+                            tarjeta virtual y física gratuita de débito. Y la mejor ventaja por la que abrirse cuenta en Plazo es que
+                            dan hasta 30€ al mes por comprar en todos los supermercados (válido 90 días después de activar la tarjeta).
+                            <br /><br />
+                            Además en poco tiempo sacarán que por pagar algunos comercios que forman de su programa de ofertas, dan descuentos 🤗
+                        </p>
+                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/plazoCR"  rel="noopener noreferrer">
+                            Mira más información sobre Plazo y descargala para Android e iOS 🤗
+                        </a>
+                        <p className="text-justify">
+                            Abrir la cuenta es muy sencillo, solo se necesita especificar el e-mail y contraseña, 
+                            número de teléfono para asociarlo a la cuenta por si hay algún problema, clave de acceso para acceder fácilmente 
+                            y finalmente verificar la cuenta con la documentación.
+                            <br /><br />
+                            Al hacer esto ya solo tienes que introducir mi código: UF4E06 en el apartado que dice "Código Promocional" y 
+                            luego aparecerá una ventana en la que dice "¡Código Promocional aplicado correctamente! y 
+                            tienes 6 días para hacer la primera compra de 20€ y recibir 10€ GRATIS (esto según los días desde que abriste la cuenta)" 
+                            y lo que queda sería ingresar dinero a la cuenta 💡✅
+                        </p>
                     </div>
                 </div>
 

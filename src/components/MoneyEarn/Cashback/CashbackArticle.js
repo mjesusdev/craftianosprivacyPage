@@ -34,7 +34,7 @@ export const CashbackArticle = () => {
                             es una de las mejores plataforma de cashback (con VARIOS COMPROBANTES y La Reseña MAS Completa) 🎉
                         </p>
                         <Link 
-                            className="btn btn-outline-success mb-4" 
+                            className="btn btn-outline-success d-grid mb-4" 
                             exact 
                             to="/letyshops/" 
                             title="Mira más información de LetyShops">
@@ -62,7 +62,7 @@ export const CashbackArticle = () => {
                             🎁 La pongo segunda porque últimamente me está gustando mucho Picodi y no he tenido ningún problema hasta ahora,
                             ya que el mínimo es de 5€ y se llega rápido, invitando amigos, etc.
                         </p>
-                        <a className="btn btn-outline-success" href="https://acortar.link/picodiCR" target="_blank"
+                        <a className="btn btn-outline-success d-grid" href="https://acortar.link/picodiCR" target="_blank"
                             rel="noopener noreferrer" title="Únete a Picodi y obtén 4€ TOTALMENTE Gratis">
                                 Únete a Picodi y obtén 4€ TOTALMENTE Gratis + CASHBACK MÁS ALTOS 🤑
                         </a>
@@ -90,7 +90,7 @@ export const CashbackArticle = () => {
                             <b>mejores PLATAFORMAS 💡</b> y también los METODOS DE PAGO 💳 , te ENCANTARÁ 😍
                         </p>
                         <Link 
-                            className="btn btn-outline-success mb-4"
+                            className="btn btn-outline-success d-grid mb-4"
                             exact
                             to="/igraal/" 
                             title="Mira más información de iGraal">
@@ -118,7 +118,7 @@ export const CashbackArticle = () => {
                             <br />
                         </p>
                         <Link 
-                            className="btn btn-outline-success mb-4"
+                            className="btn btn-outline-success d-grid mb-4"
                             exact
                             to="/widilo/"
                             title="Mira más información de Widilo">
@@ -137,7 +137,7 @@ export const CashbackArticle = () => {
                             <br /><br />
                             🚀 Pero antes de eso, os dejo por aquí una reseña completa de un compañero que ya la ha probado y que la verdad está MUY BIEN 🤗
                         </p>
-                        <a className="btn btn-outline-success" href="https://tudinerito.com/ganar-dinero-cashback/cashbackxl/" target="_blank"
+                        <a className="btn btn-outline-success d-grid" href="https://tudinerito.com/ganar-dinero-cashback/cashbackxl/" target="_blank"
                             rel="noopener noreferrer" title="Mira la reseña de TuDinerito de CashbackXL">
                             Mira la reseña de TuDinerito de CashbackXL 🤗💙 | Te va a GUSTAR, pulsame 🎁
                         </a>
@@ -155,7 +155,7 @@ export const CashbackArticle = () => {
                             a parte de esto, próximamente os traeré MI RESEÑA de Beruby con el COMPROBANTE de PAGO,
                             mientras puedes registrarte y mirar más información, haciendo click abajo 👇
                         </p>
-                        <a className="btn btn-outline-success" href="https://bit.ly/berubyCR" target="_blank"
+                        <a className="btn btn-outline-success d-grid" href="https://bit.ly/berubyCR" target="_blank"
                             rel="noopener noreferrer" title="Haz tu primera compra y obtén 5€ gratis">
                                 Haz tu primera compra y obtén 5€ gratis 🤑 | Múltiples OPCIONES para Ganar MÁS CASHBACK
                         </a>

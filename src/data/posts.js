@@ -31,17 +31,7 @@ export const posts = [{
     date: 'Publicado el 02/12/2020'
 },
 {
-    id: 3,  
-    title: 'Robin Rover: Gana DINERO por ceder tus datos de compra',
-    description: `Con Robin Rover puedes recibir dinero por ceder tus datos de compra, 
-        ya que el consumidor debería de recibir una compensación por venderse sus datos. <br /><br />
-        Entra aquí 👋 y empieza a recibir el dinero que deberías de obtener.`,
-    image: '../img/robin-rover/image.png',
-    link: '/robin-rover/',
-    date: 'Publicado el 04/10/2020'
-},
-{
-    id: 4,
+    id: 3,
     title: 'Promos App: Recibe dinero por comprar en supermercados',
     description: `Promos es una app con la que podemos ganar dinero por hacer la compra en nuestros supermercados favoritos. 
         ¿A qué esperas para recibir dinero por hacer la compra?`,
@@ -50,7 +40,7 @@ export const posts = [{
     date: 'Publicado el 04/10/2020'
 },
 {
-    id: 5,   
+    id: 4,   
     title: 'Widilo: Compras en tiendas online y recibe cashback | 5€ gratis',
     description: `Widilo es otra de las mejores plataformas de cashback, con la que obtendremos 5€ GRATIS
         al realizar nuestra primera compra, sin mínimo.`,
@@ -59,7 +49,7 @@ export const posts = [{
     date: 'Publicado el 20/09/2020'
 },
 {
-    id: 6,  
+    id: 5,  
     title: 'SmartmeApp - Encuestas cortas y mucho más 👏',
     description: `Smartme App es una aplicación multiplataforma, con la que podremos realizar
         encuestas cortas, tenerla abierta en segundo plano, invitar a amigos y recibir cashback con el club smartme.`,
@@ -68,7 +58,7 @@ export const posts = [{
     date: 'Publicado el 09/09/2020'
 },
 {
-    id: 7,  
+    id: 6,  
     title: 'LetyShops - Plataforma de cashback (De las mejores) 🤯',
     description: `Letyshops es una plataforma de cashback, con la que nos devolverá dinero por realizar compras en más de 2.000 tiendas online, 
         si se registra hoy, podrá ganar 5€ gratis al hacer su primera compra de 20€.`,
@@ -77,7 +67,7 @@ export const posts = [{
     date: 'Publicado el 09/09/2020'
 },
 {
-    id: 8, 
+    id: 7, 
     title: 'YouGov - Encuestas cortas y canjeo en cupones de Amazon',
     description: `YouGov es de la mejor plataforma de encuestas online, está disponible para todo el mundo.
         Con compartir nuestra opinión en diferentes estudios, podemos ganar 25€ en cupones de Amazon y 50€.
