@@ -1,3 +1,4 @@
+/* SwitchDark SCSS */
 .switch {
     background: #343d5b;
     border-radius: 1000px;
@@ -28,13 +29,13 @@
 }
 
 .switch.active {
-    background: #f4a261;
-    color: #000
+    background: $warning;
+    color: #000;
 }
 
 .switch.active::after {
     right: 0;
-    left: unset
+    left: unset;
 }
 
 .switch span {
@@ -43,5 +44,5 @@
     line-height: 30px;
     display: block;
     background: 0 0;
-    color: #fff
+    color: #fff;
 }
