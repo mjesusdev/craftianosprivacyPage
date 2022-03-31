@@ -15,7 +15,7 @@ export const CashbackArticle = () => {
 
                 <div className="letyshops card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="lety">🏅 LetyShops: La mejor plataforma de cashback 💸 | Opiniones y Varios Comprobantes</h3>
+                        <h3 className="h4 card-title" id="lety">🏅 LetyShops: La mejor plataforma de cashback 💸 | Opiniones y Varios Comprobantes</h3>
                         <p className="card-text">
                             Plataforma de cashback, con la nos devolverán un % de una compra
                             en cualquier tienda que este disponible en la plataforma.
@@ -45,7 +45,7 @@ export const CashbackArticle = () => {
 
                 <div className="picodi card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger">🥇 Picodi: Cashback MÁS ALTOS que la Competencia | NUEVA PLATAFORMA 🆕</h3>
+                        <h3 className="h4 card-title">🥇 Picodi: Cashback MÁS ALTOS que la Competencia | NUEVA PLATAFORMA 🆕</h3>
                         <p className="text-justify">
                             Picodi es una NUEVA plataforma de CASHBACK que ha "aterrizado" en España, además está disponible en otros países como: 
                             Chile, Colombia, México, Perú y Argentina, aunque entiendo que en otros países puede estar disponible, 
@@ -71,7 +71,7 @@ export const CashbackArticle = () => {
 
                 <div className="igraal card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="iGraal">🥈 iGraal: Descuentos TODOS LOS DIAS Y 10% Ganancias De Amigos De Por Vida</h3>
+                        <h3 className="h4 card-title" id="iGraal">🥈 iGraal: Descuentos TODOS LOS DIAS Y 10% Ganancias De Amigos De Por Vida</h3>
                         <p className="card-text">
                             iGraal es otra de las mejores plataformas de cashback, ya que al invitar a un amigo,
                             cada uno GANA 3€ totalmente GRATIS y además el recomendador RECIBE 
@@ -101,7 +101,7 @@ export const CashbackArticle = () => {
 
                 <div className="widilo card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger">🥉 Widilo: Recibe 3€ + 1€ por descargar la extensión 💸</h3>
+                        <h3 className="h4 card-title">🥉 Widilo: Recibe 3€ + 1€ por descargar la extensión 💸</h3>
                         <p className="text-justify">
                             Widilo es otra de las plataformas de cashback, con la que obtendremos 3€
                             totalmente gratuitos al realizar nuestra primera compra, sin mínimo, además del 1€ por descargar la extensión
@@ -129,7 +129,7 @@ export const CashbackArticle = () => {
 
                 <div className="cashbackxl card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger">🆕 CashbackXL: NUEVA PLATAFORMA DE CASHBACK | En Revisión</h3>
+                        <h3 className="h4 card-title">🆕 CashbackXL: NUEVA PLATAFORMA DE CASHBACK | En Revisión</h3>
                         <p className="text-justify">
                             Por ahora no puedo decir mucho de esta nueva plataforma que hace POCO ha "aterrizado" aquí en España,
                             pero por resumir un poco es que desde CashbackXL, dicen DEVOLVER MÁS DINERO que en OTRAS PLATAFORMAS, es decir
@@ -146,7 +146,7 @@ export const CashbackArticle = () => {
 
                 <div className="beruby card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger">✅ Beruby: Otra plataforma complementaria 💸</h3>
+                        <h3 className="h4 card-title">✅ Beruby: Otra plataforma complementaria 💸</h3>
                         <p className="text-justify">
                             Otra de las plataformas de cashback, 
                             con la al hacer tu primera compra en los primeros 7 días desde que te registraste te regalan 5€ totalmente gratis.
@@ -165,7 +165,7 @@ export const CashbackArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h2 className="h5 text-danger">👑 ¿Qué es el cashback? | Definición y Tips </h2>
+                        <h2 className="h5 card-title">👑 ¿Qué es el cashback? | Definición y Tips </h2>
                         <p className="text-justify">
                             Una compra con cashback es <i><strong>recibir una pequeña parte de lo que hemos gastado en cualquier
                             compra ONLINE. </strong></i> <br /> <br />

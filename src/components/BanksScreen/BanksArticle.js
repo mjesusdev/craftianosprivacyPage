@@ -15,7 +15,7 @@ export const BanksArticle = () => {
 
                 <div className="vivid-money card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="vivid-money">🥇 Vivid Money: El Banco que devuelve dinero 💸</h3>
+                        <h3 className="h4 card-title" id="vivid-money">🥇 Vivid Money: El Banco que devuelve dinero 💸</h3>
                         <p className="card-text">
                             Vivid Money es un neobanco alemán, el cual tiene muchas ventajas frente a los tradicionales o incluso a otros bancos online, 
                             porque este ofrece 1 Mes de SUPERVENTAJAS con las que puedes ganar dinero 
@@ -37,7 +37,7 @@ export const BanksArticle = () => {
 
                 <div className="rebellion card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="rebellion">🥈 Rebellion: El banco de los jóvenes y no tanto 😅</h3>
+                        <h3 className="h4 card-title" id="rebellion">🥈 Rebellion: El banco de los jóvenes y no tanto 😅</h3>
                         <p className="card-text">
                             Con Rebellion puedes abrir una cuenta desde los 14 años 
                             (siempre con la autorización de los padres y/o tutores legales)
@@ -62,7 +62,7 @@ export const BanksArticle = () => {
 
                 <div className="n26 card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="n26">🥉 N26: Banco online sin comisiones 🔴</h3>
+                        <h3 className="h4 card-title" id="n26">🥉 N26: Banco online sin comisiones 🔴</h3>
                         <p className="card-text">
                             Banco móvil con el que podremos tener nuestra cuenta bancaria, con IBAN Español,
                             obtener una tarjeta de débito gratuita (Virtual y Física) y la posibilidad de retirar 5 veces 
@@ -84,7 +84,7 @@ export const BanksArticle = () => {
 
                 <div className="verse card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="verse-app">🦄 Verse App: La mejor plataforma de pagos móviles 💳</h3>
+                        <h3 className="h4 card-title" id="verse-app">🦄 Verse App: La mejor plataforma de pagos móviles 💳</h3>
                         <p className="card-text enlaces">
                             <b>Verse App es una aplicación de pagos móviles instántaneos (disponible en Android e iOS)</b>,
                             con la que podremos enviar DINERO a amigos, familiares o conocidos, totalmente rápido y sin ninguna comisión. 
@@ -114,7 +114,7 @@ export const BanksArticle = () => {
 
                 <div className="plazo card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="plazo">💳 Plazo: Banco online sin comisiones y con descuentos 💸</h3>
+                        <h3 className="h4 card-title" id="plazo">💳 Plazo: Banco online sin comisiones y con descuentos 💸</h3>
                         <p className="card-text">
                             Es un banco online que ha salido hace poco y que nos ofrece una cuenta bancaria sin comisiones, 
                             tarjeta virtual y física gratuita de débito. Y la mejor ventaja por la que abrirse cuenta en Plazo es que
@@ -140,7 +140,7 @@ export const BanksArticle = () => {
 
                 <div className="zelf card mb-3">
                     <div className="card-body">
-                        <h3 className="h4 card-title text-danger" id="zelf">🤑 Zelf: Banco por aplicaciones de mensajería 🤯</h3>
+                        <h3 className="h4 card-title" id="zelf">🤑 Zelf: Banco por aplicaciones de mensajería 🤯</h3>
                         <p className="card-text">
                             Zelf es un banco mega-rápido a través de aplicaciones de mensajería, como pueden ser
                             (Whatsapp, Telegram, Facebook Messenger), con el que podremos obtener una tarjeta virtual con 5€ gratis al unirnos.
@@ -158,7 +158,7 @@ export const BanksArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
+                        <h2 className="h5 card-title">⚡IMPORTANTE⚡</h2>
                         <p className="text-justify">
                             Si teneís alguna pregunta, o alguna duda sobre esto o en general,
                             me podeís escribir en mis redes sociales:

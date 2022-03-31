@@ -7,7 +7,7 @@ export const NothingArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-7 mt-2 article">
-                <h1 className="h4 text-danger mb-4" id="ingresos-pasivos">
+                <h1 className="h4 text-success mb-4" id="ingresos-pasivos">
                     🤠 ¿Ganar Ingresos Pasivos sin hacer nada?
                 </h1>
 

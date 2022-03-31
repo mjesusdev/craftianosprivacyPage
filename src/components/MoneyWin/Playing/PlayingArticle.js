@@ -7,7 +7,7 @@ export const PlayingArticle = () => {
         <>
             {/* <div className="col col-md-3"></div> */}
             <div className="col-12 col-md-7 mt-2 article">
-                <h1 className="h4 text-danger mb-4">Diviértete jugando y ganando dinero extra ✅ </h1>
+                <h1 className="h4 text-success mb-4">Diviértete jugando y ganando dinero extra ✅ </h1>
                 <h2 class="h4 text-success mb-4">Ganar dinero por internet jugando juegos 🎮</h2>
                 <p class="text-justify">
                     En esta sección os hablo de otra manera de generar ingresos extras, 

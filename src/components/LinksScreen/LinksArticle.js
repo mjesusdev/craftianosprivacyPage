@@ -9,7 +9,7 @@ export const LinksArticle = () => {
                 <div className="card">
                     <div className="card-body">
                         <h1 className="h4 text-success mb-4">Enlaces de @craftianosmoney</h1>
-                        <h2 className="h5 text-danger">Plataformas de Encuestas 📗</h2>
+                        <h2 className="h5 card-title">Plataformas de Encuestas 📗</h2>
                         <ul className="enlaces encuestas">
                             <li className="">
                                 I-Say: 
@@ -51,7 +51,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                         </ul>
-                        <h3 className="h6 text-danger">Apps de Encuestas (Disponible en Android & iOS)</h3>
+                        <h3 className="h6 card-title">Apps de Encuestas (Disponible en Android & iOS)</h3>
                         <ul className="enlaces encuestas">
                             <li className="">
                                 AttaPoll:
@@ -72,7 +72,7 @@ export const LinksArticle = () => {
                                 </Link>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Plataformas de Cashback 🛒</h2>
+                        <h2 className="h5 card-title">Plataformas de Cashback 🛒</h2>
                         <ul className="enlaces cashback">
                             <li className="">
                                 LetyShops: 
@@ -124,7 +124,7 @@ export const LinksArticle = () => {
                                 por lo que también podemos recibir cashback por nuestras compras, teneís el link arriba ☝☝😍
                             </div>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO por TICKETS DE SUPERMERCADO 🛒</h2>
+                        <h2 className="h5 card-title">Ganar DINERO por TICKETS DE SUPERMERCADO 🛒</h2>
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Promos App:
@@ -155,7 +155,7 @@ export const LinksArticle = () => {
                                 pero el inconveniente es que ACTUALMENTE no recogen USUARIOS NUEVOS 😓
                             </div>
                         </ul>
-                        <h2 className="h5 text-danger">Promociones ACTUALES 💎 | Bancos Online 🏦</h2>
+                        <h2 className="h5 card-title">Promociones ACTUALES 💎 | Bancos Online 🏦</h2>
                         <ul className="enlaces bancos-online">
                             <li className="">
                                 N26 💫 :
@@ -194,7 +194,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO HACIENDO MULTIPLES COSAS 😃</h2>
+                        <h2 className="h5 card-title">Ganar DINERO HACIENDO MULTIPLES COSAS 😃</h2>
                         <ul className="enlaces list-custom">
                             <li className="">
                                 ClipClaps:
@@ -211,7 +211,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Ahorra dinero compartiendo suscripciones a servicios</h2>
+                        <h2 className="h5 card-title">Ahorra dinero compartiendo suscripciones a servicios</h2>
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Together Price:
@@ -224,7 +224,7 @@ export const LinksArticle = () => {
                                 hasta licencia de Office <br />(Hay un sinfín de grupos en los que unirse 🥇)
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO CAMINANDO (Haciendo Pasos)</h2>
+                        <h2 className="h5 card-title">Ganar DINERO CAMINANDO (Haciendo Pasos)</h2>
                         <ul className="enlaces ganar-caminando">
                             <li>
                                 WeWard:
@@ -234,7 +234,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Ganar DINERO Sin Hacer Nada (NO LO RECOMIENDO)</h2>
+                        <h2 className="h5 card-title">Ganar DINERO Sin Hacer Nada (NO LO RECOMIENDO)</h2>
                         <ul className="enlaces">
                             <li className="">
                                 ACTUALMENTE ya no recomiendo HoneyGain porque es MUY POCO rentable 🤯
@@ -252,7 +252,7 @@ export const LinksArticle = () => {
                                 (pero VPN segura no de las que trafican con tus datos xd 🤬)
                             </div>
                         </ul>
-                        <h2 className="h5 text-danger">Ahorra y gana dinero con tus amigos 😎</h2>
+                        <h2 className="h5 card-title">Ahorra y gana dinero con tus amigos 😎</h2>
                         <ul className="enlaces">
                             <li className="">
                                 Plum:
@@ -261,12 +261,12 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                         </ul>
-                        <h2 className="h5 text-danger">Gana Dinero Gratis | Gana Cryptos 💸</h2>
+                        <h2 className="h5 card-title">Gana Dinero Gratis | Gana Cryptos 💸</h2>
                         <p className="text-justify">
                             Otra forma de ganar dinero es con las criptomonedas, ya que puedes llegar a conseguir mucho beneficio,
                             si sabes del tema. Aquí os dejo algunas páginas o bots para ganarlas gratis.
                         </p>
-                        <h3 className="h6 text-danger">Faucets ✅</h3>
+                        <h3 className="h6 card-title">Faucets ✅</h3>
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Faucet Crypto
@@ -306,7 +306,7 @@ export const LinksArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
+                        <h2 className="h5 card-title">⚡IMPORTANTE⚡</h2>
                         <p className="text-justify">
                             Si teneís alguna pregunta, o alguna duda sobre esto o en general,
                             me podeís escribir en mis redes sociales:
