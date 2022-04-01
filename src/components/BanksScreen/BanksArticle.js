@@ -6,8 +6,8 @@ export const BanksArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 article">
-                <h1 className="h3 text-success d-grid mb-4">Bancos móviles y pagos 🏦</h1>
-                <h2 className="h4 text-success">Mejores bancos online sin comisiones ✅</h2>
+                <h1 className="h3 text-primary d-grid mb-4">Bancos móviles y pagos 🏦</h1>
+                <h2 className="h4 text-primary">Mejores bancos online sin comisiones ✅</h2>
                 <p className="text-justify">
                     En esta sección os especifico cuales son los mejores bancos online, sin comisiones, sin tener que asociar la nómina,
                     además os explico como abrirse cuentas en todos ellos y mi opinión 🤗 (con mucho tiempo usandolo cada uno)

@@ -20,13 +20,13 @@ body {
 }
 
 .btn-outline-success {
-    color: $secondary !important;
-    border-color: $secondary-hover !important;
+    color: $primary !important;
+    border-color: $primary-hover !important;
     text-decoration: none;
     
     &:hover, &:active {
-        background: $secondary-hover !important;
-        color: $primary !important;
+        background: $primary-hover !important;
+        color: $light !important;
     }
 }
 
@@ -39,11 +39,7 @@ body {
         color: $footerLnk !important;
         
         &:hover {
-            color: $secondary-hover !important;
+            color: $primary-hover !important;
         }
     }
-}
-
-.text-success {
-    color: $secondary !important;
 }

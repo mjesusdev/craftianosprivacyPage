@@ -10,9 +10,9 @@ export const AboutArticle = () => {
                         <li className="breadcrumb-item active" aria-current="page">Redes Sociales</li>
                     </ol>
                 </nav> */}
-                <h1 className="h4 text-success mb-3">🥇 Mis Redes Sociales 📲</h1>
+                <h1 className="h4 text-primary mb-3">🥇 Mis Redes Sociales 📲</h1>
                 <figure className="figure">
-                    <h2 className="h5 text-success">✅ Instagram</h2>
+                    <h2 className="h5 text-primary">✅ Instagram</h2>
                     <a href="https://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconInstagram.webp" 
                             className="figure-img img-fluid rounded mt-2 iconInstagram" alt="Icono de Instagram"/>
@@ -24,7 +24,7 @@ export const AboutArticle = () => {
                 </figure>
                 <hr/>
                 <figure className="figure">
-                    <h2 className="h5 text-success">🐦 Twitter</h2>
+                    <h2 className="h5 text-primary">🐦 Twitter</h2>
                     <a href="https://bit.ly/twCraftianos" className="twitter-follow-button" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconTwitter.webp" className="figure-img img-fluid rounded mt-2 iconTwitter" 
                             alt="Icono de Twitter" /> 
@@ -37,7 +37,7 @@ export const AboutArticle = () => {
                 </figure>
                 <hr />
                 <figure className="figure">
-                    <h2 className="h5 text-success">✅ TikTok</h2>
+                    <h2 className="h5 text-primary">✅ TikTok</h2>
                     <a href="https://bit.ly/tiktokCR" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconTiktok.webp" 
                             className="figure-img img-fluid rounded mt-2 iconTiktok" alt="Icono de Tiktok"/>
@@ -49,7 +49,7 @@ export const AboutArticle = () => {
                 </figure>
                 <hr />
                 <figure className="figure">
-                    <h2 className="h5 text-success">📘 Peoople</h2>
+                    <h2 className="h5 text-primary">📘 Peoople</h2>
                     <a href="https://bit.ly/peoopleCR" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconPeoople.webp" 
                             className="figure-img img-fluid rounded mt-2 iconPeoople" alt="Icono de Peoople" />

@@ -6,8 +6,8 @@ export const WidiloArticle = () => {
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
                 {/* //* Modificar estructura web xd */ }
-                <h1 className="h3 text-success mb-4">Widilo 🎁 - Recibe dinero haciendo compras online</h1>
-                <h2 className="h4 text-success mb-4">Beneficios por comprar con Widilo</h2>
+                <h1 className="h3 text-primary mb-4">Widilo 🎁 - Recibe dinero haciendo compras online</h1>
+                <h2 className="h4 text-primary mb-4">Beneficios por comprar con Widilo</h2>
                 <p className="text-justify enlaces">
                     Widilo es otra de las mejores plataformas de cashback, con la que obtendremos 5€ totalmente gratuitos 
                     al realizar nuestra primera compra, sin mínimo. <br/><br/>

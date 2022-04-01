@@ -5,8 +5,8 @@ export const HoneyGainArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">🐝 HoneyGain</h1>
-                <h2 className="h4 text-success mb-4">🤑 Gana dinero sin hacer nada, compartiendo internet 🔥</h2>
+                <h1 className="h3 text-primary mb-4">🐝 HoneyGain</h1>
+                <h2 className="h4 text-primary mb-4">🤑 Gana dinero sin hacer nada, compartiendo internet 🔥</h2>
                 <p className="text-justify">
                     HoneyGain es un servicio con el que podemos ganar dinero compartiendo una pequeña parte del internet que no usamos,
                     está disponible en todos los países, en todo el mundo 🤗 <br /><br />

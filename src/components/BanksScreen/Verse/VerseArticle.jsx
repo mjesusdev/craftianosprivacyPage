@@ -5,8 +5,8 @@ export const VerseArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">🏅 Verse App: La Mejor App de Pagos Del Mercado 💙🌎</h1>
-                <h2 className="h4 text-success mb-4">🦄 Gana 5€ rápido, participa en promociones y Mucho MÁS 💫</h2>
+                <h1 className="h3 text-primary mb-4">🏅 Verse App: La Mejor App de Pagos Del Mercado 💙🌎</h1>
+                <h2 className="h4 text-primary mb-4">🦄 Gana 5€ rápido, participa en promociones y Mucho MÁS 💫</h2>
                 <p className="text-justify">
                     <b>Verse es una app de pagos como alternativa a BIZUM y MUCHO mejor 🤗</b>, 
                     la gran diferencia es que BIZUM es un servicio de ofrece los bancos Españoles y Verse una app independiente, 

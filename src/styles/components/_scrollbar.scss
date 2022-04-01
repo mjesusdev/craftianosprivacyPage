@@ -4,9 +4,9 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: $secondary;
+    background: $primary;
     border-radius: 10px;
-    border-right: 2px solid $secondary;
+    border-right: 2px solid $primary;
 }
 
 .go-up {
@@ -16,7 +16,7 @@ body::-webkit-scrollbar-thumb {
     width: 45px;
     height: 45px;
     border-radius: 60%;
-    background: $secondary;
+    background: $primary;
     margin-top: -5%;
     cursor: pointer;
     position: fixed;

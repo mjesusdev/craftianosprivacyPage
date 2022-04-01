@@ -8,7 +8,7 @@ export const LinksArticle = () => {
             <div className="col-12 col-md-6 article">
                 <div className="card">
                     <div className="card-body">
-                        <h1 className="h4 text-success mb-4">Enlaces de @craftianosmoney</h1>
+                        <h1 className="h4 text-primary mb-4">Enlaces de @craftianosmoney</h1>
                         <h2 className="h5 card-title">Plataformas de Encuestas 📗</h2>
                         <ul className="enlaces encuestas">
                             <li className="">

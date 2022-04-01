@@ -5,8 +5,8 @@ export const IpsosIsayArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">📙 Ipsos Isay</h1>
-                <h2 className="h4 text-success mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
+                <h1 className="h3 text-primary mb-4">📙 Ipsos Isay</h1>
+                <h2 className="h4 text-primary mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
                 <p className="text-justify">
                     Ipsos Isay es una plataforma de encuestas que te permite publicar tu opinión 
                     y recibir dinero extra en premios como:

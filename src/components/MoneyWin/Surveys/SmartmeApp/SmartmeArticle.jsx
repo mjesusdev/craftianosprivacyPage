@@ -5,8 +5,8 @@ export const SmartmeArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">SmartmeApp</h1>
-                <h2 className="h4 text-success mb-4">🤑 Responde encuestas cortas y gana dinero</h2>
+                <h1 className="h3 text-primary mb-4">SmartmeApp</h1>
+                <h2 className="h4 text-primary mb-4">🤑 Responde encuestas cortas y gana dinero</h2>
                 <p className="text-justify">
                     Smartme App es una aplicación de investigación de mercados de la compañía SMART ANALYTICS S.L,
                     está disponible en la Play Store (Android) y App Store (iOS). <br /> <br />

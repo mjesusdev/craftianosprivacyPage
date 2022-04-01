@@ -6,8 +6,8 @@ export const VividArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">Vivid Money 💜 - El banco que devuelve dinero 🥰</h1>
-                <h2 className="h4 text-success mb-4">Únete y gana 10€ de registro y mucho cashback 🤯</h2>
+                <h1 className="h3 text-primary mb-4">Vivid Money 💜 - El banco que devuelve dinero 🥰</h1>
+                <h2 className="h4 text-primary mb-4">Únete y gana 10€ de registro y mucho cashback 🤯</h2>
                 <p className="text-justify">
                     Vivid Money es un neobanco alemán al igual que N26, tiene muchas ventajas frente a este y otros,
                     porque ofrece 3 meses de PREMIUM al momento de abrir una cuenta ⚡ y un mes para disfrutar del cashback Prime,
@@ -31,7 +31,7 @@ export const VividArticle = () => {
                     no de las SUPER ventajas (Las cuales actualizan todos los meses, ahora mismo está disponible para Lidl, Carrefour, etc).
                 </div>
 
-                <h3 className="h5 text-success mb-4">🔥 SUPERVENTAJAS en Vivid Money 💜</h3>
+                <h3 className="h5 text-primary mb-4">🔥 SUPERVENTAJAS en Vivid Money 💜</h3>
                 <p className="text-justify">
                     Las ventajas por las que usted puede obtener al registrarse a través de mi enlace de referido son: 🥳
                 </p>
@@ -82,7 +82,7 @@ export const VividArticle = () => {
                     es una ventaja de la que solo Vivid tiene, y digo solo porque si lo comparamos con otros bancos, estos no lo tienen 😢
                 </div>
 
-                <h3 className="h5 text-success mb-4">🔥 ALGUNAS de las SUPER VENTAJAS 💸</h3>
+                <h3 className="h5 text-primary mb-4">🔥 ALGUNAS de las SUPER VENTAJAS 💸</h3>
                 <p className="text-justify">
                     Estas son algunas de las tiendas que PUEDEN salir en las SUPER VENTAJAS.
 

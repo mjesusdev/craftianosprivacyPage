@@ -5,8 +5,8 @@ export const MarketAgentArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">📙 MarketAgent</h1>
-                <h2 className="h4 text-success mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
+                <h1 className="h3 text-primary mb-4">📙 MarketAgent</h1>
+                <h2 className="h4 text-primary mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
                 <p className="text-justify">
                     MarketAgent es un panel de encuestas renumeradas, disponible en casi todos los países del mundo.
                     Con esta plataforma compartimos nuestra opinión totalmente relevante y a cambio, podemos ganar dinero en:

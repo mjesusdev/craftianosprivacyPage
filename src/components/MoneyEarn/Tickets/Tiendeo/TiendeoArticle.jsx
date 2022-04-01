@@ -5,8 +5,8 @@ export const TiendeoArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">Tiendeo 🎁 - Recibe cashback por tickets de supermercado</h1>
-                <h2 className="h4 text-success mb-4">Gana dinero comprando tus productos favoritos 💖</h2>
+                <h1 className="h3 text-primary mb-4">Tiendeo 🎁 - Recibe cashback por tickets de supermercado</h1>
+                <h2 className="h4 text-primary mb-4">Gana dinero comprando tus productos favoritos 💖</h2>
                 <p className="text-justify enlaces">
                     Tiendeo es una página web, en la que podemos encontrar los catálogos de los establecimientos 
                     cerca de nuestro domicilio, descuentos y cashback. <br/>

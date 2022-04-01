@@ -6,8 +6,8 @@ export const CashbackArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">🎁 Plataformas de Cashback 💸</h1>
-                <h2 className="h4 text-success mb-4">✨ Recibe dinero por compras ONLINE ✨</h2>
+                <h1 className="h3 text-primary mb-4">🎁 Plataformas de Cashback 💸</h1>
+                <h2 className="h4 text-primary mb-4">✨ Recibe dinero por compras ONLINE ✨</h2>
                 <p className="text-justify">
                     En esta sección os dejo algunas páginas con las que ganar dinero realizando compras online y mi SINCERA Opinión de cada una,
                     con el Comprobante de Pago y MUCHO MÁS 🤗🎁

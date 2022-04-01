@@ -5,11 +5,11 @@
     }
 
     a {
-        color: $secondary !important;
+        color: $primary !important;
         text-decoration: none;
         
         &:hover, &:active {
-            color: $secondary-hover !important;
+            color: $primary-hover !important;
         }
     }
 

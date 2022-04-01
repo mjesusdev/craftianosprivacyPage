@@ -6,8 +6,8 @@ export const TicketsArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">💸 Apps para ahorrar con tickets 💡</h1>
-                <h2 className="h4 text-success mb-4">👑 Recibe dinero por tickets de supermercado ✅</h2>
+                <h1 className="h3 text-primary mb-4">💸 Apps para ahorrar con tickets 💡</h1>
+                <h2 className="h4 text-primary mb-4">👑 Recibe dinero por tickets de supermercado ✅</h2>
                 <p className="text-justify">
                     En esta sección os enseño como ganar dinero o ahorrar por hacer la compra en cualquier supermercado 🥰,
                     además de dar mi opinión sobre las apps, que permiten esto 🤗

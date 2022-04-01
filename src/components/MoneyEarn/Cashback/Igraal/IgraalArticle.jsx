@@ -5,8 +5,8 @@ export const IgraalArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">Igraal 🎁 - Recibe dinero haciendo compras online</h1>
-                <h2 className="h4 text-success mb-4">Aumentos de cashback ¡TODOS LOS DIAS! 🤩</h2>
+                <h1 className="h3 text-primary mb-4">Igraal 🎁 - Recibe dinero haciendo compras online</h1>
+                <h2 className="h4 text-primary mb-4">Aumentos de cashback ¡TODOS LOS DIAS! 🤩</h2>
                 <p className="text-justify">
                     iGraal es una plataforma de cashback, creada en 2006 en Francia y lleva 10 años en el mercado,
                     con más de 6 millones de usuarios. Consiguiendo ser nº 1 en Francia y nº 2 en Alemania.

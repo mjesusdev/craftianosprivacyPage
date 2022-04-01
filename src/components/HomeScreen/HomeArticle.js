@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const HomeArticle = () => {
     return (
         <div className="col-12 col-sm-7 col-md-5 mt-2">
-            <h1 className="h4 text-success mb-2">👋 Bienvenidos a mi página 🤗</h1>
+            <h1 className="h4 text-primary mb-2">👋 Bienvenidos a mi página 🤗</h1>
             <p className="text-justify text-article">
                 En este blog podreís saber la forma de ganar dinero en 2022, ya sea por realizar encuestas, 
                 recibir cashback por compras en tiendas online, además de recibir ingresos extras, 

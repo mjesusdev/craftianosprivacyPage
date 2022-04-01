@@ -6,7 +6,7 @@ export const CryptosArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 article">
-                <h1 className="h4 text-success">Gana cryptos gratis 🔥💸</h1>
+                <h1 className="h4 text-primary">Gana cryptos gratis 🔥💸</h1>
                 <p className="text-justify">
                     En esta categoría, puedes encontrar otra forma de generar dinero, en este caso de ganar criptomonedas GRATIS 🥳🥳 <br />
                     (Sin INVERTIR) <br /><br />

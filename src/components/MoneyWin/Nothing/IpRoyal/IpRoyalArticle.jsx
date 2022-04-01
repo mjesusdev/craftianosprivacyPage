@@ -5,8 +5,8 @@ export const IpRoyalArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">IpRoyal Panws 🎁</h1>
-                <h2 className="h4 text-success mb-4">Gana dinero sin hacer nada</h2>
+                <h1 className="h3 text-primary mb-4">IpRoyal Panws 🎁</h1>
+                <h2 className="h4 text-primary mb-4">Gana dinero sin hacer nada</h2>
                 <p className="text-justify enlaces">
                     Con IpRoyal Panws puedes compartir tu internet y a la vez ganar dinero de forma pasiva.
                     Más abajo encontrarás una breve explicación de como funciona. Además del link de registro 🚀

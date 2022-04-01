@@ -5,8 +5,8 @@ export const GameeArticle = () => {
         <>
             <div className="col col-md-3"></div>
             <div className="col-12 col-md-6 mt-2 article">
-                <h1 className="h3 text-success mb-4">🎮 Gamee - Recibe tus primeros dólares jugando</h1>
-                <h2 className="h4 text-success mb-4">✅ Juega a multitud de juegos y gana dinero 🤑</h2>
+                <h1 className="h3 text-primary mb-4">🎮 Gamee - Recibe tus primeros dólares jugando</h1>
+                <h2 className="h4 text-primary mb-4">✅ Juega a multitud de juegos y gana dinero 🤑</h2>
                 <p className="text-justify">
                     Aquí voy a hablarte sobre una plataforma para jugar a juegos y ganar dinero, Gamee, 
                     que es una plataforma de juegos, que posee una app, disponible en Android e iOS,
@@ -33,7 +33,7 @@ export const GameeArticle = () => {
                 </div>
 
                 <div id="ventajas-youGov">
-                    <h3 className="h5 text-success mt-4 mb-4">🥇 Registro y bono de bienvenida</h3>
+                    <h3 className="h5 text-primary mt-4 mb-4">🥇 Registro y bono de bienvenida</h3>
                     <p className="text-justify">
                         Para registrarte en Gamee, debes hacer click en mi enlace de referido, indicar un correo electrónico, contraseña segura y 
                         luego de esto, ya habrás ganado tus primeros 0,10$ y 500 tickets, que es la moneda de la propia plataforma 💡
@@ -43,7 +43,7 @@ export const GameeArticle = () => {
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mt-4 mb-4" src="../img/gamee/referidos.png" 
                         alt="Referidos en Gamee | Código de Registro" title="Referidos en Gamee | Código de Registro"/>
 
-                    <h4 className="h6 text-success">💚 Únete a Gamee y gana dinero jugando</h4>
+                    <h4 className="h6 text-primary">💚 Únete a Gamee y gana dinero jugando</h4>
                     <div className="d-grid gap-2 registroGamee mt-4">
                         <a className="btn btn-outline-success btn-block mb-4" href="https://bit.ly/gameeCR" target="_blank" rel="noopener noreferrer">
                             Hazme click, gana tus primeros dólares y 500 tickets 🤑
@@ -53,13 +53,13 @@ export const GameeArticle = () => {
                 </div>
 
                 <div id="sistema-gamee">
-                    <h3 className="h5 text-success mt-4 mb-4">🥈 ¿Para que sirven los tickets y como se gana dinero en Gamee?</h3>
+                    <h3 className="h5 text-primary mt-4 mb-4">🥈 ¿Para que sirven los tickets y como se gana dinero en Gamee?</h3>
                     <p className="text-justify">
                         Para ganar tickets los cuales se obtienen al girar la ruleta de la suerte, hacer misiones, 
                         participar en torneos con otros usuarios, ganar con referidos.
                     </p>
 
-                    <h4 className="h6 text-success"> ⚡ Misiones: Gana tickets haciendo misiones en juegos 🔥</h4>
+                    <h4 className="h6 text-primary"> ⚡ Misiones: Gana tickets haciendo misiones en juegos 🔥</h4>
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mt-4 mb-4" src="../img/gamee/misiones.png" 
                         alt="Misiones de Gamee" title="Misiones de Gamee"/>
 
@@ -70,14 +70,14 @@ export const GameeArticle = () => {
                         Al finalizar las dos rondas, hay que esperar 2h para tener más para hacer.
                     </p>
 
-                    <h4 className="h6 text-success"> ⚡ Gira la ruleta de la suerte y gana dinero 🤑 </h4>
+                    <h4 className="h6 text-primary"> ⚡ Gira la ruleta de la suerte y gana dinero 🤑 </h4>
                     <p className="text-justify">
                         La forma con la que vamos a ganar más dólares es girando la ruleta de la suerte, varias veces al día se puede girar la ruleta, además si todos los días se entra en Gamee, al día 7 está disponible la ruleta del dinero 👇🥳
                     </p>
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mt-4 mb-4" src="../img/gamee/ruleta-dinero.png" 
                         alt="Ruleta de Dinero de Gamee" title="Ruleta de Dinero de Gamee"/>
 
-                    <h4 className="h6 text-success"> ⚡ Juega a multitud de juegos 🥳 </h4>
+                    <h4 className="h6 text-primary"> ⚡ Juega a multitud de juegos 🥳 </h4>
                     <p className="text-justify">
                         En la parte de abajo de la pantalla principal, están todos los juegos, 
                         hay un sin fín para jugar y ganar tickets ✅
@@ -85,7 +85,7 @@ export const GameeArticle = () => {
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mt-4 mb-4" src="../img/gamee/juegos.png" 
                         alt="Juegos de Gamee" title="Juegos de Gamee"/>
 
-                    <h4 className="h6 text-success"> ⚡ Gana más tickets por los logros que consigas 🤑 </h4>
+                    <h4 className="h6 text-primary"> ⚡ Gana más tickets por los logros que consigas 🤑 </h4>
                     <p className="text-justify">
                         Aquí puedes ver los logros que se pueden llegar a conseguir y sobre todo los tickets que por cada logro se consigue ✅
                         (En esta imagen, puedes ver los logros que llevo conseguidos actualmente).
@@ -93,7 +93,7 @@ export const GameeArticle = () => {
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-50 mt-4 mb-4" src="../img/gamee/logros.png" 
                         alt="Logros de Gamee" title="Logros de Gamee"/>
 
-                    <h4 className="h6 text-success"> ⚡ Sube niveles y gana más tickets 🤑 </h4>
+                    <h4 className="h6 text-primary"> ⚡ Sube niveles y gana más tickets 🤑 </h4>
                     <p className="text-justify">
                         Cada nivel más alto estes, más tickets ganas, 
                         aquí puedes ver el nivel que tengo a la hora de hacer esta sección 👇🥳
@@ -103,7 +103,7 @@ export const GameeArticle = () => {
                 </div>
 
                 <div id="truco-gamee">
-                    <h3 className="h5 text-success mt-4 mb-4">🥉 Truco para Ganar MAS DINERO en Gamee</h3>
+                    <h3 className="h5 text-primary mt-4 mb-4">🥉 Truco para Ganar MAS DINERO en Gamee</h3>
                     <p className="text-justify">
                         Seguro que estás harto de ver anuncios en todos lados y ahora que quieres ganar dinero jugando, 
                         también hay, pues hay un truco para que no se vean anuncios 🤯
@@ -153,7 +153,7 @@ export const GameeArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h4 className="h5 text-success">⚡ Otras plataformas de encuestas ⚡</h4>
+                        <h4 className="h5 text-primary">⚡ Otras plataformas de encuestas ⚡</h4>
                         <p className="text-justify fw-bold">
                             Aquí os dejo un listado de otras páginas de encuestas que podrían interesarle.
                         </p>
