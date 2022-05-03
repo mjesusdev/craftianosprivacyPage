@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.4.1",
+    "async": "^3.2.3",
     "bootstrap": "^5.0.1",
     "follow-redirects": "^1.14.9",
     "minimist": "^1.2.6",
