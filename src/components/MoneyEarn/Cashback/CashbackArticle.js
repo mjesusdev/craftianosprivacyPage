@@ -62,7 +62,7 @@ export const CashbackArticle = () => {
                             🎁 La pongo segunda porque últimamente me está gustando mucho Picodi y no he tenido ningún problema hasta ahora,
                             ya que el mínimo es de 5€ y se llega rápido, invitando amigos, etc.
                         </p>
-                        <a className="btn btn-outline-success d-grid" href="https://acortar.link/picodiCR" target="_blank"
+                        <a className="btn btn-outline-success d-grid" href="https://cutt.ly/picodiCR" target="_blank"
                             rel="noopener noreferrer" title="Únete a Picodi y obtén 4€ TOTALMENTE Gratis">
                                 Únete a Picodi y obtén 4€ TOTALMENTE Gratis + CASHBACK MÁS ALTOS 🤑
                         </a>

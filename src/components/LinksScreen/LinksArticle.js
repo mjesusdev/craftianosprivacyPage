@@ -96,7 +96,7 @@ export const LinksArticle = () => {
                             </li>
                             <li>
                                 Picodi (NUEVA PLATAFORMA disponible en España 🚀, entre otros PAISES): 
-                                <a href="https://acortar.link/picodiCR" target="_blank" rel="noopener noreferrer" 
+                                <a href="https://cutt.ly/picodiCR" target="_blank" rel="noopener noreferrer" 
                                     title="Únete a Picodi y obtén 4€ TOTALMENTE Gratis">
                                         Obtén 4€ TOTALMENTE Gratis 🤑
                                 </a>
@@ -228,7 +228,7 @@ export const LinksArticle = () => {
                         <ul className="enlaces ganar-caminando">
                             <li>
                                 WeWard:
-                                <a href="https://acortar.link/wewardCR" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cutt.ly/wewardCR" target="_blank" rel="noopener noreferrer">
                                     Gana dinero caminando o canjea en cheques regalo 🦄
                                     (USA mi código: JESU-vXm6X para ganar un bonus)
                                 </a>

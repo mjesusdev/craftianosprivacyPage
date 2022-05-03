@@ -17,9 +17,9 @@ export const VerseArticle = () => {
                     además tenemos la opción de crear GRUPOS para dividir el DINERO de cada PERSONA.</i>
                     <br />
                     
-{/*                     EJ: Se comparte una cuenta de Netflix o cualquier otro gasto, pues con Verse se divide el PAGO
-                    y se recibe al INSTANTE. <br />
- */}
+                    {/* EJ: Se comparte una cuenta de Netflix o cualquier otro gasto, pues con Verse se divide el PAGO
+                        y se recibe al INSTANTE. <br />
+                    */}
                     Otra de las cosas que podemos hacer con Verse es participar en los trivials cada Martes, Jueves y Domingo,
                     para así ganar DINERO jugando.
                 </p>
@@ -95,7 +95,7 @@ export const VerseArticle = () => {
                         Finalmente si todo ha salido bien, cada uno habrá ganado 5€ 🤑👏
                     </p>
 
-                    <a className="btn btn-outline-success d-grid font-weight-bold" href="https://bit.ly/VerseCR" target="_blank" rel="noopener noreferrer">
+                    <a className="btn btn-outline-success d-grid font-weight-bold" href="https://cutt.ly/verseCR" target="_blank" rel="noopener noreferrer">
                         Únete a VERSE y GANA 5€ AL INSTANTE ASI COMO OTRAS VENTAJAS 💙
                     </a>
                     <div className="alert alert-warning font-weight-bold mt-4 enlaces">
@@ -141,7 +141,7 @@ export const VerseArticle = () => {
                     </div>
                 </div>
                 <div className="bannerVerse col-10 ms-5">
-                    <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
+                    <a href="https://cutt.ly/verseCR" target="_blank" rel="noreferrer">
                         <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../img/verse/banner.png" 
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>
