@@ -37,7 +37,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 SwagBucks: 
-                                <a href="https://bit.ly/swagbucksCR" target="_blank" rel="noopener noreferrer"
+                                <a href="https://cutt.ly/swagbucksCR" target="_blank" rel="noopener noreferrer"
                                     title="Regístrate en SwagBucks y Gana Dinero">
                                         Plataforma de encuestas, juegos y mucho más |
                                         Disponible para todo los PAISES ✅
@@ -109,7 +109,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 SwagBucks: 
-                                <a href="https://bit.ly/swagbucksCR" target="_blank" rel="noopener noreferrer" 
+                                <a href="https://cutt.ly/swagbucksCR" target="_blank" rel="noopener noreferrer" 
                                     title="Regístrate en SwagBucks y Gana Dinero Con Tus Compras 🎁">
                                         Posee también un sistema de cashback,
                                         además de poder ganar dinero por encuestas, etc 💡
@@ -140,7 +140,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Gelt:
-                                <a href="https://bit.ly/2PYt77n" target="_blank" rel="noreferrer" 
+                                <a href="https://cutt.ly/geltTicketsCR" target="_blank" rel="noreferrer" 
                                     title="Regístrate en Gelt y Gana Dinero Con Tus Tickets">
                                         Muchísimas promociones en las que ganar MUCHO dinero 🤯💎
                                 </a>
@@ -159,7 +159,7 @@ export const LinksArticle = () => {
                         <ul className="enlaces bancos-online">
                             <li className="">
                                 N26 💫 :
-                                <a href="https://bit.ly/n26invCR" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cutt.ly/n26CR" target="_blank" rel="noopener noreferrer">
                                     Gana 5€ por unirte al banco móvil N26
                                 </a>
                             </li>
@@ -187,7 +187,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Zelf (Banco por aplicaciones de mensajería):
-                                <a href="https://bit.ly/2ZelfBCR" target="_blank" rel="noopener noreferrer"
+                                <a href="https://cutt.ly/zelfbnkCR" target="_blank" rel="noopener noreferrer"
                                     title="Únete al mejor banco por aplicaciones y aprovecha la PROMO DE 20€ 🎁🥳">
                                         Gana 20€ GRATIS por UNIRTE al banco por aplicaciones de mensajería 👋 
                                         (Las compras SALEN GRATIS CON LOS BONOS CORREEE 🤯💫)

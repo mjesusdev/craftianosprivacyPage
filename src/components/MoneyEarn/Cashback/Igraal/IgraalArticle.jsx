@@ -109,17 +109,17 @@ export const IgraalArticle = () => {
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/letyshopsCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/letyshopsCR" target="_blank" rel="noreferrer">
                                     🥇 LetyShops: La segunda mejor 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/widiloCR" target="_blank" rel="noreferrer">
                                     🥈 Widilo: Subidas del cashback todos los días 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/berubycashCR" target="_blank" rel="noreferrer">
                                     🥉 Beruby: Encuestas y otros beneficios 🎁
                                 </a>
                             </li>

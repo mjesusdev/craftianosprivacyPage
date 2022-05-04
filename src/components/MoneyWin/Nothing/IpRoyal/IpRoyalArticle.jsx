@@ -44,17 +44,17 @@ export const IpRoyalArticle = () => {
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/widiloCR" target="_blank" rel="noreferrer">
                                     🥇 Widilo: La segunda mejor 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/igraalCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/igraalcashCR" target="_blank" rel="noreferrer">
                                     🥈 Igraal: Subidas del cashback todos los días 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/berubycashCR" target="_blank" rel="noreferrer">
                                     🥉 Beruby: Encuestas y otros beneficios 🎁
                                 </a>
                             </li>

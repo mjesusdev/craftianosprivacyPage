@@ -101,7 +101,7 @@ export const IpsosIsayArticle = () => {
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/swagbucksCR" target="_blank" rel="noopener noreferrer" 
+                                <a href="https://cutt.ly/swagbucksCR" target="_blank" rel="noopener noreferrer" 
                                     title="Enlace de Registro a SwagBucks ✅">
                                     🥈 SwagBucks: Combina encuestas con juegos y cashback
                                 </a>

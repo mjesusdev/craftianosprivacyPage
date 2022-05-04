@@ -61,7 +61,7 @@ export const TicketsArticle = () => {
                             ¿Quieres recibir cashback por tus compras en tiendeo? <br />
                             Pulsa abajo para ver más información y registrarte 👇
                         </p>
-                        <a className="btn btn-outline-success d-grid" href="https://bit.ly/2PYt77n" target="_blank" rel="noreferrer" 
+                        <a className="btn btn-outline-success d-grid" href="https://cutt.ly/geltTicketsCR" target="_blank" rel="noreferrer" 
                             title="Regístrate en Gelt y Gana Dinero Con Tus Tickets">
                                 Muchísimas promociones en las que ganar MUCHO dinero 🤯💎
                         </a>

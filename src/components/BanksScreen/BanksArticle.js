@@ -68,7 +68,7 @@ export const BanksArticle = () => {
                             obtener una tarjeta de débito gratuita (Virtual y Física) y la posibilidad de retirar 5 veces 
                             de forma gratuita de CUALQUIER CAJERO al mes 🏦💸
                         </p>
-                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/n26invCR"  rel="noopener noreferrer">
+                        <a className="btn btn-outline-success d-grid mb-4" href="https://cutt.ly/n26CR"  rel="noopener noreferrer">
                             Únete a N26 y gana 5€ al hacer tu primera compra ✅
                         </a>
                         <p className="text-justify">
@@ -146,7 +146,7 @@ export const BanksArticle = () => {
                             (Whatsapp, Telegram, Facebook Messenger), con el que podremos obtener una tarjeta virtual con 5€ gratis al unirnos.
                             Por cada referido se gana 5€ para cada uno, además de ganar más dinero al usar la tarjeta por primera vez y mucho más aquí 👇
                         </p>
-                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/2ZelfBCR">
+                        <a className="btn btn-outline-success d-grid mb-4" href="https://cutt.ly/zelfbnkCR">
                             Únete a Zelf y gana 5€ al instante 💸👋
                         </a>
                         <p className="text-justify">

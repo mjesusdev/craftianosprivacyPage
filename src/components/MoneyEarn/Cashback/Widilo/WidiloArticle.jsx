@@ -19,7 +19,7 @@ export const WidiloArticle = () => {
                     <a className="fw-bold" href="https://www.widilo.es/condiciones-legales" target="_blank" rel="noopener noreferrer"> https://www.widilo.es/condiciones-legales</a>
                 </p>
                 
-                <a href="https://bit.ly/widiloCR" className="enlaces" rel="noopener noreferrer">
+                <a href="https://cutt.ly/widiloCR" className="enlaces" rel="noopener noreferrer">
                     <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/widilo/funcionamiento.png" alt="Funcionamiento de Widilo" />
                 </a>
 
@@ -76,7 +76,7 @@ export const WidiloArticle = () => {
                         (Además si os registráis ahora obtenéis 5€ al hacer vuestra primera compra + 1€ 
                         por DESCARGAR la Extensión para activar el cashback más fácilmente 🔥)
                     </p>
-                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
+                    <a className="btn btn-outline-success mb-4" href="https://cutt.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                         ¿A qué esperas? Únete a Widilo y ahorra con tus compras 👋💳
                     </a>
                 </div>
@@ -122,7 +122,7 @@ export const WidiloArticle = () => {
                         * Si quieres ver más información acerca de WidiLove 👉 
                         <a href="https://support.widilo.com/hc/es/sections/360004419499" target="_blank" rel="noopener noreferrer"> https://support.widilo.com/hc/es/sections/360004419499 </a>
                     </p>
-                    <a className="btn btn-outline-success mb-4" href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
+                    <a className="btn btn-outline-success mb-4" href="https://cutt.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                         Regístrate y recibe 5€ gratis por hacer tu primera compra 🤑
                     </a>
                 </div>
@@ -187,17 +187,17 @@ export const WidiloArticle = () => {
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cutt.ly/widiloCR" target="_blank" rel="noopener noreferrer">
                                     🥇 Widilo: La segunda mejor 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/igraalCR" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cutt.ly/igraalcashCR" target="_blank" rel="noopener noreferrer">
                                     🥈 Igraal: Subidas del cashback todos los días 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cutt.ly/berubycashCR" target="_blank" rel="noopener noreferrer">
                                     🥉 Beruby: Encuestas y otros beneficios 🎁
                                 </a>
                             </li>

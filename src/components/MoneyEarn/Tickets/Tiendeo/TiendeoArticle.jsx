@@ -150,7 +150,7 @@ export const TiendeoArticle = () => {
                                 </a>
                             </li>
                             <li className="">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/berubycashCR" target="_blank" rel="noreferrer">
                                     🥉 Shoppix: Cualquier ticket y no hay enlace de afiliados (por ahora)
                                 </a>
                             </li>

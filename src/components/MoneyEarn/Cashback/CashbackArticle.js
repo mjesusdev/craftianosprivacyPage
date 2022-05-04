@@ -155,7 +155,7 @@ export const CashbackArticle = () => {
                             a parte de esto, próximamente os traeré MI RESEÑA de Beruby con el COMPROBANTE de PAGO,
                             mientras puedes registrarte y mirar más información, haciendo click abajo 👇
                         </p>
-                        <a className="btn btn-outline-success d-grid" href="https://bit.ly/berubyCR" target="_blank"
+                        <a className="btn btn-outline-success d-grid" href="https://cutt.ly/berubycashCR" target="_blank"
                             rel="noopener noreferrer" title="Haz tu primera compra y obtén 5€ gratis">
                                 Haz tu primera compra y obtén 5€ gratis 🤑 | Múltiples OPCIONES para Ganar MÁS CASHBACK
                         </a>
@@ -177,7 +177,7 @@ export const CashbackArticle = () => {
                     </div>
                 </div>
                 <div className="bannerLetyShops mb-5">
-                    <a href="https://bit.ly/letyshopsCR" target="_blank" rel="noopener noreferrer">
+                    <a href="https://cutt.ly/letyshopsCR" target="_blank" rel="noopener noreferrer">
                         <img 
                             loading="lazy" 
                             className="img-fluid rounded mx-auto d-block imgLety w-100 mt-4" 

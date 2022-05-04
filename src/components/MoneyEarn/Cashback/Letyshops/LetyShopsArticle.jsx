@@ -41,7 +41,7 @@ export const LetyShopsArticle = () => {
                     hacer clic en el enlace de abajo 👇 y os registráis, no olvídeis que podeís ganar 5€, tan solo con seguir los pasos
                     que se muestran en la imagen de arriba ⚡
                 </p>
-                <a class="btn btn-outline-warning mt-2 mb-2" href="https://bit.ly/letyshopsCR" target="_blank" rel="noreferrer">
+                <a class="btn btn-outline-warning mt-2 mb-2" href="https://cutt.ly/letyshopsCR" target="_blank" rel="noreferrer">
                     Regístrate en LetyShops y GANA CASHBACK POR TUS COMPRAS 👛
                 </a>
                 <h5 class="text-danger mt-4 mb-4">Retirada del cashback ⚡</h5>
@@ -79,7 +79,7 @@ export const LetyShopsArticle = () => {
                     </button>
                 </div>
 
-                <a class="btn btn-outline-warning mb-4" href="https://bit.ly/letyshopsCR" target="_blank" rel="noreferrer">
+                <a class="btn btn-outline-warning mb-4" href="https://cutt.ly/letyshopsCR" target="_blank" rel="noreferrer">
                     Regístrate en LetyShops y empieza a GANAR CASHBACK 🤯⚡
                 </a>
                 <div class="card">
@@ -137,17 +137,17 @@ export const LetyShopsArticle = () => {
                         </p>
                         <ul className="enlaces">
                             <li className="fw-bold">
-                                <a href="https://bit.ly/widiloCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/widiloCR" target="_blank" rel="noreferrer">
                                     🥇 Widilo: La segunda mejor 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/igraalCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/igraalcashCR" target="_blank" rel="noreferrer">
                                     🥈 Igraal: Subidas del cashback todos los días 🎁
                                 </a>
                             </li>
                             <li className="fw-bold">
-                                <a href="https://bit.ly/berubyCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/berubycashCR" target="_blank" rel="noreferrer">
                                     🥉 Beruby: Encuestas y otros beneficios 🎁
                                 </a>
                             </li>
@@ -176,7 +176,7 @@ export const LetyShopsArticle = () => {
                 </div>
 
                 <div className="bannerLetyShops mb-5">
-                    <a href="https://bit.ly/letyshopsCR" target="_blank" rel="noopener noreferrer">
+                    <a href="https://cutt.ly/letyshopsCR" target="_blank" rel="noopener noreferrer">
                         <img 
                             loading="lazy" 
                             className="img-fluid rounded mx-auto d-block imgLety w-100 mt-4" 
