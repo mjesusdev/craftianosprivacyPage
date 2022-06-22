@@ -1,6 +1,6 @@
 /* SwitchDark SCSS */
 .switch {
-    background: $dark-btn;
+    background: #343d5b;
     border-radius: 1000px;
     border: none;
     position: relative;
@@ -29,7 +29,7 @@
 }
 
 .switch.active {
-    background: $warning;
+    background: #f4a261;
     color: #000;
 }
 
