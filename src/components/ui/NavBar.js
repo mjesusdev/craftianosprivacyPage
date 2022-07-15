@@ -109,41 +109,7 @@ export const NavBar = () => {
                             </li>
                         </ul>
                     </li>
-{/*                     <li className="nav-item dropdown">
-                        <Link
-                            aria-expanded="false"
-                            className="nav-link dropdown-toggle"
-                            data-bs-toggle="dropdown"
-                            id="navBarDropdown2"
-                            role="button"
-                            title="Ahorra dinero"
-                            to="#"
-                        >
-                            👛 Ahorra dinero
-                        </Link>
-                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown2">
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Recibe cashback por realizar compras"
-                                    to="/compras-cashback/"
-                                >
-                                    🎁 Recibe cashback por compras online
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Recibe cashback por realizar compras"
-                                    to="/apps-dinero-tickets/"
-                                >
-                                    🤑 Ahorra con los tickets de supermercado
-                                </Link>
-                            </li>
-                        </ul>
-                    </li> */}
+                    {/* TODO: Crear nueva sección de Ciberseguridad y Privacidad */}
                     <li className="nav-item">
                         <NavLink
                             className="nav-item nav-link"

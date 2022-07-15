@@ -3,35 +3,37 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 
 import { AboutScreen } from '../components/AboutScreen/AboutScreen';
-import { AttaPollScreen } from '../components/MoneyWin/Surveys/AttaPoll/AttaPollScreen';
+import { AttaPollScreen } from '../components/MoneyWinEarn/Surveys/AttaPoll/AttaPollScreen';
 import { BanksScreen } from '../components/BanksScreen/BanksScreen';
 import { BlogScreen } from '../components/BlogScreen/BlogScreen';
-import { CashbackScreen } from '../components/MoneyEarn/Cashback/CashbackScreen';
+import { CashbackScreen } from '../components/MoneyWinEarn/Cashback/CashbackScreen';
 import { CookieVerify } from '../components/Cookies/CookieVerify';
-import { CryptosScreen } from '../components/MoneyWin/Cryptos/CryptosScreen';
-import { GameeScreen } from '../components/MoneyWin/Playing/Gamee/GameeScreen';
+import { CryptosScreen } from '../components/MoneyWinEarn/Cryptos/CryptosScreen';
+import { GameeScreen } from '../components/MoneyWinEarn/Playing/Gamee/GameeScreen';
 import { Header } from '../components/ui/Header';
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
 import { HoneyGainScreen } from '../components/MoneyWin/Nothing/HoneyGain/HoneyGainScreen';
-import { IgraalScreen } from '../components/MoneyEarn/Cashback/Igraal/IgraalScreen';
-import { IpsosIsayScreen } from '../components/MoneyWin/Surveys/Ipsos-isay/IpsosIsayScreen';
-import { LetyShopsScreen } from '../components/MoneyEarn/Cashback/Letyshops/LetyShopsScreen';
+import { IgraalScreen } from '../components/MoneyWinEarn/Cashback/Igraal/IgraalScreen';
+import { IpsosIsayScreen } from '../components/MoneyWinEarn/Surveys/Ipsos-isay/IpsosIsayScreen';
+import { LetyShopsScreen } from '../components/MoneyWinEarn/Cashback/Letyshops/LetyShopsScreen';
 import { LinksScreen } from '../components/LinksScreen/LinksScreen';
-import { MarketAgentScreen } from '../components/MoneyWin/Surveys/Marketagent/MarketAgentScreen';
-import { NothingScreen } from '../components/MoneyWin/Nothing/NothingScreen';
-import { PlayingScreen } from '../components/MoneyWin/Playing/PlayingScreen';
-import { PollPayScreen } from '../components/MoneyWin/Surveys/PollPay/PollPayScreen';
-import { PrizeRebelScreen } from '../components/MoneyWin/Surveys/PrizeRebel/PrizeRebelScreen';
-import { PromosScreen } from '../components/MoneyEarn/Tickets/Promos/PromosScreen';
-import { SmartmeScreen } from '../components/MoneyWin/Surveys/SmartmeApp/SmartmeScreen';
-import { SurveysScreen } from '../components/MoneyWin/Surveys/SurveysScreen';
-import { TicketsScreen } from '../components/MoneyEarn/Tickets/TicketsScreen';
-import { TiendeoScreen } from '../components/MoneyEarn/Tickets/Tiendeo/TiendeoScreen';
+import { MarketAgentScreen } from '../components/MoneyWinEarn/Surveys/Marketagent/MarketAgentScreen';
+import { NothingScreen } from '../components/MoneyWinEarn/Nothing/NothingScreen';
+import { PlayingScreen } from '../components/MoneyWinEarn/Playing/PlayingScreen';
+import { PollPayScreen } from '../components/MoneyWinEarn/Surveys/PollPay/PollPayScreen';
+import { PrizeRebelScreen } from '../components/MoneyWinEarn/Surveys/PrizeRebel/PrizeRebelScreen';
+import { PromosScreen } from '../components/MoneyWinEarn/Tickets/Promos/PromosScreen';
+import { SmartmeScreen } from '../components/MoneyWinEarn/Surveys/SmartmeApp/SmartmeScreen';
+import { SurveysScreen } from '../components/MoneyWinEarn/Surveys/SurveysScreen';
+import { TicketsScreen } from '../components/MoneyWinEarn/Tickets/TicketsScreen';
+import { TiendeoScreen } from '../components/MoneyWinEarn/Tickets/Tiendeo/TiendeoScreen';
 import { VerseScreen } from '../components/BanksScreen/Verse/VerseScreen';
 import { VividScreen } from '../components/BanksScreen/VividMoney/VividScreen';
-import { WidiloScreen } from '../components/MoneyEarn/Cashback/Widilo/WidiloScreen';
-import { YouGovScreen } from '../components/MoneyWin/Surveys/YouGov/YouGovScreen';
-import { IpRoyalScreen } from '../components/MoneyWin/Nothing/IpRoyal/IpRoyalScreen';
+import { WidiloScreen } from '../components/MoneyWinEarn/Cashback/Widilo/WidiloScreen';
+import { YouGovScreen } from '../components/MoneyWinEarn/Surveys/YouGov/YouGovScreen';
+import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoyalScreen';
+
+/* Change Imports - This is embarrassing */
 
 export const HomeRoute = () => {
     return (

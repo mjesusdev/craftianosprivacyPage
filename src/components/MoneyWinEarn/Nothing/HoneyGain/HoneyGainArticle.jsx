@@ -65,6 +65,29 @@ export const HoneyGainArticle = () => {
                             solo tú puedes cambiar eso y en el futuro dar gracias por haberlo hecho. <br /><br />
                             En efecto, os dejo por aquí una lista de programas, artículos que os van a ayudar con esto: 
                         </p>
+                        <p className="text-justify fw-bold">
+                            🎖️ Empezar un buscador que no rastrea, ya sea algunos de estos: 
+                        </p>
+
+                        <ul className='enlaces'>
+                            <li>
+                                <a href="https://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                                    DuckDuckGo (Búsquedas Privadas y Protección de Email y contra Rastreo) 🚀
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://search.brave.com/" target="_blank" rel="noopener noreferrer">
+                                    Brave Search de los creadores del navegador Brave 
+                                    (alternativa a Chrome, vamos similar, pero con mejoras de Seguridad y Privacidad) 🚀
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.startpage.com/" target="_blank" rel="noopener noreferrer">
+                                    Para los que venís de Google este es el mejor para todos ustedes, 
+                                    ya que filtra los datos de este y elimina el RASTREO 👏👏
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
