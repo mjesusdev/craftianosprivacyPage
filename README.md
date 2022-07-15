@@ -3,7 +3,7 @@
 Was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## You can see this page on this URL 👇
-[See Craftiano's Page 🚀](https://craftianosmoney.com/).
+[See Craftiano's Page 🚀](https://craftianosmoney.com/)
 
 ## Available Scripts
 

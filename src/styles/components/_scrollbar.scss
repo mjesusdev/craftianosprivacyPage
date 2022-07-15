@@ -8,22 +8,3 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     border-right: 2px solid $primary;
 }
-
-.go-up {
-    float: right;
-    display: none;
-    padding: 10px;
-    width: 45px;
-    height: 45px;
-    border-radius: 60%;
-    background: $primary;
-    margin-top: -5%;
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px
-}
-
-.go-up img {
-    margin-top: 20%
-}
