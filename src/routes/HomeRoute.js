@@ -12,7 +12,7 @@ import { CryptosScreen } from '../components/MoneyWinEarn/Cryptos/CryptosScreen'
 import { GameeScreen } from '../components/MoneyWinEarn/Playing/Gamee/GameeScreen';
 import { Header } from '../components/ui/Header';
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
-import { HoneyGainScreen } from '../components/MoneyWin/Nothing/HoneyGain/HoneyGainScreen';
+import { HoneyGainScreen } from '../components/MoneyWinEarn/Nothing/HoneyGain/HoneyGainScreen';
 import { IgraalScreen } from '../components/MoneyWinEarn/Cashback/Igraal/IgraalScreen';
 import { IpsosIsayScreen } from '../components/MoneyWinEarn/Surveys/Ipsos-isay/IpsosIsayScreen';
 import { LetyShopsScreen } from '../components/MoneyWinEarn/Cashback/Letyshops/LetyShopsScreen';
@@ -34,7 +34,6 @@ import { YouGovScreen } from '../components/MoneyWinEarn/Surveys/YouGov/YouGovSc
 import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoyalScreen';
 
 /* Change Imports - This is embarrassing */
-
 export const HomeRoute = () => {
     return (
         <>

@@ -71,7 +71,7 @@ export const HoneyGainArticle = () => {
 
                         <ul className='enlaces'>
                             <li>
-                                <a href="https://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://duckduckgo.com/spread" target="_blank" rel="noopener noreferrer">
                                     DuckDuckGo (Búsquedas Privadas y Protección de Email y contra Rastreo) 🚀
                                 </a>
                             </li>
