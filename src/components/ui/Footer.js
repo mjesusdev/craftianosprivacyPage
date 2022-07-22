@@ -11,10 +11,10 @@ export const Footer = () => {
             <div className="col-12 footer mt-2">
                 <p className='text-justify text-center'>
                     Todos los derechos reservados © Craftianos 2022
+                    <button onClick={ btnGoUp } className='go-up'>
+                        <img loading="lazy" src="../img/icons/arrow.svg" className="figure-img img-fluid rounded mt-2" alt="arrow" />
+                    </button>
                 </p>
-                <button onClick={ btnGoUp } className='go-up'>
-                    <img loading="lazy" src="../img/icons/arrow.svg" className="figure-img img-fluid rounded mt-2" alt="arrow" />
-                </button>
             </div>
             <div className="col-12 footer enlaces">
                 <ul className="nav nav-pills justify-content-center enlacesfooter">
@@ -38,3 +38,4 @@ export const Footer = () => {
         </>
     )
 }
+
