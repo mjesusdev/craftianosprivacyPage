@@ -1,5 +1,7 @@
 import React from 'react';
+/* import Scroll from 'react-scroll'; */
 import { NavLink } from 'react-router-dom';
+/* import { HashLink as NavLink } from 'react-router-dom-hash-link'; */
 
 export const HomeArticle = () => {
     return (
@@ -32,6 +34,11 @@ export const HomeArticle = () => {
                         exact
                         to="/enlaces/"
                         title="Link a TODOS los enlaces de Encuestas, Plataformas de Cashback, etc"
+/*                         onSelect={() => Scroll.scrollTo('homepage', {
+                            smooth: true,
+                            offset: -70,
+                            duration: 500,
+                        })} */
                     >
                         Mira esto, puede que te interese 🎁
                     </NavLink>

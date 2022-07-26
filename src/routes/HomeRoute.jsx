@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Switch, Route, Redirect } from 'react-router';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { AboutScreen } from '../components/AboutScreen/AboutScreen';
 import { AttaPollScreen } from '../components/MoneyWinEarn/Surveys/AttaPoll/AttaPollScreen';
@@ -82,7 +82,7 @@ export const HomeRoute = () => {
                 <Route exact path="/pollpay/" component={ PollPayScreen } />
                 <Route exact path="/prize-rebel/" component={ PrizeRebelScreen } />
                 <Route exact path="/smartme-app/" component={ SmartmeScreen } />
-                <Route exact path="/yougov/" component={ YouGovScreen } />
+                <Route exact path="/yougov/" component={ YouGovScreen } /> 
 
                 { /* Routes Games */ }
                 <Route exact path="/gamee/" component={ GameeScreen } />

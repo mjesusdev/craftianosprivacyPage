@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { BlogList } from '../BlogScreen/BlogList';
+import { BlogList } from './BlogList';
 
 export const BlogScreen = () => {
     const description = `Últimas publicaciones sobre las aplicaciones de encuestas, 

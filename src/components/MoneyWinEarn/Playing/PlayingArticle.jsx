@@ -8,8 +8,8 @@ export const PlayingArticle = () => {
             {/* <div className="col col-md-3"></div> */}
             <div className="col-12 col-md-7 mt-2 article">
                 <h1 className="h4 text-primary mb-4">Diviértete jugando y ganando dinero extra ✅ </h1>
-                <h2 class="h4 text-primary mb-4">Ganar dinero por internet jugando juegos 🎮</h2>
-                <p class="text-justify">
+                <h2 className="h4 text-primary mb-4">Ganar dinero por internet jugando juegos 🎮</h2>
+                <p className="text-justify">
                     En esta sección os hablo de otra manera de generar ingresos extras, 
                     os dejo las plataformas o apps con la que poseen 
                     juegos para ganar dinero desde casa, 
