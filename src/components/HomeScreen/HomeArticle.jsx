@@ -1,7 +1,4 @@
-import React from 'react';
-/* import Scroll from 'react-scroll'; */
-import { NavLink } from 'react-router-dom';
-/* import { HashLink as NavLink } from 'react-router-dom-hash-link'; */
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const HomeArticle = () => {
     return (
@@ -28,20 +25,15 @@ export const HomeArticle = () => {
                         plataformas de cashback, plataformas de pago y MUCHO MÁS AQUÍ ABAJO 👇
                     </p>
 
-                    {/* Link to Enlaces */}
-                    <NavLink
+                    {/* Link to Enlaces with scroll to top 🚀 */}
+                    <Link
                         className="nav-link btn btn-outline-success mb-4"
                         exact
-                        to="/enlaces/"
+                        to="/enlaces/#"
                         title="Link a TODOS los enlaces de Encuestas, Plataformas de Cashback, etc"
-/*                         onSelect={() => Scroll.scrollTo('homepage', {
-                            smooth: true,
-                            offset: -70,
-                            duration: 500,
-                        })} */
                     >
                         Mira esto, puede que te interese 🎁
-                    </NavLink>
+                    </Link>
 
                     Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 
                     para enterarte de todo lo que publico 🤗

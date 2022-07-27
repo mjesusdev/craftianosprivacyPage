@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const Footer = () => {
     const btnGoUp = () => {
@@ -12,6 +11,7 @@ export const Footer = () => {
                 <p className='text-justify text-center'>
                     Todos los derechos reservados © Craftianos 2022
                 </p>
+                
                 <button onClick={ btnGoUp } className='go-up'>
                     <img loading="lazy" src="../img/icons/arrow.svg" className="figure-img img-fluid rounded mt-2" alt="arrow" />
                 </button>
@@ -29,7 +29,7 @@ export const Footer = () => {
                         className="nav-item nav-link"
                         exact
                         title="Contactame por mis redes sociales"
-                        to="/sobre-mi/"
+                        to="/sobre-mi/#"
                     >
                         Contacto 📬
                     </Link>

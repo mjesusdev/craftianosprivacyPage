@@ -1,4 +1,4 @@
-# Craftiano's Page made with React.js + Vite 🚀
+# 👨‍💻 Craftiano's Page made with React.js + Vite 🚀
 
 This template should help get you started developing with React JS in Vite. 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const LinksArticle = () => {
     return (
@@ -13,25 +13,25 @@ export const LinksArticle = () => {
                         <ul className="enlaces encuestas">
                             <li className="">
                                 I-Say: 
-                                <Link exact to="/ipsos-isay/" title="Mira más información de Ipsos Isay"> 
+                                <Link exact to="/ipsos-isay/#" title="Mira más información de Ipsos Isay"> 
                                     Una de las mejores Plataformas de Encuestas (envían MUCHAAS 🥳)
                                 </Link>
                             </li>
                             <li className="">
                                 YouGov: 
-                                <Link exact to="/yougov/" title="Mira más información sobre YouGov"> 
+                                <Link exact to="/yougov/#" title="Mira más información sobre YouGov"> 
                                     Segunda mejor plataforma (También envían muchas Encuestas)⚡
                                 </Link>
                             </li>
                             <li className="">
                                 PrizeRebel:
-                                <Link exact to="/prize-rebel/" title="Mira más información sobre Prize Rebel">
+                                <Link exact to="/prize-rebel/#" title="Mira más información sobre Prize Rebel">
                                     Cuenta con un mágnifico sistema de referidos y programa de fidelidad 👏
                                 </Link>
                             </li>
                             <li className="">
                                 MarketAgent:
-                                <Link exact to="/marketagent/" title="Mira más información sobre MarketAgent"> 
+                                <Link exact to="/marketagent/#" title="Mira más información sobre MarketAgent"> 
                                     Otro portal de Encuestas y la plataforma está Actualizada! 🔥
                                 </Link>
                             </li>
@@ -55,19 +55,19 @@ export const LinksArticle = () => {
                         <ul className="enlaces encuestas">
                             <li className="">
                                 AttaPoll:
-                                <Link exact to="/attapoll/" title="Mira más información sobre AttaPoll">
+                                <Link exact to="/attapoll/#" title="Mira más información sobre AttaPoll">
                                     La mejor app para ganar dinero con encuestas 🤯
                                 </Link>
                             </li>
                             <li className="">
                                 SmartmeApp:
-                                <Link exact to="/smartme-app/" title="Mira más información sobre SmartmeApp">
+                                <Link exact to="/smartme-app/#" title="Mira más información sobre SmartmeApp">
                                     Encuestas cortas y mucho más beneficios 😎
                                 </Link>
                             </li>
                             <li className="">
                                 PollPay:
-                                <Link exact to="/pollpay/" title="Mira más información sobre PollPay">
+                                <Link exact to="/pollpay/#" title="Mira más información sobre PollPay">
                                     La mejor app para ganar con tus amigos ⚡
                                 </Link>
                             </li>
@@ -76,21 +76,21 @@ export const LinksArticle = () => {
                         <ul className="enlaces cashback">
                             <li className="">
                                 LetyShops: 
-                                <Link exact to="/letyshops/" title="Mira más información sobre LetyShops">
+                                <Link exact to="/letyshops/#" title="Mira más información sobre LetyShops">
                                     La mejor plataforma de cashback,
                                     gana 5€ al hacer tu primera compra superior a 30€ 🥇
                                 </Link>
                             </li>
                             <li className="">
                                 Widilo:
-                                <Link exact to="/widilo/" title="Mira más información sobre Widilo">
+                                <Link exact to="/widilo/#" title="Mira más información sobre Widilo">
                                     La segunda mejor plataforma,
                                     sirve de complemento a LetyShops. 🥈
                                 </Link>
                             </li>
                             <li className="">
                                 Igraal:
-                                <Link exact to="/igraal/" title="Mira más información sobre Igraal">
+                                <Link exact to="/igraal/#" title="Mira más información sobre Igraal">
                                     Cada día suben el cashback en tiendas, gana 3€ por la primera compra + 1€ por la extensión 💡
                                 </Link>
                             </li>
@@ -103,7 +103,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Beruby:
-                                <Link exact to="/compras-cashback/" title="Mira más información sobre Beruby">
+                                <Link exact to="/compras-cashback/#" title="Mira más información sobre Beruby">
                                     Variedad de herramientas para ganar dinero, como encuestas, ofertas, recomendaciones, etc 💎
                                 </Link>
                             </li>
@@ -128,13 +128,13 @@ export const LinksArticle = () => {
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Promos App:
-                                <Link exact to="/promos-app/" title="Mira más información sobre PromosAPP">
+                                <Link exact to="/promos-app/#" title="Mira más información sobre PromosAPP">
                                     La mejor app para ganar cashback por tickets de compra en supermercados 🛒
                                 </Link>
                             </li>
                             <li className="">
                                 Tiendeo:
-                                <Link exact to="/tiendeo/" title="Mira más información sobre Tiendeo">
+                                <Link exact to="/tiendeo/#" title="Mira más información sobre Tiendeo">
                                     ACTUALMENTE la mejor app para recibir cashback por tickets 👌💫
                                 </Link>
                             </li>
@@ -165,7 +165,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Vivid Money 💜 (Uno de los mejores bancos MÓVILES ACTUALMENTE 💸):
-                                <Link exact to="/vivid-money/" 
+                                <Link exact to="/vivid-money/#" 
                                     title="Mira más información sobre Vivid Money y consigue dinero con tus compras 🥳">
                                     Únete y obtén cashback por TODAS TUS COMPRAS ONLINE, OFFLINE 
                                     y muchos MÁS BENEFICIOS 👏🤯
@@ -180,7 +180,7 @@ export const LinksArticle = () => {
                             </li>
                             <li className="">
                                 Verse (Pagos móviles y MUCHO más):
-                                <Link exact to="/verse-app/" title="Mira más información sobre Verse 💙">
+                                <Link exact to="/verse-app/#" title="Mira más información sobre Verse 💙">
                                     Aprovecha y descarga Verse para hacer pagos con amigos en segundos, además
                                     de poder ganar 5€ al UNIRTE y SOLO tener que MOVER 1€ ¿te lo vas a perder? 👋💙
                                 </Link>
