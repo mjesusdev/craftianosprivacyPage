@@ -1,3 +1,6 @@
+# To better understand this file read this:
+# https://docs.ionos.space/docs/github-actions-customization/
+
 name: Deploy Now
 
 on:
@@ -15,34 +18,33 @@ jobs:
           api-key: ${{ secrets.IONOS_API_KEY }}
           project: ${{ secrets.IONOS_PROJECT_ID }}
           service-host: api-eu.ionos.space
+
       - name: checkout
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: actions/checkout@v2
         with:
           submodules: 'recursive'
-      - name: Setup Node.js 14.x
+
+      - name: Setup Node
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x
-      - name: Prepare project environment
-        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        run: npm ci
-      - name: Build project
-        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        run: npm run build
+          node-version: v16.x
+
+      - name: Build Node assets
         env:
-          SITE_URL: ${{ steps.project.outputs.site-url }}
           CI: true
-      - name: Deploy build
+          SITE_URL: ${{ steps.project.outputs.site-url }}
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy to IONOS
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: ionos-deploy-now/deploy-to-ionos-action@v1
         with:
-          api-key: ${{ secrets.IONOS_API_KEY }}
-          bootstrap-deploy: ${{ steps.project.outputs.bootstrap-deploy }}
-          branch-id: ${{ steps.project.outputs.branch-id }}
-          dist-folder: build
           project: ${{ secrets.IONOS_PROJECT_ID }}
-          remote-host: ${{ steps.project.outputs.remote-host }}
+          branch-id: ${{ steps.project.outputs.branch-id }}
           service-host: api-eu.ionos.space
-          storage-quota: ${{ steps.project.outputs.storage-quota }}
+          api-key: ${{ secrets.IONOS_API_KEY }}
+          dist-folder: public
