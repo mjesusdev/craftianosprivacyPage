@@ -323,7 +323,7 @@ export const LinksArticle = () => {
                                 </a>
                             </li>
                             <li className="">
-                                <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosTelegram" target="_blank" rel="noreferrer">
                                     Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
                                 </a>
                             </li>

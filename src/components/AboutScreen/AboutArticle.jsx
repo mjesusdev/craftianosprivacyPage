@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const AboutArticle = () => {
     return (
         <>
@@ -10,22 +8,22 @@ export const AboutArticle = () => {
                         <li className="breadcrumb-item active" aria-current="page">Redes Sociales</li>
                     </ol>
                 </nav> */}
-                <h1 className="h4 text-primary mb-3">🥇 Mis Redes Sociales 📲</h1>
+                <h1 className="h4 text-primary mb-3">🏅 Mis Redes Sociales 📲</h1>
                 <figure className="figure">
-                    <h2 className="h5 text-primary">✅ Instagram</h2>
-                    <a href="https://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                    <h2 className="h5 text-primary">✨ Instagram ✨</h2>
+                    <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconInstagram.webp" 
                             className="figure-img img-fluid rounded mt-2 iconInstagram" alt="Icono de Instagram"/>
                     </a>
                     <figcaption className="figure-caption text-left mt-2">
                         Es en la red social que estoy más activo y más
-                        contenido publico. Por aquí te puedo responder más rápido.
+                        contenido tengo publicado, en comparación con otras.
                     </figcaption>
                 </figure>
                 <hr/>
                 <figure className="figure">
-                    <h2 className="h5 text-primary">🐦 Twitter</h2>
-                    <a href="https://bit.ly/twCraftianos" className="twitter-follow-button" target="_blank" rel="noreferrer">
+                    <h2 className="h5 text-primary">🐦 Twitter 🪄</h2>
+                    <a href="https://cutt.ly/craftianosTwitter" className="twitter-follow-button" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconTwitter.webp" className="figure-img img-fluid rounded mt-2 iconTwitter" 
                             alt="Icono de Twitter" /> 
                     </a>
@@ -37,8 +35,8 @@ export const AboutArticle = () => {
                 </figure>
                 <hr />
                 <figure className="figure">
-                    <h2 className="h5 text-primary">✅ TikTok</h2>
-                    <a href="https://bit.ly/tiktokCR" target="_blank" rel="noreferrer">
+                    <h2 className="h5 text-primary">✅ TikTok 📹</h2>
+                    <a href="https://cutt.ly/craftianosTiktok" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconTiktok.webp" 
                             className="figure-img img-fluid rounded mt-2 iconTiktok" alt="Icono de Tiktok"/>
                     </a>
@@ -49,8 +47,8 @@ export const AboutArticle = () => {
                 </figure>
                 <hr />
                 <figure className="figure">
-                    <h2 className="h5 text-primary">📘 Peoople</h2>
-                    <a href="https://bit.ly/peoopleCR" target="_blank" rel="noreferrer">
+                    <h2 className="h5 text-primary">📘 Peoople 🎈</h2>
+                    <a href="https://cutt.ly/craftianosPeoople" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconPeoople.webp" 
                             className="figure-img img-fluid rounded mt-2 iconPeoople" alt="Icono de Peoople" />
                     </a>
@@ -70,18 +68,18 @@ export const AboutArticle = () => {
                         </p>    
                         <ul className="enlaces">
                             <li className="">
-                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
                                     Instagram | Mi cuenta principal 📘🖋️
                                 </a>
                             </li>
                             <li className="">
-                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosTwitter" target="_blank" rel="noreferrer">
                                     Twitter | Mi segunda cuenta 📘🖋️
                                 </a>
                             </li>
                             <li className="">
-                                <a href="https://bit.ly/channelCR" target="_blank" rel="noreferrer">
-                                    Canal de Telegram 🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
+                                <a href="https://cutt.ly/craftianosTelegram" target="_blank" rel="noreferrer">
+                                    Canal de Telegram 📢🦄 | Aquí podrás encontrar todos los enlaces que voy publicando, etc 💫
                                 </a>
                             </li>
                             <div className="email-contacto mt-4">
