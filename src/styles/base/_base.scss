@@ -5,7 +5,7 @@ body {
 }
 
 // Set Fonts
-.header {
+header {
     font-family: Roboto, sans-serif;
     background: $dark-mode;
 }
@@ -30,12 +30,12 @@ body {
     }
 }
 
-.footer {
+footer > div {
     background: $dark-mode;
     color: $dark-cont;
     font-family: Roboto;
     
-    .enlacesfooter a {
+    .enlaces a {
         color: $footerLnk !important;
         
         &:hover {

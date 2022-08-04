@@ -1,7 +1,7 @@
 export const AboutArticle = () => {
     return (
         <>
-            <div className="col-12 col-md-6 article">
+            <article className="col-12 col-md-6 article">
                 {/*                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="../">Inicio</a></li>
@@ -57,8 +57,8 @@ export const AboutArticle = () => {
                         (Apps para ganar dinero, banco móvil y mucho más personal 👏).
                     </figcaption>
                 </figure>
-            </div>
-            <div className="col col-md-3 mb-4">
+            </article>
+            <aside className="col col-md-3 mb-4">
                 <div className="card">
                     <div className="card-body">
                         <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
@@ -90,7 +90,7 @@ export const AboutArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

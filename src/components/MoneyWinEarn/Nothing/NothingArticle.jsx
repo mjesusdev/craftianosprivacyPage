@@ -100,15 +100,12 @@ export const NothingArticle = () => {
                     </div>
                 </div>
             </div>
+            {/* OLD BANNER IPROYAL - REPLACE TO MORE INFORMATION ABOUT PRIVACY + SECURITY ✨🚀 */}
             <div className="col-2 mb-5">
-                <div className="bannerIpRoyal col-7 ms-5">
-                    <a href="https://bit.ly/iproyalCR" target="_blank" rel="noreferrer">
-                        <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="https://pawns.iproyal.com/img/b/160.jpg" 
-                            alt="Banner IpRoyal Panws - Gana dinero sin hacer nada" 
-                            title="Banner IpRoyal Panws - Gana dinero sin hacer nada" loading="lazy" />
-                    </a>
+                <div className="col-7 ms-5"> 
+
                 </div>
-            </div>
+            </div> 
         </>
     )
 }

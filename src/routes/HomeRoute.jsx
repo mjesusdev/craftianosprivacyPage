@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { AboutScreen } from '../components/AboutScreen/AboutScreen';
@@ -37,10 +35,11 @@ import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoya
 export const HomeRoute = () => {
     return (
         <>
-            <div className="p-3 mb-2 text-dark row header">
+            <header className="p-3 mb-2 text-dark row">
                 <Header />
-            </div>
-            
+            </header>
+
+            {/* TODO: Change to tag article? */}
             <Switch>
                 <Route exact path="/" component={ HomeScreen } />
                 <Route exact path="/sobre-mi/" component={ AboutScreen } />
@@ -92,10 +91,10 @@ export const HomeRoute = () => {
 
                 <Redirect to="/" />
             </Switch>
-        
-            <div className="p-3 mt-2 text-dark row footer">
+            
+            <footer className="p-3 mt-2 text-dark row">
                 <CookieVerify />
-            </div>
+            </footer>
         </>
     )
 }
