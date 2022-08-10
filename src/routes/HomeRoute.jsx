@@ -6,7 +6,7 @@ import { BanksScreen } from '../components/BanksScreen/BanksScreen';
 import { BlogScreen } from '../components/BlogScreen/BlogScreen';
 import { CashbackScreen } from '../components/MoneyWinEarn/Cashback/CashbackScreen';
 import { CookieVerify } from '../components/Cookies/CookieVerify';
-import { CryptosScreen } from '../components/MoneyWinEarn/Cryptos/CryptosScreen';
+/* import { CryptosScreen } from '../components/MoneyWinEarn/Cryptos/CryptosScreen'; */
 import { GameeScreen } from '../components/MoneyWinEarn/Playing/Gamee/GameeScreen';
 import { Header } from '../components/ui/Header';
 import { HomeScreen } from '../components/HomeScreen/HomeScreen';
@@ -30,6 +30,7 @@ import { VividScreen } from '../components/BanksScreen/VividMoney/VividScreen';
 import { WidiloScreen } from '../components/MoneyWinEarn/Cashback/Widilo/WidiloScreen';
 import { YouGovScreen } from '../components/MoneyWinEarn/Surveys/YouGov/YouGovScreen';
 import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoyalScreen';
+import { WalkingScreen } from '../components/MoneyWinEarn/Walking/WalkingScreen';
 
 /* Change Imports - This is embarrassing */
 export const HomeRoute = () => {
@@ -49,9 +50,9 @@ export const HomeRoute = () => {
 
                 { /* Routes for DropDown "MoneyWin" */ }
                 <Route exact path="/gana-dinero-sin-hacer-nada/" component={ NothingScreen } />
-                <Route exact path="/encuestas-renumeradas/" component={ SurveysScreen } />
+                <Route exact path="/gana-dinero-caminando/" component={ WalkingScreen } />
                 <Route exact path="/gana-dinero-jugando/" component={ PlayingScreen } />
-                <Route exact path="/gana-cryptos-gratis/" component={ CryptosScreen } />
+                <Route exact path="/encuestas-renumeradas/" component={ SurveysScreen } />
 
                 { /*  Routes for DropDown "MoneyEarn" */}
                 <Route exact path="/compras-cashback/" component={ CashbackScreen } />

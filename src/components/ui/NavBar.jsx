@@ -70,22 +70,32 @@ export const NavBar = () => {
                                 <Link
                                     className="dropdown-item"
                                     exact
-                                    title="Gana cryptos gratis"
-                                    to="/gana-cryptos-gratis/" 
-                                >
-                                    🏅 Gana cryptos gratis
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
                                     title="Encuestas renumeradas"
                                     to="/encuestas-renumeradas/"
                                 >
                                     📙 Encuestas renumeradas
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    className="dropdown-item"
+                                    exact
+                                    title="Gana dinero sin hacer nada | Ingresos Pasivos"
+                                    to="/gana-dinero-caminando/"
+                                >
+                                    🤯 Gana premios o cryptos por caminar 🚶‍♂️
+                                </Link>
+                            </li>
+                            {/* <li>
+                                <Link
+                                    className="dropdown-item"
+                                    exact
+                                    title="Gana cryptos gratis"
+                                    to="/gana-cryptos-gratis/" 
+                                >
+                                    🏅 Gana cryptos gratis
+                                </Link>
+                            </li> */}
                             <li>
                                 <Link
                                     className="dropdown-item"
