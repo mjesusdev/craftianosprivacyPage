@@ -8,6 +8,11 @@ body.dark figcaption {
     height: 12%;
 }
 
+/* Padding to Icons */
+.figure > h2 > svg {
+    padding-right: 0.2em;
+}
+
 /* .email-contacto {
     background: #2a9d8f;
     height: 100px;

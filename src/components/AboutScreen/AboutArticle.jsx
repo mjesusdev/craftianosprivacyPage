@@ -1,3 +1,7 @@
+import { IconContext } from 'react-icons/lib';
+import { TiSocialInstagram, TiSocialTwitter } from 'react-icons/ti';
+import { SiTiktok } from 'react-icons/si';
+
 export const AboutArticle = () => {
     return (
         <>
@@ -10,7 +14,13 @@ export const AboutArticle = () => {
                 </nav> */}
                 <h1 className="h4 text-primary mb-3">🏅 Mis Redes Sociales 📲</h1>
                 <figure className="figure">
-                    <h2 className="h5 text-primary">✨ Instagram ✨</h2>
+                    <h2 className="h5 text-primary">
+                        <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Instagram Icon' }}>
+                            <TiSocialInstagram className="figure-img img-fluid rounded mt-2"/>
+                        </IconContext.Provider>
+                        
+                        Instagram ✨
+                    </h2>
                     <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconInstagram.webp" 
                             className="figure-img img-fluid rounded mt-2 iconInstagram" alt="Icono de Instagram"/>
@@ -20,11 +30,20 @@ export const AboutArticle = () => {
                         contenido tengo publicado, en comparación con otras.
                     </figcaption>
                 </figure>
+
                 <hr/>
+
                 <figure className="figure">
-                    <h2 className="h5 text-primary">🐦 Twitter 🪄</h2>
+                    <h2 className="h5 text-primary">
+                        <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Twitter Icon' }}>
+                            <TiSocialTwitter className="figure-img img-fluid rounded mt-2"/>
+                        </IconContext.Provider>
+                        
+                        Twitter ✨
+                    </h2>
                     <a href="https://cutt.ly/craftianosTwitter" className="twitter-follow-button" target="_blank" rel="noreferrer">
-                        <img loading="lazy" src="../img/icons/iconTwitter.webp" className="figure-img img-fluid rounded mt-2 iconTwitter" 
+                        <img loading="lazy" src="../img/icons/iconTwitter.webp" 
+                            className="figure-img img-fluid rounded mt-2 iconTwitter" 
                             alt="Icono de Twitter" /> 
                     </a>
                     <br/>
@@ -33,9 +52,17 @@ export const AboutArticle = () => {
                         aquí hablo de las novedades de esta página web y más. También me puedes preguntar aquí lo que quieras 😅
                     </figcaption>
                 </figure>
+
                 <hr />
+
                 <figure className="figure">
-                    <h2 className="h5 text-primary">✅ TikTok 📹</h2>
+                    <h2 className="h5 text-primary">
+                        <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Tiktok Icon' }}>
+                            <SiTiktok className="figure-img img-fluid rounded mt-2"/>
+                        </IconContext.Provider>
+                        
+                        Tiktok 📹
+                    </h2>
                     <a href="https://cutt.ly/craftianosTiktok" target="_blank" rel="noreferrer">
                         <img loading="lazy" src="../img/icons/iconTiktok.webp" 
                             className="figure-img img-fluid rounded mt-2 iconTiktok" alt="Icono de Tiktok"/>
@@ -45,7 +72,9 @@ export const AboutArticle = () => {
                         que este relacionado con esta página y mi marca personal de Instagram 👏
                     </figcaption>
                 </figure>
+
                 <hr />
+
                 <figure className="figure">
                     <h2 className="h5 text-primary">📘 Peoople 🎈</h2>
                     <a href="https://cutt.ly/craftianosPeoople" target="_blank" rel="noreferrer">

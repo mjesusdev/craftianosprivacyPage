@@ -1,7 +1,6 @@
 import { HashLink as Link } from 'react-router-hash-link';
-
 import { IconContext } from 'react-icons/lib';
-import { FaArrowUp } from 'react-icons/fa'
+import { FaArrowUp } from 'react-icons/fa';
 
 export const Footer = () => {
     const btnGoUp = () => {
