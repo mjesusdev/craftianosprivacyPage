@@ -313,12 +313,12 @@ export const LinksArticle = () => {
                         </p>
                         <ul className="enlaces list-custom">
                         <li className="">
-                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
                                     Instagram | Mi cuenta principal 📘🖋️
                                 </a>
                             </li>
                             <li className="">
-                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosTwitter" target="_blank" rel="noreferrer">
                                     Twitter | Mi segunda cuenta 📘🖋️
                                 </a>
                             </li>
@@ -336,7 +336,7 @@ export const LinksArticle = () => {
                     </div>
                 </div>
                 <div className="bannerVerse col-10 ms-5">
-                    <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
+                    <a href="https://cutt.ly/craftianosVerse" target="_blank" rel="noreferrer">
                         <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../img/verse/banner-ing.jpg" 
                             alt="Únete a Verse y consigue 5€ GRATIS" title="Únete a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>

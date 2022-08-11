@@ -16,7 +16,7 @@ export const VividArticle = () => {
                     comprar en diferentes comercios).
                 </p>
 
-                <a className="btn btn-outline-warning mb-4" href="https://bit.ly/vividCR" target="_blank" rel="noopener noreferrer">
+                <a className="btn btn-outline-warning mb-4" href="https://cutt.ly/craftianosVividMoney" target="_blank" rel="noopener noreferrer">
                     Abre una cuenta y aprovecha los meses de PREMIUM 🏅
                 </a>
 
@@ -96,12 +96,16 @@ export const VividArticle = () => {
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../img/vivid-money/beneficios-cashback.png" class="d-block rounded mx-auto d-block img-fluid" 
-                                alt="..." title="..." />
+                            <a href="https://cutt.ly/craftianosVividVentajas" target="_blank" rel="noopener noreferrer">
+                                <img src="../img/vivid-money/beneficios-cashback.png" class="d-block rounded mx-auto d-block img-fluid" 
+                                    alt="..." title="..." />
+                            </a>
                         </div>
                         <div class="carousel-item">
-                            <img src="../img/vivid-money/beneficios-cashback2.png" class="d-block rounded mx-auto d-block img-fluid" 
-                                alt="..." title="..." />
+                            <a href="https://cutt.ly/craftianosVividVentajas" target="_blank" rel="noopener noreferrer">
+                                <img src="../img/vivid-money/beneficios-cashback2.png" class="d-block rounded mx-auto d-block img-fluid" 
+                                    alt="..." title="..." />
+                            </a>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -138,14 +142,14 @@ export const VividArticle = () => {
             <div className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
-                        <h4 className="h5 text-danger">⚡ Otros Bancos ONLINE ⚡</h4>
+                        <h4 className="h5 text-danger">⚡ Otros Bancos ONLINE Recomendados ⚡</h4>
                         <p className="text-justify fw-bold">
                             Aquí os dejo un listado de otras bancos online que podrían interesarle.
                         </p>
 
                         <ul className="enlaces">
                             <li className="">
-                                Rebellion: Banco móvil en el que se puede abrir cuenta a partir de 14 años 🤯
+                                Rebellion: Banco Español Online en el que se puede abrir cuenta a partir de 14 años 🤯
                                 <br />
                                 <a href="https://bit.ly/rebellionCR" target="_blank" rel="noopener noreferrer" 
                                     title="Únete a Rebellion, banco online y gana dinero">

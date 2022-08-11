@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const BanksArticle = () => {
@@ -47,7 +46,7 @@ export const BanksArticle = () => {
                             que devuelve un 5% de la compra realizada en 7 supermercados distintos de España. <br /><br />
                             (Algunos de estos son: Carrefour, Lidl, Mercadona, Alcampo, etc) ✅💸
                         </p>
-                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/rebellionCR"  rel="noopener noreferrer">
+                        <a className="btn btn-outline-success d-grid mb-4" href="https://cutt.ly/craftianosRebellion"  rel="noopener noreferrer">
                             Únete a Rebellion y aprovecha las promos desde ya 🚀⚡
                         </a>
                         <p className="text-justify">
@@ -122,7 +121,7 @@ export const BanksArticle = () => {
                             <br /><br />
                             Además en poco tiempo sacarán que por pagar algunos comercios que forman de su programa de ofertas, dan descuentos 🤗
                         </p>
-                        <a className="btn btn-outline-success d-grid mb-4" href="https://bit.ly/plazoCR"  rel="noopener noreferrer">
+                        <a className="btn btn-outline-success d-grid mb-4" href="https://cutt.ly/craftianosPlazoBnk"  rel="noopener noreferrer">
                             Mira más información sobre Plazo y descargala para Android e iOS 🤗
                         </a>
                         <p className="text-justify">
@@ -165,12 +164,12 @@ export const BanksArticle = () => {
                         </p>    
                         <ul className="enlaces">
                             <li className="">
-                                <a href="http://bit.ly/ingCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
                                     Instagram | Mi cuenta principal 📘🖋️
                                 </a>
                             </li>
                             <li className="">
-                                <a href="http://bit.ly/twCraftianos" target="_blank" rel="noreferrer">
+                                <a href="https://cutt.ly/craftianosTwitter" target="_blank" rel="noreferrer">
                                     Twitter | Mi segunda cuenta 📘🖋️
                                 </a>
                             </li>
@@ -191,7 +190,7 @@ export const BanksArticle = () => {
                     </div>
                 </div>
                 <div className="bannerVerse col-10 ms-5">
-                    <a href="https://bit.ly/VerseCR" target="_blank" rel="noreferrer">
+                    <a href="https://cutt.ly/craftianosVerse" target="_blank" rel="noreferrer">
                         <img className="img-fluid rounded mx-auto d-block w-100 mt-4" src="../img/verse/banner-ing.jpg" 
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>

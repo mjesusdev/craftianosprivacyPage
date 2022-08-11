@@ -30,16 +30,19 @@ header {
     }
 }
 
-footer > div {
+footer {
     background: $dark-mode;
-    color: $dark-cont;
     font-family: Roboto;
     
-    .enlaces a {
-        color: $footerLnk !important;
-        
-        &:hover {
-            color: $primary-hover !important;
+    div {
+        color: $dark-cont;
+
+        .enlaces a {
+            color: $footerLnk !important;
+            
+            &:hover {
+                color: $primary-hover !important;
+            }
         }
     }
 }

@@ -126,7 +126,7 @@ export const TiendeoArticle = () => {
                         ¿Qué todavía no usas Verse para pagar a todos tus amigos y ganar dinero? 💡💸
                         <br /><br />
                         Usa este enlace para descargar la app y registrarte:
-                        <a href="https://bit.ly/VerseCR" target="_blank" rel="noopener noreferrer"> https://bit.ly/VerseCR</a>
+                        <a href="https://cutt.ly/craftianosVerse" target="_blank" rel="noopener noreferrer"> https://cutt.ly/craftianosVerse</a>
                     </div>
                 </div>
 
