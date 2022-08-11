@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://craftianosmoney.com/</loc>
   <priority>1.00</priority>
@@ -28,7 +27,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://craftianosmoney.com/gana-cryptos-gratis/</loc>
+  <loc>https://craftianosmoney.com/gana-dinero-caminando/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -119,6 +118,5 @@
   <loc>https://craftianosmoney.com/verse-app/</loc>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>
