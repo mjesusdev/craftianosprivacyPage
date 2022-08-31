@@ -215,7 +215,7 @@ export const LinksArticle = () => {
                         <ul className="enlaces list-custom">
                             <li className="">
                                 Together Price:
-                                <a href="https://bit.ly/togpriceCR" target="_blank" rel="noreferrer"
+                                <a href="https://app.togetherprice.com/sign-up?tag=viral_loop&channel=link&promo_code=manueljesus-promo-hjpq" target="_blank" rel="noreferrer"
                                     title="Ahorra dinero por compartir suscripciones digitales con Together Price 💸😍">
                                         Comparte una suscripción con grupos y ahorra dinero 💡💸
                                 </a>
