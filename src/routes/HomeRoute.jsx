@@ -1,3 +1,4 @@
+/* import { lazy } from 'react'; */
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { AboutScreen } from '../components/AboutScreen/AboutScreen';
@@ -32,6 +33,9 @@ import { YouGovScreen } from '../components/MoneyWinEarn/Surveys/YouGov/YouGovSc
 import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoyalScreen';
 import { WalkingScreen } from '../components/MoneyWinEarn/Walking/WalkingScreen';
 
+// Import Dynamic imports, better performance 🚀 (TEST)
+/* const About = lazy(() => import('../components/AboutScreen/AboutScreen')); */
+
 /* Change Imports - This is embarrassing */
 export const HomeRoute = () => {
     return (
@@ -43,6 +47,7 @@ export const HomeRoute = () => {
             {/* TODO: Change to tag article? */}
             <Switch>
                 <Route exact path="/" component={ HomeScreen } />
+
                 <Route exact path="/sobre-mi/" component={ AboutScreen } />
                 <Route exact path="/banco-movil-pagos/" component={ BanksScreen } />
                 <Route exact path="/blog/" component={ BlogScreen } />
