@@ -1,42 +1,20 @@
 /* import { lazy } from 'react'; */
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-import { AboutScreen } from '../components/AboutScreen/AboutScreen';
-import { AttaPollScreen } from '../components/MoneyWinEarn/Surveys/AttaPoll/AttaPollScreen';
-import { BanksScreen } from '../components/BanksScreen/BanksScreen';
-import { BlogScreen } from '../components/BlogScreen/BlogScreen';
-import { CashbackScreen } from '../components/MoneyWinEarn/Cashback/CashbackScreen';
-import { CookieVerify } from '../components/Cookies/CookieVerify';
-/* import { CryptosScreen } from '../components/MoneyWinEarn/Cryptos/CryptosScreen'; */
-import { GameeScreen } from '../components/MoneyWinEarn/Playing/Gamee/GameeScreen';
-import { Header } from '../components/ui/Header';
-import { HomeScreen } from '../components/HomeScreen/HomeScreen';
-import { HoneyGainScreen } from '../components/MoneyWinEarn/Nothing/HoneyGain/HoneyGainScreen';
-import { IgraalScreen } from '../components/MoneyWinEarn/Cashback/Igraal/IgraalScreen';
-import { IpsosIsayScreen } from '../components/MoneyWinEarn/Surveys/Ipsos-isay/IpsosIsayScreen';
-import { LetyShopsScreen } from '../components/MoneyWinEarn/Cashback/Letyshops/LetyShopsScreen';
-import { LinksScreen } from '../components/LinksScreen/LinksScreen';
-import { MarketAgentScreen } from '../components/MoneyWinEarn/Surveys/Marketagent/MarketAgentScreen';
-import { NothingScreen } from '../components/MoneyWinEarn/Nothing/NothingScreen';
-import { PlayingScreen } from '../components/MoneyWinEarn/Playing/PlayingScreen';
-import { PollPayScreen } from '../components/MoneyWinEarn/Surveys/PollPay/PollPayScreen';
-import { PrizeRebelScreen } from '../components/MoneyWinEarn/Surveys/PrizeRebel/PrizeRebelScreen';
-import { PromosScreen } from '../components/MoneyWinEarn/Tickets/Promos/PromosScreen';
-import { SmartmeScreen } from '../components/MoneyWinEarn/Surveys/SmartmeApp/SmartmeScreen';
-import { SurveysScreen } from '../components/MoneyWinEarn/Surveys/SurveysScreen';
-import { TicketsScreen } from '../components/MoneyWinEarn/Tickets/TicketsScreen';
-import { TiendeoScreen } from '../components/MoneyWinEarn/Tickets/Tiendeo/TiendeoScreen';
-import { VerseScreen } from '../components/BanksScreen/Verse/VerseScreen';
-import { VividScreen } from '../components/BanksScreen/VividMoney/VividScreen';
-import { WidiloScreen } from '../components/MoneyWinEarn/Cashback/Widilo/WidiloScreen';
-import { YouGovScreen } from '../components/MoneyWinEarn/Surveys/YouGov/YouGovScreen';
-import { IpRoyalScreen } from '../components/MoneyWinEarn/Nothing/IpRoyal/IpRoyalScreen';
-import { WalkingScreen } from '../components/MoneyWinEarn/Walking/WalkingScreen';
+import { AboutScreen } from '../components/AboutScreen';
+import { BanksScreen, VerseScreen, VividScreen } from '../components/BanksScreen';
+import { BlogScreen } from '../components/BlogScreen';
+import { CashbackScreen, IgraalScreen, LetyShopsScreen, WidiloScreen } from '../components/MoneyWinEarn/Cashback';
+import { CookieVerify } from '../components/Cookies';
+import { Header } from '../components/ui';
+import { HomeScreen } from '../components/HomeScreen';
+import { LinksScreen } from '../components/LinksScreen';
+import { NothingScreen, IpRoyalScreen, HoneyGainScreen } from '../components/MoneyWinEarn/Nothing';
+import { PlayingScreen, GameeScreen } from '../components/MoneyWinEarn/Playing';
+import { SurveysScreen, AttaPollScreen, IpsosIsayScreen, MarketAgentScreen, PollPayScreen, PrizeRebelScreen, SmartmeScreen, YouGovScreen } from '../components/MoneyWinEarn/Surveys';
+import { TicketsScreen, PromosScreen, TiendeoScreen } from '../components/MoneyWinEarn/Tickets';
+import { WalkingScreen } from '../components/MoneyWinEarn/Walking';
 
-// Import Dynamic imports, better performance 🚀 (TEST)
-/* const About = lazy(() => import('../components/AboutScreen/AboutScreen')); */
-
-/* Change Imports - This is embarrassing */
 export const HomeRoute = () => {
     return (
         <>
