@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://craftianosmoney.com/sitemap.xml
+Sitemap: https://craftianosmoney-page.vercel.app/sitemap.xml

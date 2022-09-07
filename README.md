@@ -18,5 +18,5 @@ This template should help get you started developing with React JS in Vite.
 ```
 
 ## Page and Resources
-- [See Craftiano's Page 🚀](https://craftianosmoney.com/)
+- [See Craftiano's Page 🚀](https://craftianosmoney-page.vercel.app/)
 - [Vite JS](https://vitejs.dev/) + [React JS](https://reactjs.org/) 🚀
