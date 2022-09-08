@@ -17,12 +17,11 @@ import { WalkingScreen } from '../components/MoneyWinEarn/Walking';
 
 export const HomeRoute = () => {
     return (
-        <>
-            <header className="p-3 mb-2 text-dark row">
+        <div className='container-fluid'>
+            <header className='p-3 mb-2 text-dark row'>
                 <Header />
             </header>
 
-            {/* TODO: Change to tag article? */}
             <Switch>
                 <Route exact path="/" component={ HomeScreen } />
 
@@ -76,9 +75,9 @@ export const HomeRoute = () => {
                 <Redirect to="/" />
             </Switch>
             
-            <footer className="p-3 mt-2 text-dark row">
+            <footer className='p-3 mt-2 text-dark row'>
                 <CookieVerify />
             </footer>
-        </>
+        </div>
     )
 }

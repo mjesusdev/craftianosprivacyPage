@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
  
 /* Create Shortcut */
@@ -6,12 +5,12 @@ export const NothingArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-7 mt-2 article">
+            <article className="col-12 col-md-7 mt-2">
                 <h1 className="h4 text-primary mb-4" id="ingresos-pasivos">
                     🤠 ¿Ganar Ingresos Pasivos sin hacer nada?
                 </h1>
 
-                <div className="honeygain card mb-5">
+                <section className="honeygain card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/honeygain/">
@@ -37,9 +36,9 @@ export const NothingArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="iproyal card mb-5">
+                <section className="iproyal card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/iproyal/">
@@ -65,9 +64,9 @@ export const NothingArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="smartme-app card mb-5">
+                <section className="smartme-app card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/smartme-app/">
@@ -98,8 +97,8 @@ export const NothingArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </section>
+            </article>
             {/* OLD BANNER IPROYAL - REPLACE TO MORE INFORMATION ABOUT PRIVACY + SECURITY ✨🚀 */}
             <div className="col-2 mb-5">
                 <div className="col-7 ms-5"> 

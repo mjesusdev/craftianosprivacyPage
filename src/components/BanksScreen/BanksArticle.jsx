@@ -4,7 +4,7 @@ export const BanksArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 article">
+            <article className="col-12 col-md-6">
                 <h1 className="h3 text-primary d-grid mb-4">Bancos móviles y pagos 🏦</h1>
                 <h2 className="h4 text-primary">Mejores bancos online sin comisiones ✅</h2>
                 <p className="text-justify">
@@ -12,7 +12,7 @@ export const BanksArticle = () => {
                     además os explico como abrirse cuentas en todos ellos y mi opinión 🤗 (con mucho tiempo usandolo cada uno)
                 </p>
 
-                <div className="vivid-money card mb-3">
+                <section className="vivid-money card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="vivid-money">🥇 Vivid Money: El Banco que devuelve dinero 💸</h3>
                         <p className="card-text">
@@ -32,9 +32,9 @@ export const BanksArticle = () => {
                             y a partir del cashback que tengamos disponibles en ese espacio, podemos ganar más dinero, NO MENOS 💡)
                         </p>
                     </div>
-                </div>
+                </section>
 
-                <div className="rebellion card mb-3">
+                <section className="rebellion card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="rebellion">🥈 Rebellion: El banco de los jóvenes y no tanto 😅</h3>
                         <p className="card-text">
@@ -57,9 +57,9 @@ export const BanksArticle = () => {
                             es lo que hace que las personas abran cuenta en Rebellion 🥳
                         </p>
                     </div>
-                </div>
+                </section>
 
-                <div className="n26 card mb-3">
+                <section className="n26 card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="n26">🥉 N26: Banco online sin comisiones 🔴</h3>
                         <p className="card-text">
@@ -79,9 +79,9 @@ export const BanksArticle = () => {
                             verás que es mejor que otros bancos tradicionales 🎉
                         </p>
                     </div>
-                </div>
+                </section>
 
-                <div className="verse card mb-3">
+                <section className="verse card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="verse-app">🦄 Verse App: La mejor plataforma de pagos móviles 💳</h3>
                         <p className="card-text enlaces">
@@ -109,9 +109,9 @@ export const BanksArticle = () => {
                             para que puedas ahorrar para eso que tanto quieres 🤯👏
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="plazo card mb-3">
+                <section className="plazo card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="plazo">💳 Plazo: Banco online sin comisiones y con descuentos 💸</h3>
                         <p className="card-text">
@@ -135,9 +135,9 @@ export const BanksArticle = () => {
                             y lo que queda sería ingresar dinero a la cuenta 💡✅
                         </p>
                     </div>
-                </div>
+                </section>
 
-                <div className="zelf card mb-3">
+                <section className="zelf card mb-3">
                     <div className="card-body">
                         <h3 className="h4 card-title" id="zelf">🤑 Zelf: Banco por aplicaciones de mensajería 🤯</h3>
                         <p className="card-text">
@@ -152,9 +152,9 @@ export const BanksArticle = () => {
                             💥 Si eres de España o Francia, en el momento del registro y de pedir la tarjeta, la puedes obtener 💳🔥
                         </p>
                     </div>
-                </div>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+                </section>
+            </article>
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h2 className="h5 card-title">⚡IMPORTANTE⚡</h2>
@@ -195,7 +195,7 @@ export const BanksArticle = () => {
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

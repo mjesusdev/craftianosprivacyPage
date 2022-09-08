@@ -5,12 +5,10 @@ import { HomeRoute } from './HomeRoute';
 export const AppRouter = () => {
     return (
         <Router>
-            <div className="container-fluid">
-                <HomeRoute
-                    path="/"
-                    component={ HomeRoute }
-                />
-            </div>
+            <HomeRoute
+                path="/"
+                component={ HomeRoute }
+            />
         </Router>
     )
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* Create Shortcut */
@@ -7,12 +6,12 @@ export const SurveysArticle = () => {
         <>
             {/* <div className="col col-md-3"></div> */}
             {/* <span>Migas de pan</span> */}
-            <div className="col-12 col-md-7 mt-2 article">
+            <article className="col-12 col-md-7 mt-2">
                 <h1 className="h4 text-primary mb-4" id="apps-encuestas">
                     Plataformas Encuestas - Compartir opiniones a cambio de dinero 💰
                 </h1>
 
-                <div className="ipsos-isay card mb-5">
+                <section className="ipsos-isay card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/ipsos-isay/">
@@ -41,9 +40,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="prize-rebel card mb-5">
+                <section className="prize-rebel card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/prize-rebel/">
@@ -70,9 +69,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="marketagent card mb-5">
+                <section className="marketagent card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/marketagent/">
@@ -99,9 +98,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="yougov card mb-5">
+                <section className="yougov card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/yougov/">
@@ -134,9 +133,9 @@ export const SurveysArticle = () => {
                             </div> */}
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="smartmeapp card mb-5">
+                <section className="smartmeapp card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/smartme-app/">
@@ -162,9 +161,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="attapoll card mb-5">
+                <section className="attapoll card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/attapoll/">
@@ -190,9 +189,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div className="pollpay card mb-5">
+                <section className="pollpay card mb-5">
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <Link exact to="/pollpay/">
@@ -218,9 +217,9 @@ export const SurveysArticle = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 
-            </div>
+            </article>
         </>
     )
 }

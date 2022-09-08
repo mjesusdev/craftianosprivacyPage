@@ -2,7 +2,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const HomeArticle = () => {
     return (
-        <div className="col-12 col-sm-7 col-md-5 mt-2">
+        <article className='col-12 col-sm-7 col-md-5 mt-2'>
             <h1 className="h4 text-primary mb-2">👋 Bienvenidos a mi página 🤗</h1>
             <p className="text-justify text-article">
                 En este blog podreís saber la forma de ganar dinero en 2022, ya sea por realizar encuestas, 
@@ -39,6 +39,6 @@ export const HomeArticle = () => {
                     para enterarte de todo lo que publico 🤗
                 </div>
             </div>
-        </div>
+        </article>
     )
 }

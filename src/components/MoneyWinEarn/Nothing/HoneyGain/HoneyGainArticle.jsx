@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const HoneyGainArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">🐝 HoneyGain</h1>
                 <h2 className="h4 text-primary mb-4">🤔 Gana dinero sin hacer nada, compartiendo internet 🤦‍♂️</h2>
                 <p className="text-justify">
@@ -53,8 +51,8 @@ export const HoneyGainArticle = () => {
                         por eso lo PROHIBEN vaya, porque si no no podrían recoger tus datos, y diras que guuuay, pues eso 🤦‍♂️
                     </li>
                 </ol>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            </article>
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Reflexión ⚡</h4>
@@ -90,7 +88,7 @@ export const HoneyGainArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

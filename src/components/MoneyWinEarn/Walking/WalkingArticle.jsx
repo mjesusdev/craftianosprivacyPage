@@ -1,11 +1,10 @@
-import React from 'react';
 /* import { Link } from 'react-router-dom'; */
 
 export const WalkingArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">🎁 Gana Dinero o Cryptos por Caminar 💸</h1>
                 <h2 className="h4 text-primary mb-4">✨ Listado de Apps que te pagan por Andar ✨</h2>
                 <p className="text-justify">
@@ -53,9 +52,9 @@ export const WalkingArticle = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h2 className="h5 card-title">👑 ¿Qué es el cashback? | Definición y Tips </h2>
@@ -95,7 +94,7 @@ export const WalkingArticle = () => {
                         />
                     </a>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

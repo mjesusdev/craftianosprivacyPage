@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const GameeArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">🎮 Gamee - Recibe tus primeros dólares jugando</h1>
                 <h2 className="h4 text-primary mb-4">✅ Juega a multitud de juegos y gana dinero 🤑</h2>
                 <p className="text-justify">
@@ -148,9 +146,9 @@ export const GameeArticle = () => {
                 <a className="btn btn-outline-success mb-4" href="https://bit.ly/gameeCR" target="_blank" rel="noopener noreferrer">
                     Regístrate en Gamee y empieza a ganar dinero jugando 🎮🤑
                 </a>
-            </div>
+            </article>
 
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-primary">⚡ Otras plataformas de encuestas ⚡</h4>
@@ -166,7 +164,7 @@ export const GameeArticle = () => {
                         
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

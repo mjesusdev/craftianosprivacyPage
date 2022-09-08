@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 /* Create Shortcut */
@@ -6,7 +5,7 @@ export const PlayingArticle = () => {
     return (
         <>
             {/* <div className="col col-md-3"></div> */}
-            <div className="col-12 col-md-7 mt-2 article">
+            <article className="col-12 col-md-7 mt-2">
                 <h1 className="h4 text-primary mb-4">Diviértete jugando y ganando dinero extra ✅ </h1>
                 <h2 className="h4 text-primary mb-4">Ganar dinero por internet jugando juegos 🎮</h2>
                 <p className="text-justify">
@@ -113,8 +112,7 @@ export const PlayingArticle = () => {
                         </div>
                     </div>
                 </div>
-
-            </div>
+            </article>
         </>
     )
 }

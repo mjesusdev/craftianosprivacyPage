@@ -2,7 +2,7 @@
 body.dark {
     background: $dark-mode;
 
-    .article {
+    article, .article {
         color: $dark-cont;
     }
     

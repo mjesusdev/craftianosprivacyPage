@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const IpRoyalArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">IpRoyal Panws 🎁</h1>
                 <h2 className="h4 text-primary mb-4">Gana dinero sin hacer nada</h2>
                 <p className="text-justify enlaces">
@@ -22,8 +20,8 @@ export const IpRoyalArticle = () => {
                         </a>
                     </div>
                 </div>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            </article>
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h3 className="h5 text-danger">⚡ Otras plataformas de cashback ⚡</h3>
@@ -49,7 +47,7 @@ export const IpRoyalArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

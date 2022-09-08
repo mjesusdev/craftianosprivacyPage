@@ -1,11 +1,9 @@
-import React from 'react';
-
 /* Create Shortcut */
 export const CryptosArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 article">
+            <article className="col-12 col-md-6">
                 <h1 className="h4 text-primary">Gana cryptos gratis 🔥💸</h1>
                 <p className="text-justify">
                     En esta categoría, puedes encontrar otra forma de generar dinero, en este caso de ganar criptomonedas GRATIS 🥳🥳 <br />
@@ -87,8 +85,8 @@ export const CryptosArticle = () => {
                     Por lo que tened mucho cuidado con esto y sobre todo no INVERTIR todo el dinero que tengaís,
                     solo una pequeña parte si ESTAIS INTERESADOS ❗💡
                 </div>
-            </div>
-            <div className="enlaces col-12 col-md-3 mb-5">
+            </article>
+            <aside className="enlaces col-12 col-md-3 mb-5">
                 <div className="card bg-dark">
                     <div className="card-body">
                         <h5 className="text-danger">💡 Otras formas de INGRESO 💸</h5>
@@ -140,7 +138,7 @@ export const CryptosArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }
