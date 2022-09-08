@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { BlogList } from './BlogList';
@@ -28,9 +27,9 @@ export const BlogScreen = () => {
                 <title>{ title }</title>
             </Helmet>
 
-            <div className="row justify-content-end">
+            <main className="row justify-content-end">
                 <BlogList />    
-            </div>
+            </main>
         </>
     )
 }

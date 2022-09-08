@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { VerseArticle } from './VerseArticle';
@@ -30,7 +29,7 @@ export const VerseScreen = () => {
 
             <main className="row justify-content-md-center">
                 <VerseArticle />
-            </div>
+            </main>
         </>
     )
 }

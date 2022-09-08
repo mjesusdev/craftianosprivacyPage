@@ -9,7 +9,7 @@ export const BlogCard = ({
     const descriptionMod = description.replaceAll(`|`, `&nbsp;`);
 
     return (
-        <div className="card allCards mb-3">
+        <section className="card allCards mb-3">
             <div className="row g-0">
                 <div className="col-md-4">
                     <a href={ link }>
@@ -26,6 +26,6 @@ export const BlogCard = ({
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

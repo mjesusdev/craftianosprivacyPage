@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const VerseArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">🏅 Verse App: La Mejor App de Pagos Del Mercado 💙🌎</h1>
                 <h2 className="h4 text-primary mb-4">🦄 Gana 5€ rápido, participa en promociones y Mucho MÁS 💫</h2>
                 <p className="text-justify">
@@ -107,9 +105,9 @@ export const VerseArticle = () => {
                         * Tienes el link arriba o en el banner 💫
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
@@ -146,7 +144,7 @@ export const VerseArticle = () => {
                             alt="Registrate a Verse y consigue 5€ GRATIS" loading="lazy" />
                     </a>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { VividArticle } from './VividArticle';
@@ -30,7 +29,7 @@ export const VividScreen = () => {
 
             <main className="row justify-content-md-center">
                 <VividArticle />
-            </div>
+            </main>
         </>
     )
 }

@@ -1,11 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const VividArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">Vivid Money 💜 - El banco que devuelve dinero 🥰</h1>
                 <h2 className="h4 text-primary mb-4">Únete y gana 10€ de registro y mucho cashback 🤯</h2>
                 <p className="text-justify">
@@ -137,9 +136,9 @@ export const VividArticle = () => {
                         </a>
                     </div>
                 </div> */}
-            </div>
+            </article>
 
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Otros Bancos ONLINE Recomendados ⚡</h4>
@@ -173,7 +172,7 @@ export const VividArticle = () => {
                         <video src="../videos/reels-vividmoney.mp4" weight="700" height="700" controls autoplay></video>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }
