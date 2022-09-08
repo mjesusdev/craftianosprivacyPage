@@ -14,15 +14,14 @@
     }
 }
 
-body.dark .allCards {
+body.dark .cardBlog > .card {
     background: $dark-card !important;
     border: 0;
     color: $dark-cont !important;
 }
 
-
 @media (min-width:768px) {
-    .cardBlog, .allCards {
+    .cardBlog, .cardBlog > .card {
         width: 100% !important;
         margin: 0 auto;
         float: none;
@@ -30,7 +29,7 @@ body.dark .allCards {
 }
 
 @media (min-width:1400px) {
-    .cardBlog, .allCards {
+    .cardBlog, .cardBlog > .card {
         width: 70% !important;
         margin: 0 auto;
         float: none;

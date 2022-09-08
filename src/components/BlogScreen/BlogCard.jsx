@@ -1,15 +1,17 @@
 export const BlogCard = ({
-    title,
+    category,
+    date,
     description,
     image,
     link,
-    date,
+    title,
 }) => {
 
     const descriptionMod = description.replaceAll(`|`, `&nbsp;`);
+    const categoryName   = category.split('/')[1];
 
     return (
-        <section className="card allCards mb-3">
+        <section className={ 'card' + categoryName + ' mb-3' } >
             <div className="row g-0">
                 <div className="col-md-4">
                     <a href={ link }>
@@ -22,6 +24,9 @@ export const BlogCard = ({
                             <h5 className="card-title">{ title }</h5>
                         </a>
                         <p className="card-description">{ descriptionMod }</p>
+                        <p className="card-description">
+                            Categoría: { category }
+                        </p>
                         <small className="text-muted fw-bold ">{ date }</small>
                     </div>
                 </div>
