@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { LetyShopsArticle } from './LetyShopsArticle';
@@ -30,7 +29,7 @@ export const LetyShopsScreen = () => {
 
             <main className="row justify-content-md-center">
                 <LetyShopsArticle />
-            </div>
+            </main>
         </>
     )
 }

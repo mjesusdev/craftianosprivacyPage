@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const WidiloArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2 article">
                 {/* //* Modificar estructura web xd */ }
                 <h1 className="h3 text-primary mb-4">Widilo 🎁 - Recibe dinero haciendo compras online</h1>
                 <h2 className="h4 text-primary mb-4">Beneficios por comprar con Widilo</h2>
@@ -177,8 +175,9 @@ export const WidiloArticle = () => {
                         alt="Pago Widilo | PayPal 🎁" 
                     />
                 </div>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            </article>
+
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h3 className="h5 text-danger">⚡ Otras plataformas de cashback ⚡</h3>
@@ -204,7 +203,7 @@ export const WidiloArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

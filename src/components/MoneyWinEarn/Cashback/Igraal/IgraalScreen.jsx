@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { IgraalArticle } from './IgraalArticle';
@@ -30,7 +29,7 @@ export const IgraalScreen = () => {
 
             <main className="row justify-content-md-center">
                 <IgraalArticle />
-            </div>
+            </main>
         </>
     )
 }

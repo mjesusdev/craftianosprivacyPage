@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const AttaPollArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">📙 AttaPoll: Gana dinero haciendo encuestas desde el móvil </h1>
                 <h2 className="h4 text-primary mb-4">✅ Encuestas Renumeradas para ganar dinero extra</h2>
                 <p className="text-justify">
@@ -75,8 +73,8 @@ export const AttaPollArticle = () => {
                     {/* <img loading="lazy" className="img-fluid rounded mx-auto d-block w-75 mb-4" src="../img/widilo/widilove.webp" alt="Widilove" /> */}
                     
                 </div>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            </article>
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Otras programas similares ⚡</h4>
@@ -112,7 +110,7 @@ export const AttaPollArticle = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

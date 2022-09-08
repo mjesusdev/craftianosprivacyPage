@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const IpsosIsayArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">📙 Ipsos Isay</h1>
                 <h2 className="h4 text-primary mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
                 <p className="text-justify">
@@ -84,9 +82,9 @@ export const IpsosIsayArticle = () => {
                 <div id="retiro-isay">
                     <h3 className="h5 text-danger mt-4 mb-4">✅ ¿Es Fiable Ipsos Isay? | Premios Retirados 💰</h3>
                 </div>
+            </article>
 
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Otras plataformas de encuestas ⚡</h4>
@@ -120,7 +118,7 @@ export const IpsosIsayArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

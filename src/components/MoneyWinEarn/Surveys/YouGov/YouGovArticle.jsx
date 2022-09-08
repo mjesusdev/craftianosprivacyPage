@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const YouGovArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">📙 YouGov</h1>
                 <h2 className="h4 text-primary mb-4">✅ Da tu opinión y recibe dinero extra 🔥</h2>
                 <p className="text-justify">
@@ -106,9 +104,9 @@ export const YouGovArticle = () => {
                 <a className="btn btn-outline-success mb-4" href="https://bit.ly/yougovCR" target="_blank" rel="noopener noreferrer">
                     Regístrate en YouGov y empieza a ganar dinero 🤑
                 </a>
-            </div>
+            </article>
 
-            <div className="col-12 col-md-3 mb-5">
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Otras plataformas de encuestas ⚡</h4>
@@ -124,7 +122,7 @@ export const YouGovArticle = () => {
                         
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

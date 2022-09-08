@@ -1,10 +1,8 @@
-import React from 'react';
-
 export const PrizeRebelArticle = () => {
     return (
         <>
             <div className="col col-md-3"></div>
-            <div className="col-12 col-md-6 mt-2 article">
+            <article className="col-12 col-md-6 mt-2">
                 <h1 className="h3 text-primary mb-4">📙 PrizeRebel: Gana dinero realizando múltiples opciones </h1>
                 <h2 className="h4 text-primary mb-4">✅ Muchas Encuestas y un buen sistema de referidos</h2>
                 <p className="text-justify">
@@ -122,8 +120,9 @@ export const PrizeRebelArticle = () => {
                             Si quieres ganar estos premios como yo, hazme clic 💚🚀
                     </a>
                 </div>
-            </div>
-            <div className="col-12 col-md-3 mb-5">
+            </article>
+
+            <aside className="col-12 col-md-3 mb-5">
                 <div className="card">
                     <div className="card-body">
                         <h4 className="h5 text-danger">⚡ Otras plataformas de encuestas ⚡</h4>
@@ -148,7 +147,7 @@ export const PrizeRebelArticle = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }

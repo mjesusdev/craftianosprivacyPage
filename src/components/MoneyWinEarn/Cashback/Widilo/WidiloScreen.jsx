@@ -1,4 +1,3 @@
-import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { WidiloArticle } from './WidiloArticle';
@@ -30,7 +29,7 @@ export const WidiloScreen = () => {
 
             <main className="row justify-content-md-center">
                 <WidiloArticle />
-            </div>
+            </main>
         </>
     )
 }
