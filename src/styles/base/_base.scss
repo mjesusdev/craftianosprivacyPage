@@ -1,3 +1,5 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400);
+
 // Body styles
 body {
     background-color: $primary;
@@ -6,7 +8,7 @@ body {
 
 // Set Fonts
 header {
-    font-family: Roboto, sans-serif;
+    font-family: 'ABeeZee', serif;
     background: $dark-mode;
 }
 
@@ -15,7 +17,7 @@ header {
 }
 
 article, .article {
-    font-family: Karla;
+    font-family: 'ABeeZee', serif;
 }
 
 .btn-outline-success {
@@ -31,7 +33,7 @@ article, .article {
 
 footer {
     background: $dark-mode;
-    font-family: Roboto;
+    font-family: 'ABeeZee', serif;
     
     div {
         color: $dark-cont;

@@ -46,7 +46,7 @@ export const NavBar = () => {
                             💸 Gana o ahorra dinero 
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
-                            <li>
+                            {/* <li>
                                 <Link
                                     className="dropdown-item"
                                     exact
@@ -65,61 +65,11 @@ export const NavBar = () => {
                                 >
                                     🎮 Gana dinero jugando
                                 </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Encuestas renumeradas"
-                                    to="/encuestas-renumeradas/"
-                                >
-                                    📙 Encuestas renumeradas
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Gana dinero sin hacer nada | Ingresos Pasivos"
-                                    to="/gana-dinero-caminando/"
-                                >
-                                    🤯 Gana premios o cryptos por caminar 🚶‍♂️
-                                </Link>
-                            </li>
-                            {/* <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Gana cryptos gratis"
-                                    to="/gana-cryptos-gratis/" 
-                                >
-                                    🏅 Gana cryptos gratis
-                                </Link>
                             </li> */}
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Recibe cashback por realizar compras"
-                                    to="/compras-cashback/"
-                                >
-                                    🎁 Recibe cashback por compras online
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Recibe cashback por realizar compras"
-                                    to="/apps-dinero-tickets/"
-                                >
-                                    🤑 Ahorra con los tickets de supermercado
-                                </Link>
-                            </li>
                         </ul>
                     </li>
                     {/* TODO: Crear nueva sección de Ciberseguridad y Privacidad */}
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink
                             className="nav-item nav-link"
                             exact
@@ -148,7 +98,7 @@ export const NavBar = () => {
                         >
                            💡 Enlaces 
                         </NavLink>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
             
