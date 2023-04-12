@@ -2,41 +2,39 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 export const HomeArticle = () => {
     return (
-        <article className='col-12 col-sm-7 col-md-5 mt-2'>
+        <article className='col-12 col-sm-7 col-md-6 mt-2'>
             <h1 className="h4 text-primary mb-2">👋 Bienvenidos a mi página 🤗</h1>
             <p className="text-justify text-article">
-                En este blog podreís saber la forma de ganar dinero en 2022, ya sea por realizar encuestas, 
-                recibir cashback por compras en tiendas online, además de recibir ingresos extras, 
-                por utilizar aplicaciones de pago como Verse y bancos móviles 100% online referentes en Europa.
+                En este blog podreís encontrar tips de ciberseguridad y privacidad, 
+                su importancia y el porque es tan importante tus datos.
             </p>
             <hr />
             <div className="card cardHome">
-                <img className="card-img-top rounded imgCraftianos" src="../img/craftianosmoney.webp"
+                <img className="card-img-top rounded imgCraftianos" src="../img/craftianosprivacy.webp"
                     title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
                 <div className="card-body">
                     <h2 className="h4 card-title fw-bold">Sobre mí ✨</h2>
                     <p className="card-text">
-                        Soy un chico de Andalucía (España) y comencé a hacer esta página como hobby en el 2018,
-                        como proyecto personal, porque además de publicar apps para ahorrar o ganar dinero,
+                        Soy de España y comencé a hacer esta página como hobby en el 2018,
+                        como proyecto personal, ya que aparte de tener conocimientos en el mundo de la ciberseguridad y privacidad,
                         soy Desarrollador Web 👨‍💻 y por lo cual esta página la hecho desde cero 🥰 <br /><br />
                         
-                        Así que sin nada más que decir, te invito a que hagas un recorrido por aquí, porque publico muchas cosas 🥳
-                        entre lo que destaco las páginas para realizar encuestas por dinero,
-                        plataformas de cashback, plataformas de pago y MUCHO MÁS AQUÍ ABAJO 👇
+                        De hecho está página no estaba dedicada para concienciar sobre esto, que es tan importante,
+                        me gustaba ganar dinero en línea utilizando aplicaciones, como son encuestas en línea, cashback, etc.
+
+                        Pero eso lo he dejado en un "segundo plano" porque me he dado cuenta de todos los datos que damos por simplemente ganar un extra, 
+                        así que aquí te doy consejos, alternativas a los productos de las grandes compañías tecnológicas (GAFAM o GAMAM)
                     </p>
 
                     {/* Link to Enlaces with scroll to top 🚀 */}
                     <Link
                         className="nav-link btn btn-outline-success mb-4"
                         exact
-                        to="/enlaces/#"
-                        title="Link a TODOS los enlaces de Encuestas, Plataformas de Cashback, etc"
+                        to="/sobre-mi/#"
+                        title="Link a redes sociales - CraftinosPrivacy"
                     >
-                        Mira esto, puede que te interese 🎁
+                        Sigueme en mis redes sociales
                     </Link>
-
-                    Si no me conoces, puedes ir a la sección "sobre-mi" y seguirme en mis redes sociales, 
-                    para enterarte de todo lo que publico 🤗
                 </div>
             </div>
         </article>

@@ -33,7 +33,7 @@ export const NavBar = () => {
                             📲 Redes Sociales
                         </NavLink>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                         <Link
                             aria-expanded="false"
                             className="nav-link dropdown-toggle"
@@ -43,10 +43,10 @@ export const NavBar = () => {
                             title="Gana dinero"
                             to="#"
                         >
-                            💸 Gana o ahorra dinero 
+                            Dropdown
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
-                            {/* <li>
+                            <li>
                                 <Link
                                     className="dropdown-item"
                                     exact
@@ -56,20 +56,11 @@ export const NavBar = () => {
                                     ✅ Gana dinero sin hacer nada
                                 </Link>
                             </li>
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Gana dinero jugando"
-                                    to="/gana-dinero-jugando/"
-                                >
-                                    🎮 Gana dinero jugando
-                                </Link>
-                            </li> */}
                         </ul>
-                    </li>
+                    </li> */}
                     {/* TODO: Crear nueva sección de Ciberseguridad y Privacidad */}
-                    {/* <li className="nav-item">
+                    {
+                        /* <li className="nav-item">
                         <NavLink
                             className="nav-item nav-link"
                             exact
@@ -78,27 +69,8 @@ export const NavBar = () => {
                         >
                             🪙 Bancos móviles y Pagos
                         </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-item nav-link"
-                            exact
-                            title="Blog de CraftianosMoney"
-                            to="/blog/"
-                        >
-                            📙 Blog
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink
-                            className="nav-item nav-link"
-                            exact
-                            title="Enlaces de CraftianosMoney"
-                            to="/enlaces/"
-                        >
-                           💡 Enlaces 
-                        </NavLink>
-                    </li> */}
+                        </li> */
+                    }
                 </ul>
             </div>
             

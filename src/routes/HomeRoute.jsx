@@ -8,7 +8,7 @@ import { HomeScreen } from '../components/HomeScreen';
 
 export const HomeRoute = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-md'>
             <header className='p-3 mb-2 text-dark row'>
                 <Header />
             </header>
