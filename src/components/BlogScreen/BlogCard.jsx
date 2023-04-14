@@ -13,12 +13,12 @@ export const BlogCard = ({
     return (
         <section className={ 'card' + categoryName + ' mb-3' } >
             <div className="row g-0">
-                <div className="col-md-4">
+                <div className="col-10 col-md-4">
                     <a href={ link }>
                         <img src={ image } className="card-img img-fluid rounded-start" alt={ title } />
                     </a>
                 </div>
-                <div className="col-md-8">
+                <div className="col-10 col-md-8">
                     <div className="card-body">
                         <a href={ link }>
                             <h5 className="card-title">{ title }</h5>

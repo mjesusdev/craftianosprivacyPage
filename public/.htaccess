@@ -10,7 +10,6 @@
 </IfModule>
 
 # Redirect Pages 301
-redirect 301 /verse https://craftianosmoney-page.vercel.app/verse-app/
 redirect 301 /redes https://craftianosmoney-page.vercel.app/sobre-mi/
 
 # Redirect Page 404

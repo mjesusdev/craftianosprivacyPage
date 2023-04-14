@@ -12,7 +12,7 @@ export const HomeArticle = () => {
             <div className="card cardHome">
                 <img className="card-img-top rounded imgCraftianos" src="../img/craftianosprivacy.webp"
                     title="Icono de Craftianos" alt="Imagen de Craftianos" loading="lazy"/>
-                <div className="card-body">
+                <div className="card-body d-grid gap-2 col-12 mx-auto">
                     <h2 className="h4 card-title fw-bold">Sobre mí ✨</h2>
                     <p className="card-text">
                         Soy de España y comencé a hacer esta página como hobby en el 2018,
@@ -28,7 +28,7 @@ export const HomeArticle = () => {
 
                     {/* Link to Enlaces with scroll to top 🚀 */}
                     <Link
-                        className="nav-link btn btn-outline-success mb-4"
+                        className="btn btn-outline-success btn-block  mb-4"
                         exact
                         to="/sobre-mi/#"
                         title="Link a redes sociales - CraftinosPrivacy"

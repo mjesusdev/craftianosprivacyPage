@@ -21,8 +21,9 @@ article, .article {
 }
 
 .btn-outline-success {
-    color: $primary !important;
+    background-color: $primary !important;
     border-color: $primary-hover !important;
+    color: black !important;
     text-decoration: none;
     
     &:hover, &:active {

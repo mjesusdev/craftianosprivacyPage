@@ -1,4 +1,4 @@
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import { DarkScreen } from '../DarkScreen/DarkScreen';
 
@@ -33,44 +33,17 @@ export const NavBar = () => {
                             📲 Redes Sociales
                         </NavLink>
                     </li>
-                    {/* <li className="nav-item dropdown">
-                        <Link
-                            aria-expanded="false"
-                            className="nav-link dropdown-toggle"
-                            data-bs-toggle="dropdown"
-                            id="navBarDropdown"
-                            role="button"
-                            title="Gana dinero"
-                            to="#"
-                        >
-                            Dropdown
-                        </Link>
-                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navBarDropdown">
-                            <li>
-                                <Link
-                                    className="dropdown-item"
-                                    exact
-                                    title="Gana dinero sin hacer nada | Ingresos Pasivos"
-                                    to="/gana-dinero-sin-hacer-nada/"
-                                >
-                                    ✅ Gana dinero sin hacer nada
-                                </Link>
-                            </li>
-                        </ul>
-                    </li> */}
                     {/* TODO: Crear nueva sección de Ciberseguridad y Privacidad */}
-                    {
-                        /* <li className="nav-item">
+                    <li className="nav-item">
                         <NavLink
                             className="nav-item nav-link"
                             exact
-                            title="Bancos móviles y Pagos"
-                            to="/banco-movil-pagos/"
+                            title="Blog de CraftianosPrivacy"
+                            to="/blog/"
                         >
-                            🪙 Bancos móviles y Pagos
+                            📙 Blog
                         </NavLink>
-                        </li> */
-                    }
+                        </li>
                 </ul>
             </div>
             

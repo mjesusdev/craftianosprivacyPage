@@ -1,11 +1,10 @@
 import { IconContext } from 'react-icons/lib';
-import { TiSocialInstagram, TiSocialTwitter } from 'react-icons/ti';
-import { SiTiktok } from 'react-icons/si';
+import { TiSocialTwitter } from 'react-icons/ti';
 
 export const AboutArticle = () => {
     return (
         <>
-            <article className="col-12 col-md-6 article">
+            <article className="col-12 col-md-8 article">
                 {/*                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="../">Inicio</a></li>
@@ -13,26 +12,6 @@ export const AboutArticle = () => {
                     </ol>
                 </nav> */}
                 <h1 className="h4 text-primary mb-3">🏅 Mis Redes Sociales 📲</h1>
-                <figure className="figure">
-                    <h2 className="h5 text-primary">
-                        <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Instagram Icon' }}>
-                            <TiSocialInstagram className="figure-img img-fluid rounded mt-2"/>
-                        </IconContext.Provider>
-                        
-                        Instagram ✨
-                    </h2>
-                    <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
-                        <img loading="lazy" src="../img/icons/iconInstagram.webp" 
-                            className="figure-img img-fluid rounded mt-2 iconInstagram" alt="Icono de Instagram"/>
-                    </a>
-                    <figcaption className="figure-caption text-left mt-2">
-                        Es en la red social que estoy más activo y más
-                        contenido tengo publicado, en comparación con otras.
-                    </figcaption>
-                </figure>
-
-                <hr/>
-
                 <figure className="figure">
                     <h2 className="h5 text-primary">
                         <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Twitter Icon' }}>
@@ -46,30 +25,21 @@ export const AboutArticle = () => {
                             className="figure-img img-fluid rounded mt-2 iconTwitter" 
                             alt="Icono de Twitter" /> 
                     </a>
-                    <br/>
-                    <figcaption className="figure-caption text-left mt-2">
-                        Segunda red social en la que publico más contenido, 
-                        aquí hablo de las novedades de esta página web y más. También me puedes preguntar aquí lo que quieras 😅
-                    </figcaption>
+                    {/* <figcaption className="figure-caption text-left mt-2">
+                        Red Social en la que publico más contenido, me puedes preguntar aquí lo que quieras 😅
+                    </figcaption> */}
                 </figure>
 
                 <hr />
 
                 <figure className="figure">
-                    <h2 className="h5 text-primary">
-                        <IconContext.Provider value={{ size: '1.2em', color: 'orange', title: 'Tiktok Icon' }}>
-                            <SiTiktok className="figure-img img-fluid rounded mt-2"/>
-                        </IconContext.Provider>
-                        
-                        Tiktok 📹
-                    </h2>
-                    <a href="https://cutt.ly/craftianosTiktok" target="_blank" rel="noreferrer">
-                        <img loading="lazy" src="../img/icons/iconTiktok.webp" 
-                            className="figure-img img-fluid rounded mt-2 iconTiktok" alt="Icono de Tiktok"/>
-                    </a>
-                    <figcaption className="figure-caption text-left mt-2">
-                        Me he abierto esta red social hace poco, sigueme porque subiré muchos vídeos interesantes, 
-                        que este relacionado con esta página y mi marca personal de Instagram 👏
+                    <h2 className="h5 text-primary mb-4">📘 Email Craftianosprivacy 📤</h2>
+                    
+                    <img loading="lazy" src="../img/otros/email-craftianos.png" 
+                        className="figure-img rounded mx-auto d-block emailCraftianos" alt="Email CraftianosPrivacy" />
+                    <figcaption className="figure-caption text-left mt-4">
+                        A esta dirección de correo electrónico me puedes enviar un correo, ya sea con preguntar información o 
+                        si quieres que te ayude con algo, también atiendo sin compromiso 🙌
                     </figcaption>
                 </figure>
 
@@ -87,20 +57,9 @@ export const AboutArticle = () => {
                     </figcaption>
                 </figure>
             </article>
-            <aside className="col col-md-3 mb-4">
-                <div className="card">
-                    <div className="card-body">
-                        <h2 className="h5 text-danger">⚡IMPORTANTE⚡</h2>
-                        <p className="text-justify">
-                            Si teneís alguna pregunta, o alguna duda sobre esto o en general,
-                            me podeís escribir en mis redes sociales:
-                        </p>    
-                        <ul className="enlaces">
-                            <li className="">
-                                <a href="https://cutt.ly/craftianosInstagram" target="_blank" rel="noreferrer">
-                                    Instagram | Mi cuenta principal 📘🖋️
-                                </a>
-                            </li>
+            
+                
+{/*                         
                             <li className="">
                                 <a href="https://cutt.ly/craftianosTwitter" target="_blank" rel="noreferrer">
                                     Twitter | Mi segunda cuenta 📘🖋️
@@ -116,10 +75,8 @@ export const AboutArticle = () => {
                                 <img loading="lazy" src="../img/otros/email-craftianos.png" 
                                     className="figure-img img-fluid rounded mt-2" alt="Email de Craftianos"/>
                             </div>
-                        </ul>
-                    </div>
-                </div>
-            </aside>
+                         */}
+            
         </>
     )
 }

@@ -2,6 +2,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import { AboutScreen } from '../components/AboutScreen';
+import { BlogScreen } from '../components/BlogScreen/BlogScreen';
 import { CookieVerify } from '../components/Cookies';
 import { Header } from '../components/ui';
 import { HomeScreen } from '../components/HomeScreen';
@@ -15,8 +16,8 @@ export const HomeRoute = () => {
 
             <Switch>
                 <Route exact path="/" component={ HomeScreen } />
-
                 <Route exact path="/sobre-mi/" component={ AboutScreen } />
+                <Route exact path="/blog/" component={ BlogScreen } />
 
                 {/* Route 404 */}
                 <Route path="*" component={ HomeScreen } />
