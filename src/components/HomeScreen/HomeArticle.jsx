@@ -28,7 +28,7 @@ export const HomeArticle = () => {
 
                     {/* Link to Enlaces with scroll to top 🚀 */}
                     <Link
-                        className="btn btn-outline-success btn-block  mb-4"
+                        className="btn btn-outline-success btn-block mb-4"
                         exact
                         to="/sobre-mi/#"
                         title="Link a redes sociales - CraftinosPrivacy"

@@ -10,7 +10,8 @@ export const Footer = () => {
     return (
         <div className="col-12 mt-2">
             <p className='text-justify text-center'>
-                Todos los derechos reservados © CraftianosPrivacy 2023
+                Todos los derechos reservados <br />
+                © CraftianosPrivacy 2023
             </p>
             
             <button onClick={ btnGoUp } className='go-up'>
