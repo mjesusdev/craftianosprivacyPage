@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import { CraftianosPrivacy } from './CraftianosPrivacy'
 
-// Import SCSS & Bootstrap Bundle
+// Change Bootstrap to Tailwind CSS
 import './styles/styles.scss';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
